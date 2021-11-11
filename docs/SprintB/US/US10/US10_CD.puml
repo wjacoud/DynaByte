@@ -1,0 +1,98 @@
+@startuml
+skinparam classAttributeIconSize 0
+left to right direction
+
+class AuthFacade{
+    --
+    +doLogin(email, password)
+    +getCurrentSession()
+}
+
+class UserSession{
+    --
+    +isLoggedInWithRole(id)
+}
+
+class Parameter {
+  -code
+  -name
+  -description
+  -category
+}
+
+class ParameterStore{
+    +createParameter(code,name,description,category)
+    +validateParameter(pr)
+    +saveParameter(pr)
+    +addParameter(pr)
+    +getParameter()
+}
+
+
+
+class ParameterCategoryStore{
+    +createParameterCategory(code,name)
+    +validateParameterCategory(pc)
+    +saveParameterCategory(pc)
+    +addParameterCategory(pc)
+    +getParameterCategory()
+    +getCategories()
+}
+
+class Platform {
+  -designation
+  +getParameterCategoryStore()
+}
+
+class CreateParameterUI{}
+
+class CreateParameterController{
+    +createParameter(code,name)
+    +saveParameter()
+    +List<CategoriesDTO> getListOfCategories()
+}
+
+class CategoriesMapper{
+    +List<CategoriesDTO> toDTO(List<Categories> list)
+    +CategoriesDTO toDTO(Categories obj)
+}
+
+class CategoriesDTO{
+    -code
+    -name
+    +CategoriesDTO(code,name)
+}
+
+class Employee{
+    -name
+    -function
+    -phoneNumber
+    -email
+    -address
+}
+
+class Administrator{
+    -idEmployee
+    -soc
+}
+
+
+CreateParameterUI ..> CreateParameterController
+CreateParameterUI ..> CategoriesDTO
+CreateParameterController ..> AuthFacade
+CreateParameterController ..> UserSession
+CreateParameterController ..> Platform
+CreateParameterController ..> Parameter
+CreateParameterController ..> ParameterStore
+CreateParameterController ..> ParameterCategoryStore
+CreateParameterController ..> CategoriesMapper
+CategoriesMapper ..> CategoriesDTO
+CategoriesMapper ..> ParameterCategoryStore
+CreateParameterController ..> CategoriesDTO
+Platform "1" --> "1" ParameterCategoryStore : uses
+Platform "1" --> "1" ParameterStore : uses
+ParameterStore "1" --> "*" Parameter : capable of analysing
+Administrator "1" --> "*" Parameter : asks to create
+Administrator "1" --> "*" Employee : is
+
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+autonumber
+'hide footbox
+
+participant ":\nApp" as APP
+participant ":\nCompany" as CPN
+participant "auth:\nAuthFacade" as AUFA
+participant ":\nTestReportStore" as TRS
+
+activate APP
+APP --> CPN** : create(designation)
+activate CPN
+CPN --> AUFA** : create()
+CPN --> TRS** : create(auth)
+deactivate CPN
+deactivate APP
+
+@enduml

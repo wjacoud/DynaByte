@@ -1,0 +1,28 @@
+@startuml
+autonumber
+actor "Administrator" as OE
+
+activate OE
+OE -> ":System" : asks to create a new clinical analysis laboratory
+activate ":System"
+":System" --> OE : requests data (idLaboratory, name, address, phoneNumber, tin)
+deactivate ":System"
+
+OE -> ":System" : types requested data
+activate ":System"
+":System" --> OE : shows the types of tests and asks to select the desired ones
+deactivate ":System"
+
+OE -> ":System" : select the types of tests he need
+activate ":System"
+":System" --> OE : shows all data and requests confirmation
+deactivate ":System"
+
+OE -> ":System" : confirms the data
+activate ":System"
+":System" --> OE : informs operation success
+deactivate ":System"
+
+deactivate OE
+
+@enduml

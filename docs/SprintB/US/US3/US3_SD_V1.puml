@@ -1,0 +1,106 @@
+@startuml
+autonumber
+'hide footbox
+actor "Receptionist Employee" as RCE
+
+participant ":ClientCreatorUI" as UI
+participant ":ClientCreatorController" as CCC
+participant ":AuthFacade" as AUFA
+participant ":ClientNotification" as NOTI
+participant ":Receptionist" as RC
+participant ":Platform" as PLAT
+participant ":ClientStore" as CLST
+participant "obj:Client" as CL
+
+
+activate RCE
+
+RCE -> UI : asks to create a new client
+activate UI
+|||
+
+
+UI --> RCE : request client data(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+deactivate UI
+|||
+RCE -> UI : types the client data
+
+activate UI
+UI -> CCC : createClient(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+activate CCC
+
+CCC -> RC : client = createClient(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+activate RC
+
+RC -> PLAT :  allClients = getClients()
+activate PLAT
+
+PLAT -> CLST : allClients = getClients()
+activate CLST
+deactivate CLST
+deactivate PLAT
+
+RC -> RC : validate(client)
+
+|||
+RC --> CL** : createClient(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+RC --> CCC : result
+CCC --> UI : result
+UI --> RCE : shows client data and requests confirmation
+deactivate UI
+deactivate CCC
+deactivate RC
+
+|||
+RCE -> UI : confirms the client data
+activate UI
+UI -> CCC : saveClient()
+activate CCC
+
+CCC -> RC : saveClient(client)
+activate RC
+|||
+
+RC -> PLAT : addClient(client)
+activate PLAT
+PLAT -> CLST : addClient(client)
+activate CLST
+deactivate PLAT
+deactivate CLST
+
+RC --> CCC : result
+CCC --> UI : result
+UI --> RCE : request the user data (email)
+deactivate RC
+deactivate CCC
+deactivate UI
+
+|||
+RCE -> UI : types the user data
+activate UI
+UI -> CCC : addUser(name, email)
+activate CCC
+
+CCC -> AUFA : existsUser(email)
+|||
+activate AUFA
+CCC -> AUFA : addUser(name, email, password)
+|||
+
+deactivate AUFA
+
+CCC -> NOTI : sendNotification(type, message)
+activate NOTI
+deactivate NOTI
+
+CCC --> UI: result
+|||
+UI --> RCE : informs operation success
+
+deactivate RC
+deactivate CCC
+deactivate UI
+
+deactivate RCE
+
+@enduml

@@ -1,0 +1,96 @@
+@startuml
+top to bottom direction
+
+
+class Company {
+-chemicalLab
+--
++getClientStore()
++getTestStore()
++getParameterStore()
+}
+
+class NHSReportUI{
+}
+
+class SimpleLinearRegressionUI{
+
+}
+
+class MultiLinearRegressionUI{
+}
+
+class NHSReportController{
+}
+
+class MultiLinearRegression{
+}
+
+class SimpleLinearRegression{
+}
+
+class Test {
+    -tin
+    -idTest
+    -nhsCode
+    -date
+    -validationDate
+    -testType
+    -State
+}
+
+class TestStore {
++getTestList()
+}
+
+class ClientStore {
++getClientList();
+}
+
+class Client{
+-citizenCardNumber
+-name
+-sex
+-birthDate
+-phoneNumber
+-nhsNumber
+-tin
+-email
+-address
+}
+
+class Parameter {
+  -code
+  -name
+  -description
+  -category
+}
+
+class ParameterStore {
++getParameterList()
+}
+
+
+
+NHSReportUI ..> NHSReportController
+NHSReportController ..> Company
+NHSReportController ..> ParameterStore
+NHSReportController ..> TestStore
+NHSReportController ..> ClientStore
+NHSReportController ..> SimpleLinearRegressionUI
+NHSReportController ..> MultiLinearRegressionUI
+NHSReportController ..> MultiLinearRegression
+NHSReportController ..> SimpleLinearRegression
+
+
+
+Company "1" --> "1" ParameterStore : uses
+Company "1" --> "1" TestStore : uses
+Company "1" --> "1" ClientStore : uses
+
+ParameterStore "1" --> "*" Parameter : has
+TestStore "1" --> "*" Test : has
+ClientStore "1" --> "*" Client : has
+
+
+@enduml

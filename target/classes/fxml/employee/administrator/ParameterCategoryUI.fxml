@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.administrator.ParameterCategoryUI">
+   <children>
+      <Label fx:id="titleLabel" layoutX="40.0" layoutY="40.0" text="Parameter category info">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="simpleBtn" layoutX="516.0" layoutY="343.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="80.0" text="Confirm">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="simpleBtn" layoutX="420.0" layoutY="343.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="simpleLbl" layoutX="40.0" layoutY="160.0" text="Name:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTxt" layoutX="92.0" layoutY="155.0" prefHeight="25.0" prefWidth="257.0" />
+      <TextField fx:id="codeTxt" layoutX="92.0" layoutY="115.0" prefHeight="25.0" prefWidth="257.0" />
+      <Label fx:id="simpleLbl" layoutX="40.0" layoutY="120.0" text="Code:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

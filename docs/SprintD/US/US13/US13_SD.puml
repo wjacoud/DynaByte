@@ -1,0 +1,94 @@
+@startuml
+autonumber
+'hide footbox
+actor "Clinical Chemistry Technologist" as CCT
+
+participant ":ClientTestsUI" as UI
+participant ":ClientTestsController" as CTRL
+participant ":Company" as COMP
+participant "clientStore : ClientStore" as CS
+participant "testStore : TestStore" as TS
+participant ":ClientMapper" as CM
+participant ":TestMapper" as TM
+participant "objDTO : clientListOrderDTO" as CL_DTO
+participant "objDTO : testListDTO" as TL_DTO
+
+activate CCT
+CCT -> UI : requests to see the historical tests of a client
+activate UI
+UI --> CCT : asks to choose the order of the client list (TIN or Name)
+deactivate UI
+
+loop until the actor decides to stop
+CCT -> UI : chooses the order
+activate UI
+UI -> CTRL : clientList = getClientList()
+activate CTRL
+CTRL -> COMP : clientStore = getClientStore()
+activate COMP
+deactivate COMP
+|||
+alt actor's decision
+    CTRL -> CS : clientListOrder = orderingClientTin()
+    activate CS
+else
+|||
+    CTRL -> CS : clientListOrder = orderingClientName()
+end alt
+deactivate CS
+CTRL -> CM : clientListOrderDTO = clientListOrder.toDto()
+activate CM
+create CL_DTO
+CM -> CL_DTO : clientListOrderDTO
+deactivate CM
+CTRL --> UI : clientListOrderDTO
+deactivate CTRL
+
+loop until the actor changes the order of the list or decides to stop
+    UI --> CCT : shows the clients list and asks to select one
+    deactivate UI
+
+    CCT -> UI : chooses a client
+    activate UI
+    UI -> CTRL : clientTests(client)
+    activate CTRL
+    CTRL -> CM : fromDtoToClient(client)
+    activate CM
+    deactivate CM
+    |||
+    CTRL -> COMP : testStore = getTestStore()
+    activate COMP
+    deactivate COMP
+    CTRL -> TS : testList = getValidatedTests(client)
+    activate TS
+    deactivate TS
+    |||
+    CTRL -> TM : testListDTO = testList.toDto()
+    activate TM
+    create TL_DTO
+    TM -> TL_DTO : testListDTO
+    deactivate TM
+    CTRL --> UI : testListDTO
+    deactivate CTRL
+    loop until the actor changes client or decides to stop
+        UI --> CCT : shows the test list from that client with the "VALIDATED" state and asks to select one
+        deactivate UI
+
+        CCT -> UI : chooses a test
+        activate UI
+        UI -> CTRL : testInfo(test)
+        activate CTRL
+        CTRL -> TM : fromDtoToTest(test)
+        activate TM
+        deactivate TM
+        |||
+        UI -> CTRL : TestInfoToString(test)
+        deactivate CTRL
+        UI --> CCT : shows the test's information and results
+        deactivate UI
+    end loop
+end loop
+end loop
+
+deactivate CCT
+@enduml

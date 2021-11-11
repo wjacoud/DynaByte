@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.MainMenu">
+   <children>
+      <Label fx:id="labelResult" layoutX="14.0" layoutY="185.0" prefHeight="51.0" prefWidth="136.0" />
+      <Button fx:id="mainBtn" layoutX="111.0" layoutY="204.0" mnemonicParsing="false" onAction="#loginBtn" prefHeight="38.0" prefWidth="102.0" text="Login">
+         <font>
+            <Font name="Verdana Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="mainBtn" layoutX="370.0" layoutY="204.0" mnemonicParsing="false" onAction="#devTeamBtn" prefHeight="38.0" prefWidth="102.0" text="Dev Team">
+         <font>
+            <Font name="Verdana Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="manyLabsTitle" layoutX="178.0" layoutY="80.0" text="Many Labs">
+         <font>
+            <Font name="Lucida Sans Regular" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

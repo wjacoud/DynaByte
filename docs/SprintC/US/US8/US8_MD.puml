@@ -1,0 +1,42 @@
+@startuml
+hide methods
+top to bottom direction
+skinparam classAttributeIconSize 0
+
+
+class Company {
+    -designation
+}
+
+class ChemicalLaboratory {
+
+}
+
+class ClinicalAnalysisLaboratory {
+    -id
+}
+
+class TestType {
+    -code
+    -description
+    -collectingMethod
+}
+
+class Laboratory {
+    -name
+    -address
+    -phoneNumber
+    -tin
+}
+
+Company "1" -- "*" TestType : conducts
+Company "1" -- "*" ClinicalAnalysisLaboratory : owns
+ClinicalAnalysisLaboratory "*" -- "*" TestType : performs
+Company "1" -- "0.1" ChemicalLaboratory : owns
+ChemicalLaboratory --|> Laboratory
+ClinicalAnalysisLaboratory --|> Laboratory
+
+
+
+
+@enduml

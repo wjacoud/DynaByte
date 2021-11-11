@@ -1,0 +1,101 @@
+@startuml
+autonumber
+'hide footbox
+actor "Laboratory Coordinator" as LABCOOR
+participant ":ImportTestsUI" as UI
+participant ":ImportTestsController" as CTRL
+participant ":Company" as COMP
+participant "clisto:ClinicalStore" as CLINICALSTO
+participant "clientsto:ClientStore" as CLIENTSTO
+participant "ttstore:TestTypeStore" as TTSTO
+participant "catstore:ParameterCategoryStore" as CATSTO
+participant "pstore:ParameterStore" as PARSTO
+participant "tstore:TestStore" as TESTSTO
+participant "c:Client" as CLIENT
+participant "tt:TestType" as TT
+participant "t:Test" as TEST
+participant "p:Parameter" as PAR
+participant "tp:TestParameter" as TP
+participant ":AuthFacade" as AUTH
+participant ":UserStore" as USERSTORE
+participant "u:User" as USER
+
+
+
+activate LABCOOR
+LABCOOR -> UI : asks to import a csv file
+activate UI
+UI --> LABCOOR : requests a csv file
+deactivate UI
+LABCOOR -> UI : imports a csv file
+activate UI
+UI -> CTRL : validateData()
+activate CTRL
+CTRL -> COMP : getClinicalStore()
+activate COMP
+deactivate COMP
+CTRL -> CLINICALSTO : verifyExistingClinical()
+activate CLINICALSTO
+deactivate CLINICALSTO
+CTRL -> COMP : getAuthFacade()
+activate COMP
+deactivate COMP
+CTRL -> AUTH : addUserWithRole()
+activate AUTH
+AUTH -> USERSTORE : create()
+activate USERSTORE
+USERSTORE -> USER** : u = User(id, password, name, role)
+deactivate USERSTORE
+deactivate AUTH
+CTRL -> COMP : getClientStore()
+activate COMP
+deactivate COMP
+CTRL -> CLIENTSTO : verifyExistingClient()
+activate CLIENTSTO
+CTRL -> CLIENTSTO : createClient()
+CLIENTSTO -> CLIENT** : c = Client(cc, nhs, birthDate, tin , name , phone , sex, address)
+deactivate CLIENT
+CLIENTSTO -> CLIENTSTO : saveClient()
+|||
+CTRL -> COMP : getTestTypeStore()
+activate COMP
+deactivate COMP
+deactivate CLIENTSTO
+CTRL -> TTSTO : getTestTypeList()
+activate TTSTO
+deactivate TTSTO
+CTRL -> COMP : getParameterCategoryStore()
+activate COMP
+deactivate COMP
+CTRL -> CATSTO : getParameterCategory()
+activate CATSTO
+deactivate CATSTO
+CTRL -> COMP : getTestStore()
+activate COMP
+deactivate COMP
+CTRL -> TESTSTO : verifyExistingNhsCode()
+activate TESTSTO
+CTRL -> TESTSTO : createTest()
+TESTSTO -> TEST** : t = Test(id, nhs, tin, date, state)
+TESTSTO -> TESTSTO : saveTest()
+|||
+CTRL -> COMP : getParameterStore()
+activate COMP
+deactivate TESTSTO
+
+deactivate COMP
+CTRL -> PARSTO : getParameterWithCode()
+activate PARSTO
+deactivate PARSTO
+CTRL -> TEST : addTestParameterResult()
+activate TEST
+deactivate TEST
+CTRL --> UI : ok
+UI --> LABCOOR : validate all data and informs operation success
+deactivate UI
+
+
+deactivate LABCOOR
+
+
+@enduml

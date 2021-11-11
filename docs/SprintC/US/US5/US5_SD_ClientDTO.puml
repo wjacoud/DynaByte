@@ -1,0 +1,50 @@
+@startuml
+autonumber
+'hide footbox
+
+participant ":RecordSampleUI" as RSUI
+participant ":RecordSampleController" as RSC
+participant "Company" as COMP
+participant ":ClientStore" as CST
+participant ":ClientMapper" as CMAP
+
+
+
+
+activate RSUI
+
+RSUI -> RSC : clientDto = getClients()
+
+activate RSC
+
+RSC -> COMP: clientStore = getClientsStore()
+activate COMP
+
+deactivate COMP
+
+RSC -> CST : client = getClient()
+
+activate CST
+
+deactivate CST
+
+RSC -> CMAP : clientDto = toDto(client)
+
+activate CMAP
+
+deactivate CMAP
+
+deactivate RSC
+
+deactivate RSUI
+
+
+
+
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,106 @@
+@startuml
+autonumber
+'hide footbox
+actor "Medical lab technician" as MLT
+
+participant ":RecordSampleUI" as RSUI
+participant ":RecordSampleController" as RSC
+participant "Company" as COMP
+participant ":TestStore" as TESTSTORE
+participant ":testMapper" as TESTMAP
+participant ":SampleStore" as SAMPSTORE
+participant ":BarcodeAdapter" as BAR
+participant ":External API" as BARAPI
+activate MLT
+
+MLT -> RSUI : Asks to record the samples collected in the scope of a given test
+activate RSUI
+
+deactivate RSC
+
+RSUI -> MLT : Asks to select the test
+
+deactivate RSUI
+
+MLT -> RSUI : Choose a test and how many samples you have to record
+activate RSUI
+
+ref over RSUI : US5_SD_TestDTO
+
+|||
+
+ref over RSUI : US5_SD_ClientDTO
+
+loop until all samples are created
+
+RSUI -> RSC : CreateSample(testID)
+
+activate RSC
+
+RSC -> BAR : CreateBarcode()
+
+activate BAR
+
+BAR -> BARAPI : CreateBarcode()
+
+activate BARAPI
+
+deactivate BAR
+
+deactivate BARAPI
+
+RSC -> SAMPSTORE : CreateSample(testID,barcode)
+
+activate SAMPSTORE
+
+deactivate SAMPSTORE
+
+deactivate BARAPI
+
+deactivate BAR
+
+deactivate RSC
+
+end
+RSUI -> MLT : Asks to confirm data
+deactivate RSUI
+
+MLT -> RSUI : Confirms data
+activate RSUI
+
+RSUI -> RSC : saveSample(sample)
+
+activate RSC
+
+RSC -> SAMPSTORE : saveSample(sample)
+
+activate SAMPSTORE
+
+
+
+SAMPSTORE -> SAMPSTORE : validateSample(sample)
+
+activate SAMPSTORE
+
+deactivate SAMPSTORE
+
+SAMPSTORE -> SAMPSTORE : addSample()
+
+activate SAMPSTORE
+
+deactivate SAMPSTORE
+
+deactivate SAMPSTORE
+
+
+deactivate RSC
+
+RSUI -> MLT : Shows the generated barcode and informs operation success
+deactivate RSUI
+
+
+
+
+
+
+@enduml

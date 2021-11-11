@@ -1,0 +1,42 @@
+@startuml
+'httTP://plantuml.com/sequence-diagram
+
+autonumber
+participant ":Test" as Test
+participant ":TestParameter" as TP
+participant ":TestType" as TestTy
+participant ":ExternalModule" as ExMod
+participant "refValue:\nReferenceValue" as RefVal
+participant "testResult:\nTestParameterResult" as TestParamRes
+
+[o-> Test: addTestParameterResult(parameterCode, result)
+activate Test
+Test -> TP: getParameterList()
+activate TP
+deactivate TP
+
+Test -> Test : parameter = getParameter(parameterCode)
+activate Test
+deactivate Test
+
+Test -> TestTy: getExternalModule()
+activate TestTy
+deactivate
+
+|||
+Test -> ExMod: getReferenceValue(parameter)
+activate ExMod
+rnote over ExMod : somehow it creates the below object
+ExMod -> RefVal**: create()
+ExMod --> Test: refValue
+deactivate
+
+|||
+Test -> TP : addResult(parameterCode, result, refValue)
+activate TP
+TP -> TestParamRes**:  create(parameterCode, result,refValue)
+return ok
+return ok
+
+
+@enduml

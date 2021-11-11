@@ -1,0 +1,123 @@
+@startuml
+top to bottom direction
+
+class ImportTestsUI {
+
+}
+
+class ImportTestsController {
+-TestStore testStore
+-ClientStore clientStore
+-ClinicalStore clinicalStore
+-ParameterStore parameterStore
+-TestTypeStore testTypeStore
+-AuthFacade authFacade
+--
++readFile()
++getNumberOfErrors()
++getListOfErrors()
+}
+
+class TestStore {
++createTest()
++saveTest()
++getTestList()
+}
+
+class TestParameter {
+    -String idTest
+    -List<Parameter> paramList
+    --
+    +TestParameter(idTest, paramList)
+}
+
+class ClientStore {
++verifyExistingClient()
++createClient()
++saveClient()
+}
+
+class Parameter {
+  -String code
+  -String name
+  -String description
+  -ParameterCategory category
+}
+
+class ClinicalStore {
++verifyExistingClinical()
+}
+
+class AuthFacade {
+    +addUserWithRole()
+}
+
+class Test {
+-String tin
+-String id
+-String nhsCode
+-TestType testType
+-Date date
+--
++setState()
+}
+
+class TestTypeStore {
++getTestTypeList()
+}
+
+class Client {
+-String citizenCardNumber
+-String name
+-String sex
+-Date birthDate
+-String phoneNumber
+-String nhsNumber
+-String tin
+-String email
+-String address
+}
+
+class Company {
+-ClinicalStore clinicalStore
+-TestStore testStore
+-ParameterStore parameterStore
+-TestTypeStore testTypeStore
+-ClientStore clientStore
+--
++getClinicalStore()
++getClientStore()
++getTestStore()
++getParameterStore()
++getTestTypeStore()
++getAuthFacade()
+}
+class ParameterCategoryStore {
+    +getParameterCategory()
+}
+
+class ParameterStore {
++getParameterWithCode()
+}
+
+ImportTestsUI ..> ImportTestsController
+ImportTestsController ..> Company
+ImportTestsController ..> ClientStore
+ImportTestsController ..> ParameterCategoryStore
+ImportTestsController ..> TestTypeStore
+ImportTestsController ..> ClinicalStore
+ImportTestsController ..> ParameterStore
+ImportTestsController ..> TestStore
+Company ---> ClientStore
+Company ---> ClinicalStore
+Company ---> TestStore
+Company ---> ParameterStore
+Company ---> TestTypeStore
+ParameterStore --> Parameter
+Company ---> ParameterCategoryStore
+TestStore --> Test
+Test --> TestParameter
+ClientStore --> Client
+Company ..> AuthFacade
+
+@enduml

@@ -1,0 +1,63 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Administrator
+{
+  -int idEmployee
+  -String soc
+  --
+  +newTestType(Type, collectingMethods)
+  +validate(TestType)
+  +saveTestType()
+}
+
+class TestType
+{
+  -String code
+  -String description
+  -String collectingMethod
+  __
+  +TestType(code, description, collectingMethod)
+}
+
+class User {
+  -name
+  -email
+  -password
+  +login()
+}
+class Employee{
+  -String name
+  -String function
+  -String phone
+  -String adress
+  -String email
+}
+
+class TestType {
+  -String code
+  -String description
+  -String collectingMethod
+  --
+  +getTestType()
+}
+
+class CreateTestTypeUI {
+}
+
+class CreateTestTypeController {
+  --
+  +newTestType(code, description, collectingMethod)
+  +registerTestType()
+}
+
+
+CreateTestTypeUI ..> CreateTestTypeController
+CreateTestTypeController ..> Administrator
+Administrator "1" --> "*" TestType : create new
+CreateTestTypeController ..> TestType
+Administrator "1" --> "*" Employee : is
+Employee "0.1" --> "1" User : has
+
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+autonumber
+actor "Administrator" as AD
+
+activate AD
+AD -> ":System" : Asks to create a new employee
+activate ":System"
+
+":System" --> AD : Asks to select the employee role
+deactivate ":System"
+
+AD -> ":System" : Selects the intended roles
+activate ":System"
+":System" --> AD : Requests data (name, address, phone number, email, soc, role, ...)
+deactivate ":System"
+
+AD -> ":System" : Types requested data
+activate ":System"
+":System" --> AD : Asks to confirm data
+deactivate ":System"
+
+AD -> ":System" : Confirms data
+activate ":System"
+":System" --> AD : Informs operation success
+deactivate ":System"
+
+deactivate ":System"
+
+deactivate AD
+
+@enduml

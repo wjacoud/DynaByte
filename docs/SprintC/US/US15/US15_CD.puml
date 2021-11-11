@@ -1,0 +1,87 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class ValidateTestReportController {
+  -TestStore testStore
+  -TestReportStore testReportStore
+  -String date
+  --
+  +findTestReport(String idTest)
+  +testReportsToValidate()
+  +validateTestReport(String idTest)
+  +validateAllTestReport()
+  +clientMessage(String clientId)
+}
+
+class LabCoordinatorUI {
+    -ValidateTestReportController vtrc
+}
+
+class Company{
+    -String designation
+    -TestReportStore testReportStore
+    -TestStore testStore
+    --
+    +getTestReportStore()
+    +getTestStore()
+}
+
+class TestReport{
+    -String idTest
+    -TestDiagnosis diagnosis
+    -String report
+}
+
+class TestDiagnosis{
+    -String diagnosis
+    --
+    +createDiagnosis(List<TestParameter> testParameterList)
+}
+
+class TestReportStore{
+    -List<TestReport> testReportStore
+    --
+    +createReport(String idTest, TestDiagnosis diagnosis, String report)
+    +validateReport(TestReport testReport)
+    +saveReport(TestReport testReport)
+}
+
+class Test{
+    String tin;
+    String idTest;
+    String nhsCode;
+    String date;
+    String validationDate;
+    TestType testType;
+    State state;
+    --
+    +checkNshCode(String nhsCode)
+    +testParameterCreator(String idTest, List<Parameter> parameterList)
+    +registerValidationDate(String validationDate)
+}
+
+class TestStore{
+    -List<Test> testStore
+    --
+    +checkState(String state)
+    +getTestList()
+}
+
+class TestMapper{
+    +toDto(List<Test> testList)
+}
+
+LabCoordinatorUI ..> ValidateTestReportController
+ValidateTestReportController ..> Company
+ValidateTestReportController ..> TestReportStore
+ValidateTestReportController ..> TestStore
+ValidateTestReportController ..> TestMapper
+Company --> TestStore : uses
+Company --> TestReportStore : uses
+TestDiagnosis --> TestReport : is part of
+TestReportStore --> TestReport : can access
+TestStore --> Test : can access
+
+
+
+@enduml

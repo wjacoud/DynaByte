@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="227px" preserveAspectRatio="none" style="width:304px;height:227px;background:#FFFFFF;" version="1.1" viewBox="0 0 304 227" width="304px" zoomAndPan="magnify"><defs><filter height="300%" id="fbrpizviav3op" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fbrpizviav3op)" height="122.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="82.5" y="51.6094"/><rect fill="#FFFFFF" filter="url(#fbrpizviav3op)" height="100.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="260.5" y="73.9609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="87" x2="87" y1="41.6094" y2="183.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="265.5" x2="265.5" y1="41.6094" y2="183.0156"/><rect fill="#FEFECE" filter="url(#fbrpizviav3op)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="161" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="12" y="26.5332">:UpdateClientController</text><rect fill="#FEFECE" filter="url(#fbrpizviav3op)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="161" x="5" y="182.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="12" y="203.5488">:UpdateClientController</text><rect fill="#FEFECE" filter="url(#fbrpizviav3op)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="54" x="236.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="243.5" y="26.5332">:Client</text><rect fill="#FEFECE" filter="url(#fbrpizviav3op)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="54" x="236.5" y="182.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="243.5" y="203.5488">:Client</text><rect fill="#FFFFFF" filter="url(#fbrpizviav3op)" height="122.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="82.5" y="51.6094"/><rect fill="#FFFFFF" filter="url(#fbrpizviav3op)" height="100.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="260.5" y="73.9609"/><polygon fill="#A80036" points="248.5,69.9609,258.5,73.9609,248.5,77.9609,252.5,73.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="92.5" x2="254.5" y1="73.9609" y2="73.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="99.5" y="69.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="110.5" y="69.1045">setAddress(address)</text><polygon fill="#A80036" points="248.5,100.3125,258.5,104.3125,248.5,108.3125,252.5,104.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="92.5" x2="254.5" y1="104.3125" y2="104.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="99.5" y="99.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="110.5" y="99.4561">setName(data)</text><polygon fill="#A80036" points="248.5,130.6641,258.5,134.6641,248.5,138.6641,252.5,134.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="92.5" x2="254.5" y1="134.6641" y2="134.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="99.5" y="129.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="110.5" y="129.8076">setPhoneNumber(data)</text><polygon fill="#A80036" points="248.5,161.0156,258.5,165.0156,248.5,169.0156,252.5,165.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="92.5" x2="254.5" y1="165.0156" y2="165.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="99.5" y="160.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="110.5" y="160.1592">setSex(data)</text><!--MD5=[25ee1b09f77f9e633d31b4d3d2854770]
+@startuml
+autonumber
+'hide footbox
+
+participant ":UpdateClientController" as UCC
+participant ":Client" as CL
+
+activate UCC
+
+UCC -> CL : setAddress(address)
+activate CL
+
+
+
+UCC -> CL : setName(data)
+
+
+
+UCC -> CL : setPhoneNumber(data)
+
+
+
+
+
+
+
+UCC -> CL : setSex(data)
+
+@enduml
+
+@startuml
+autonumber
+
+participant ":UpdateClientController" as UCC
+participant ":Client" as CL
+
+activate UCC
+
+UCC -> CL : setAddress(address)
+activate CL
+
+
+
+UCC -> CL : setName(data)
+
+
+
+UCC -> CL : setPhoneNumber(data)
+
+
+
+
+
+
+
+UCC -> CL : setSex(data)
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 13:40:07 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

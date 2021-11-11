@@ -1,0 +1,45 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class RecordSampleUI{
+}
+
+class RecordSampleController{
+    +authenticate(email, password)
+}
+
+
+class Sample{
+-barcode
+-testID
+}
+
+class ExternalBarcodeAPI{
+}
+
+class Barcode{
++CreateBarcode()
+}
+
+class SampleStore{
+
++getSamples()
++addSample(sample)
+
+}
+
+class Company{
++getTestStore()
++getSampleStore()
++getClientStore()
+}
+
+RecordSampleUI ..> RecordSampleController
+RecordSampleController ..> SampleStore
+RecordSampleController ..> Company
+Company --> Sample
+SampleStore ..> Barcode
+Barcode --> ExternalBarcodeAPI
+Company ..> SampleStore
+
+@enduml

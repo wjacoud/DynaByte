@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.chemistry.ChemistryUI">
+   <children>
+      <Label fx:id="titleLbl" layoutX="40.0" layoutY="40.0" text="Chemistry Technologist Menu">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="80.0" layoutY="90.0" text="Record the results of a test">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="132.0" text="Consult Clients' tests information">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+
+
+      <Button fx:id="simpleBtn" layoutX="40.0" layoutY="200.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="83.0" mnemonicParsing="false" onAction="#recordResultsBtn" prefHeight="30.0" prefWidth="31.0" text="go">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="128.0" mnemonicParsing="false" onAction="#clientTestsBtn" prefHeight="25.0" prefWidth="31.0" text="go" >
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.administrator.NHSReportUI">
+    <children>
+        <Label fx:id="simpleLbl" layoutX="42.0" layoutY="120.0" prefHeight="25.0" prefWidth="209.0" text="The number of historical days">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+        <TextField fx:id="historicalDaysTxt" layoutX="321.0" layoutY="120.0" prefHeight="25.0" prefWidth="186.0" />
+        <DatePicker fx:id="startDatePicker" layoutX="42.0" layoutY="205.0" prefHeight="25.0" prefWidth="186.0" />
+        <DatePicker fx:id="endDatePicker" layoutX="321.0" layoutY="205.0" prefHeight="25.0" prefWidth="186.0" />
+        <Label fx:id="simpleLbl" layoutX="42.0" layoutY="157.0" prefHeight="17.0" prefWidth="279.0" text="Interval of dates of the regression model">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+        <Label fx:id="simpleLbl" alignment="CENTER" layoutX="40.0" layoutY="185.0" prefHeight="17.0" prefWidth="174.0" text="Start">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+        <Label fx:id="simpleLbl" alignment="CENTER" layoutX="327.0" layoutY="185.0" prefHeight="17.0" prefWidth="174.0" text="End">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+        <TextField fx:id="confidenceLevelTxt" layoutX="321.0" layoutY="248.0" prefHeight="25.0" prefWidth="186.0" />
+      <Button fx:id="simpleBtn" layoutX="406.0" layoutY="356.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="simpleBtn" layoutX="506.0" layoutY="356.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="80.0" text="Confirm">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="titleLbl" layoutX="40.0" layoutY="33.0" text="NHS Report">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="42.0" layoutY="252.0" prefHeight="17.0" prefWidth="126.0" text="Confidence Level IC ">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="42.0" layoutY="80.0" prefHeight="17.0" prefWidth="272.0" text="Linear regression model">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="42.0" layoutY="325.0" prefHeight="17.0" prefWidth="126.0" text="Type of Message">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="modelCbb" layoutX="321.0" layoutY="76.0" prefHeight="25.0" prefWidth="186.0" />
+      <ComboBox fx:id="typeCbb" layoutX="321.0" layoutY="321.0" prefHeight="25.0" prefWidth="186.0" />
+      <Label fx:id="simpleLbl1" layoutX="42.0" layoutY="289.0" prefHeight="17.0" prefWidth="218.0" text="Significance Level Anova">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="significanceLevelAnovaTxt" layoutX="321.0" layoutY="285.0" prefHeight="25.0" prefWidth="186.0" />
+    </children>
+</AnchorPane>

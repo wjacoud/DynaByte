@@ -1,0 +1,29 @@
+@startuml
+autonumber
+actor "Client" as OE
+
+activate OE
+OE -> ":System" : asks to update data
+activate ":System"
+|||
+":System" --> OE : shows every updatable attribute with current value
+deactivate ":System"
+
+|||
+OE -> ":System" : changes values that he/she wants to update
+activate ":System"
+|||
+":System" --> OE : asks for confirmation
+deactivate ":System"
+
+|||
+OE -> ":System" : confirms values
+activate ":System"
+
+|||
+":System" --> OE : checks changed values with same creation criterion and saves it
+
+deactivate ":System"
+deactivate OE
+
+@enduml

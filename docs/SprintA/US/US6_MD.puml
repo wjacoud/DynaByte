@@ -1,0 +1,234 @@
+@startuml
+hide methods
+top to bottom direction
+skinparam classAttributeIconSize 0
+
+
+class Company {
+    chemicalLab
+}
+
+class ChemicalLab {
+    name
+    address
+    phoneNumber
+    tin
+}
+
+class ClinicalAnalysisLaboratory {
+    idLaboratory
+    name
+    address
+    phoneNumber
+    tin
+}
+
+class CovidReport {
+    numberTestsPerformed
+    numberPositiveResults
+    numberPositiveDay
+    numberPositiveWeek
+    numberPositiveMonth
+}
+
+class SampleIdentification {
+    idClient
+    idTest
+    barcode
+}
+
+class Sample{
+    idSample
+    sampleCollectionMethod
+    collectionDate
+}
+
+class Test{
+    idTest
+    nhsCode
+    clientCitizenCardNumber
+    creationDate
+}
+
+class TypeTest{
+    idTest
+    type
+}
+
+class SampleAnalysis {
+    idEmployee
+    idTest
+    idResult
+}
+
+class TestResults {
+    idResult
+    chemicalAnalysisDate
+    diagnosisDate
+    testResults
+}
+
+class Diagnosis{
+    idEmployee
+    idDiagnosis
+    idResult
+    Diagnosis
+}
+
+class TestValidation {
+    idEmployee
+    idTestValidation
+    idDiagnosis
+    validateStatus
+    validatedDate
+}
+
+class Client {
+    citizenCardNumber
+    nationalHealthcareService
+    birthDate
+    tif
+    phoneNumber
+    email
+    name
+}
+
+class Administrator{
+    idEmployee
+    organizationRole
+    name
+    adress
+    email
+    phoneNumber
+    soc
+}
+
+class Receptionist {
+    idEmployee
+    organizationRole
+    name
+    adress
+    email
+    phoneNumber
+    soc
+}
+
+class MedicalLabTechnicians{
+    idEmployee
+    organizationRole
+    name
+    adress
+    email
+    phoneNumber
+    soc
+}
+
+class ChemistryTechnologist{
+    idEmployee
+    idLaboratory
+    organizationRole
+    name
+    adress
+    email
+    phoneNumber
+    soc
+}
+
+class SpecialistDoctor{
+    idEmployee
+    idLaboratory
+    doctorIndexNumber
+    organizationRole
+    name
+    adress
+    email
+    phoneNumber
+    soc
+}
+
+class LaboratoryCoordinator{
+    idEmployee
+    idLaboratory
+    organizationRole
+    name
+    address
+    email
+    phoneNumber
+    soc
+}
+
+class Parameters{
+    idParameters
+    description
+}
+
+
+
+class Category{
+    idCategory
+    description
+    nhsID
+}
+
+class Test_Parameters{
+    idTest
+    idParameters
+}
+
+class Parameters_Category{
+    idParameters
+    idCategory
+}
+
+class Notification{
+    type
+    message
+}
+
+class ReportNHS{
+    information
+}
+
+class NHSAPI{
+
+}
+
+class BarcodeAPI{
+
+}
+
+class AutomaticValidation{
+
+}
+
+Company "1" -- "1" ChemicalLab : owns >
+Company "1" -- "*" ClinicalAnalysisLaboratory : owns >
+Client "*" -- "1" Receptionist : registered by >
+Client "1" -- "*" Test : asks for >
+Test "*" -- "1" Receptionist : registered by >
+Test "*" -- "1" Test_Parameters : request analysis for >
+Test_Parameters "1" -- "*" Parameters : request analysis for >
+Parameters "*" -- "1" Parameters_Category : presented under >
+Parameters_Category "1" -- "*" Category : presented under >
+Category "1" -- "*" Administrator : created by >
+Client "1" -- "1" MedicalLabTechnicians : is called by >
+MedicalLabTechnicians "1" -- "1" Sample : collect >
+Sample "1" -- "1" SampleIdentification : identifies sample >
+ClinicalAnalysisLaboratory "1" -- "*" MedicalLabTechnicians : employs >
+SampleIdentification "1" -- "1" ChemicalLab : sends sample to >
+Company "1" -- "*" CovidReport : reports covid cases >
+ChemicalLab "1" -- "*" ChemistryTechnologist : gives sample >
+ChemicalLab "1" -- "*" SpecialistDoctor : gives results >
+SpecialistDoctor "1" -- "1" Diagnosis : create diagnosis >
+ChemistryTechnologist "1" -- "1" SampleAnalysis : analysis sample >
+SampleAnalysis "1" -- "1" TestResults : sends analysis >
+ChemicalLab "1" -- "*" LaboratoryCoordinator : gives results and diagnosis >
+LaboratoryCoordinator "1" -- "1" TestValidation : does >
+TestValidation "1" -- "1" Notification : create >
+Notification "1" -- "1" Client : is received by >
+Company "1" -- "*" ReportNHS : reports >
+NHSAPI "1" -- "*" ReportNHS : is used to >
+BarcodeAPI "1" -- "*" SampleIdentification : is used to >
+AutomaticValidation "1" -- "*" TestValidation : is used to >
+Test "*" -- "1" TypeTest : is of >
+@enduml

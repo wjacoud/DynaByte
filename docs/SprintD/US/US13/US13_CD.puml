@@ -1,0 +1,147 @@
+@startuml
+top to bottom direction
+
+
+class ClientTestsUI{
+}
+
+class ClientTestsController{
+-ClientStore clientStore
+-TestStore testStore
+-List<Client> clientListOrder
+-Client client
+--
++getClientListTin()
++getClientListName()
++getClientChosen(String tin)
++getValidatedTests(Client c)
++getTestChosen(String tin, List<Test> testList)
++toString(Test t)
+}
+
+class ClientStore{
+-List<Client> clientList
+--
++getClientOrderTin()
++getClientOrderName()
+}
+
+class TestStore{
+-List<Test> testList
+--
++getValidatedTests()
+}
+
+class Company{
+ -String designation;
+ -AuthFacade authFacade;
+ -ClientsStore clientStore;
+ -ClinicalStore clinicalStore;
+ -EmployeeStore employeeStore;
+ -ParameterCategoryStore parameterCategoryStore;
+ -ParameterStore parameterStore;
+ -TestTypeStore testTypeStore;
+ -TestStore testStore;
+ -SampleStore sampleStore;
+ -PerformanceReportStore performanceReportStore;
+--
++getClientStore()
++getTestStore()
+}
+
+class TestMapper{
++toDto(Test t)
+}
+
+class ClientMapper{
++toDto(Client c)
+}
+
+class Client{
+-String citizenCardNumber
+-String healthcareNumber
+-String tin
+-String name
+-String phoneNumber
+-String sex
+-String email
+-Date birthDate
+--
++getTin()
+}
+
+
+class Test{
+-String tin
+-String idTest
+-String nhsCode
+-LocalDateTime date
+-LocalDateTime analyzedDate
+-LocalDateTime validationDate
+-TestReport report
+-TestType testType
+-State state
+-List<TestParameter> testParameterList
+--
++getTin()
++getNhsCode()
++getState()
++getTestParameterList()
+}
+
+class TestParameter{
+-String idTest
+-Parameter parameter
+-TestParameterResult testParameterResult
+--
++getParameter()
++getTestParameterResult()
+}
+
+class TestParameterResult{
+-String idParameter
+-double result
+-RefValue refValue
+--
++getResult()
++getRefValue()
+}
+
+class RefValue{
+-String metric;
+-double minRefValue;
+-double maxRefValue;
+--
++getMinRefValue()
++getMaxRefValue()
+}
+
+class Parameter{
+-String code;
+-String name;
+-String description;
+-ParameterCategory cat;
+--
++getName()
+}
+
+
+ClientTestsUI ..> ClientTestsController
+ClientTestsUI ..> ClientMapper
+ClientTestsUI ..> TestMapper
+ClientTestsController ..> ClientMapper
+ClientTestsController ..> TestMapper
+ClientTestsController ..> TestStore
+ClientTestsController ..> Company
+ClientTestsController ..> ClientStore
+Company "1" --> "1" TestStore : uses
+Company "1" --> "1" ClientStore : uses
+ClientStore "1" --> "*" Client : has access to
+TestStore "1" --> "*" Test : performs
+Client "1" --> "*" Test : asks for
+Test "1" --> "*" TestParameter : request analysis for
+Parameter "1" --> "1" TestParameter : is part of
+TestParameter "1" --> "0..1" TestParameterResult : contains
+TestParameterResult "1" --> "1" RefValue : records
+
+@enduml

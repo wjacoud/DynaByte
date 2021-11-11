@@ -1,0 +1,45 @@
+@startuml
+skinparam classAttributeIconSize 0
+left to right direction
+
+class AuthFacade{
+    --
+    +doLogin(email, password)
+    +getCurrentSession()
+}
+
+class UserSession{
+    --
+    +isLoggedInWithRole(id)
+}
+
+class ParameterCategory {
+  -code
+  -name
+}
+
+class Platform {
+  -designation
+  +createParameterCategory(code,name)
+  +validateParameterCategory(pc)
+  +saveParameterCategory(pc)
+  +addParameterCategory(pc)
+  +getParameterCategory(pc)
+}
+
+class CreateParameterCategoryUI{}
+
+class CreateParameterCategoryController{
+    +createParameterCategory(code,name)
+    +saveParameterCategory()
+}
+
+CreateParameterCategoryUI ..> CreateParameterCategoryController
+CreateParameterCategoryController ..> AuthFacade
+CreateParameterCategoryController ..> UserSession
+CreateParameterCategoryController ..> Platform
+CreateParameterCategoryController ..> ParameterCategory
+Platform "1" --> "*" ParameterCategory : adopts
+
+
+@enduml

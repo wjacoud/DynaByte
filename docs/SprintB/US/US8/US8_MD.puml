@@ -1,0 +1,49 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+
+class Administrator {
+}
+
+class ClinicalAnalysisLaboratory {
+  -idLaboratory
+  -name
+  -address
+  -phoneNumber
+  -tin
+  -testType
+}
+
+class TestType {
+  -code
+  -description
+  -collectingMethods
+}
+
+
+class Employee {
+  -idEmployee
+  -name
+  -function
+  -phoneNumber
+  -email
+  -address
+  -soc
+}
+
+class Platform {
+}
+
+
+Administrator "1" -- "*" ClinicalAnalysisLaboratory : create >
+Administrator "1" -- "*" Employee : is / create >
+Administrator "1" -- "*" TestType : create >
+ClinicalAnalysisLaboratory "1" -- "*" TestType : conducts >
+Employee "*" -- "1" Platform : uses >
+
+
+
+
+@enduml

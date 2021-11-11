@@ -1,0 +1,23 @@
+@startuml
+autonumber
+actor "Administrator" as OE
+
+activate OE
+OE -> ":System" : asks to validate available tests
+activate ":System"
+":System" --> OE : shows all available tests and requests selection
+deactivate ":System"
+
+OE -> ":System" : select tests
+activate ":System"
+":System" --> OE : ask for confirm
+deactivate ":System"
+
+OE -> ":System" : confirms the tests
+activate ":System"
+":System" --> OE : informs operation success
+deactivate ":System"
+
+deactivate OE
+
+@enduml

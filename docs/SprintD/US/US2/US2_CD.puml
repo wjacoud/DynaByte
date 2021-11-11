@@ -1,0 +1,73 @@
+@startuml
+top to bottom direction
+
+class UpdateClientUI{
+
+}
+
+class UpdateClientController{
+--
+    +getClientData()
+    +findActualClient()
+    +setData(data)
+}
+
+class ClientMapper{
+--
+    +toDTO(clientActual)
+}
+
+class ClientDTO{
+--
+    +toDTO(clientActual)
+}
+
+class AuthFacade{
+--
+    +getCurrentUserSession()
+}
+
+class Company{
+    -designation
+--
+    +getClientStore()
+}
+
+class ClientStore{
+    -List clientList
+    --
+    +getClientStore()
+    +getClientList()
+}
+
+class Client {
+    -String citizenNumber
+    -String healthcareNumber
+    -String birthDate
+    -String tin
+    -String name
+    -String phoneNumber
+    -String sex
+    --
+    +getAddress()
+    +getName()
+    +getPhoneNumber()
+    +getSex()
+    +setAddress()
+    +setName(name)
+    +setPhoneNumber(phoneNumber)
+    +setSex(sex)
+}
+
+
+UpdateClientUI ..> UpdateClientController
+UpdateClientController .> ClientMapper
+ClientMapper ...> ClientDTO
+UpdateClientController .> ClientDTO
+UpdateClientUI ..> ClientDTO
+UpdateClientController ..> AuthFacade
+UpdateClientController ..> Company
+Company "1" --> "1" ClientStore : uses
+ClientStore "1" --> "*" Client : knows
+UpdateClientController "1" -> "*" Client : updates
+@enduml

@@ -1,0 +1,33 @@
+@startuml
+autonumber
+actor "Laboratory Coordinator" as OE
+
+activate OE
+OE -> ":System" : asks to make a new performance report
+activate ":System"
+":System" --> OE : requests start and end date for the analysis
+deactivate ":System"
+
+OE -> ":System" : select dates
+activate ":System"
+":System" --> OE : request selection of analysis algorithm
+deactivate ":System"
+
+OE -> ":System" : select algorithm
+activate ":System"
+":System" --> OE : ask for confirm
+deactivate ":System"
+
+OE -> ":System" : confirms the tests
+activate ":System"
+":System" --> OE : show all graphs and statistic information and ask if its for save
+deactivate ":System"
+
+OE -> ":System" : asks for save
+activate ":System"
+":System" --> OE : informs operation success
+deactivate ":System"
+
+deactivate OE
+
+@enduml

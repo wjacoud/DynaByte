@@ -1,0 +1,28 @@
+#manyLabsTitle {
+    -fx-font-size: 48;
+    -fx-font-family: "Lucida Sans";
+}
+
+#titleLbl{
+    -fx-font-size: 18;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+}
+
+#simpleLbl{
+    -fx-font-size: 12;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: normal;
+}
+
+#mainBtn {
+    -fx-font-size: 14;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+}
+
+#simpleBtn{
+    -fx-font-size: 12;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+}

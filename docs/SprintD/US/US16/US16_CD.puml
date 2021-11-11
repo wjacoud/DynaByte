@@ -1,0 +1,151 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class PerformanceReportUI {
+
+}
+
+class GraphPerformanceReportUI {
+
+}
+
+class PerformanceReportController {
+ -PerformanceReportStore performanceReportStore;
+ -TestStore testStore;
+ -ClientsStore clientsStore;
+ -PerformanceReport performanceReport;
+  --
+  +createReport(Date startDateIn, Date endDateIn, int algorithm)
+  -createReport(Date startDateIn, Date endDateIn, int algorithm)
+ -countClients(LocalDateTime startDate, LocalDateTime endDate)
+ -fillDataArray(LocalDateTime startDate, LocalDateTime endDate)
+ -countPeriods(LocalDateTime start, LocalDateTime end)
+  -periodIndex(LocalDateTime start, LocalDateTime end, LocalDateTime tmp)
+  -createPeriodicGrowth(int[][] data, int periods)
+  -createBasicPeriodicDataList(LocalDateTime startDate, int[][] data, int periods)
+  +savePerformanceReport()
+  +getDataPerformanceReportSummary()
+  +getList()
+  +getPerformanceReport()
+}
+
+
+class Company{
+    -String designation
+    -PerformanceReportStore PerformanceReportStore
+    -TestStore testStore
+    -ClientsStore clientsStore
+    --
+    +getPerformanceReportStore()
+    +getTestStore()
+    +getClientsStore()
+}
+
+class TestStore{
+    -List<Test> testStore
+    --
+    +getTestList()
+}
+
+class Test{
+    -String tin
+    -LocalDateTime date
+    -LocalDateTime ResultDate
+    -LocalDateTime ValidationDate
+    -TestReport testReport
+    --
+     +getTin
+     +getDate
+     +getResultDate
+     +getValidationDate
+}
+
+class TestReport{
+    -LocalDateTime Date
+    --
+    +getDate
+}
+
+class ClientsStore{
+    -List<Client> ClientsStore
+    --
+    +getClientsList()
+}
+
+class Client{
+    -String tin
+    --
+    +getTin()
+}
+
+class PerformanceReport{
+    +String performanceReportNumber
+    +LocalDateTime dateTimeStart
+    +LocalDateTime dateTimeEnd
+    +LocalDateTime dateLessEffectiveStart
+    +LocalDateTime dateLessEffectiveEnd
+    +int totalClients
+    +int totalTests
+    +int totalResults
+    +int totalDiagnostics
+    +int totalValidations
+    +ArrayList<PerformanceData> basicPeriodicDataList
+    +double[][] periodicGrowth
+    +int[] analysisSequence
+    +int[] subSeqMaxSum
+    --
+    +getAnalysisSequence()
+    +dataPerformanceReportSummary()
+    -countBasicTotalData()
+}
+
+class PerformanceData{
+  +LocalDateTime dateTime;
+  +int newTests;
+  +int newResults;
+  +int newDiagnostics;
+  +int newValidations;
+    --
+    +getDateTime()
+    +getNewTests()
+    +getNewResults()
+    +getNewDiagnostics()
+    +getNewValidations()
+}
+
+class PerformanceReportStore{
+    -List<PerformanceReport> PerformanceReportStore
+    --
+    +createPerformanceReport(String Number, LDT Start, LDT End, LDT LessEffStart, LDT LessEffEnd, List<PData> DataList, double[][] Growth, int Clients,  int[] Seq, int[] subSeq)
+    +validatePerformanceReport(PerformanceReport performanceReport)
+    +savePerformanceReport(PerformanceReport performanceReport)
+    +getPerformanceReportList()
+    +getLastPerformanceReport()
+}
+
+class PerformanceAlgorithms{
+    --
+    +bruteForceAlgorithm(int[] seq)
+    +findSubSeqIndexes(int[] sequence, int[] subSeq)
+}
+
+PerformanceReportUI ..> PerformanceReportController
+PerformanceReportUI ..> GraphPerformanceReportUI
+GraphPerformanceReportUI ..> PerformanceReportController
+PerformanceReportController ..> Company
+PerformanceReportController ..> TestStore
+PerformanceReportController ..> ClientsStore
+PerformanceReportController ..> PerformanceReportStore
+PerformanceReportController ..> PerformanceAlgorithms
+Company --> TestStore : uses
+Company --> ClientsStore : uses
+Company --> PerformanceReportStore : uses
+Company --> PerformanceAlgorithms : uses
+TestStore --> Test : can access
+TestReport --> Test : is part of
+ClientsStore --> Client : can access
+PerformanceReportStore --> PerformanceReport : can access
+PerformanceData --> PerformanceReport : is part of
+
+
+@enduml

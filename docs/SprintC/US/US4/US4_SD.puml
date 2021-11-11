@@ -1,0 +1,123 @@
+@startuml
+autonumber
+'hide footbox
+actor "Receptionist Employee" as ADM
+
+participant "CreateTestUI" as UI
+participant "CreateTestController" as CCC
+participant "Company" as COMP
+participant "ClientStore" as CLST
+participant "TestStore" as TST
+participant "Test" as TEST
+participant "tt : TestTypeStore" as TTS
+participant "cat : categoriesStore" as CAST
+participant "par : ParametersStore" as PAST
+participant "listTestTypes : List<TestTypes>" as LTT
+participant "listcategories : List<categories>" as LCAT
+participant "listParameters : List<Parameters>" as LPAR
+
+
+
+activate ADM
+
+ADM -> UI : asks to register a new test to a registered client
+activate UI
+|||
+
+UI --> ADM : request client data(tin, nhsCode)
+deactivate UI
+|||
+ADM -> UI : types the client data
+
+
+activate UI
+UI -> CCC : findClient(tin)
+activate CCC
+CCC -> COMP : allClients = getClients()
+activate COMP
+COMP -> CLST : getClients()
+activate CLST
+deactivate COMP
+deactivate CCC
+deactivate CLST
+
+ref over UI : US4_SD_TestTypesDTO
+UI --> ADM : shows the types of tests and asks to select the desired one
+deactivate UI
+deactivate CCC
+|||
+ADM -> UI : selects one test type
+activate UI
+UI -> CCC : addTestType(ttId)
+activate CCC
+CCC -> TTS : tt = getTestType(ttId)
+|||
+activate TTS
+deactivate TTS
+CCC --> UI : ok
+deactivate TTS
+UI --> ADM : chosen with success
+deactivate CCC
+|||
+ref over UI : US4_SD_categoriesDTO
+|||
+deactivate CCC
+UI --> ADM : show the categories and asks to select the desired ones
+deactivate UI
+loop for any intended category
+ADM -> UI : selects one category
+activate UI
+UI -> CCC : addcategory(catId)
+activate CCC
+CCC -> CAST : cat = getcategory(catId)
+activate CAST
+deactivate CAST
+CCC --> UI : ok
+deactivate CCC
+UI --> ADM : chosen with success
+end
+ref over UI : US4_SD_ParametersDTO
+|||
+deactivate CCC
+UI --> ADM : shows the parameters of the chosen categories and asks to choose the desired ones
+|||
+deactivate UI
+loop for any intended parameter
+ADM -> UI : selects one parameter
+activate UI
+UI -> CCC : addParameter(parId)
+activate CCC
+CCC -> PAST : par = getParameter(parId)
+activate PAST
+deactivate PAST
+CCC --> UI : ok
+deactivate CCC
+UI --> ADM : chosen with success
+end
+activate UI
+UI -> CCC : createTest(nhsCode)
+activate CCC
+CCC -> COMP : testStore = getTestStore()
+activate COMP
+deactivate COMP
+CCC -> TST : test = createTest(nhsCode,testType,category,parameter)
+activate TST
+TST -> TEST** : create(testCode,nhsCode,testType,category,parameter)
+CCC -> TST : validateTest(test)
+|||
+deactivate TST
+deactivate CCC
+UI --> ADM : shows all data and requests a confirmation
+deactivate UI
+ADM -> UI : confirms the data
+activate UI
+UI -> CCC : saveTest()
+activate CCC
+CCC -> TST : saveTest(test)
+activate TST
+TST -> TST : validateTest(test)
+|||
+TST -> TST : addTest(test)
+deactivate CCC
+UI --> ADM : informs operation success
+@enduml

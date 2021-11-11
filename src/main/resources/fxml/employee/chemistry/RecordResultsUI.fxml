@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.chemistry.RecordResultsUI">
+   <children>
+      <Label fx:id="titleLbl" layoutX="40.0" layoutY="40.0" text="Record Results">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="simpleBtn1" layoutX="512.0" layoutY="362.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="80.0" text="Confirm">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="simpleBtn" layoutX="412.0" layoutY="362.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="testChoice" layoutX="40.0" layoutY="110.0" prefWidth="150.0" />
+      <TextField fx:id="textField" layoutX="40.0" layoutY="200.0" />
+      <Label fx:id="label" layoutX="40.0" layoutY="173.0" text="Label" />
+      <Button fx:id="but" layoutX="40.0" layoutY="238.0" mnemonicParsing="false" onAction="#next" text="Next" />
+      <Label layoutX="40.0" layoutY="85.0" text="Choose the barcode" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+@startuml
+autonumber
+'hide footbox
+actor "Timer/Clock" as TC
+participant "System" as SYS
+
+activate TC
+loop every day at 6:00am
+TC -> SYS : create and send the report
+activate SYS
+|||
+SYS --> TC : write the event into a log file
+end
+deactivate SYS
+deactivate TC
+
+@enduml

@@ -1,0 +1,101 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator Employee" as ADM
+
+participant "ClinicalCreatorUI" as UI
+participant "CreateClinicalController" as CCC
+participant "Administrator" as _ADM
+participant "Platform" as PLAT
+participant "TestTypeStore" as TTS
+participant "ClinicalStore" as CLST
+participant "Clinical" as CL
+
+
+
+activate ADM
+
+ADM -> UI : asks to create a new clinical
+activate UI
+|||
+
+UI --> ADM : request clinical data(idLaboratory, name, address, phoneNumber, tin)
+deactivate UI
+|||
+ADM -> UI : types the clinical data
+
+
+activate UI
+UI -> CCC : allTestTypes = getTestTypes()
+
+activate CCC
+
+CCC -> PLAT : getTestTypes()
+activate PLAT
+PLAT -> TTS : getTestTypes()
+activate TTS
+deactivate TTS
+deactivate PLAT
+
+UI --> ADM : shows all test types and asks to select the desired ones
+ADM -> UI : choose the desired test types
+
+UI -> CCC : createClinical(idLaboratory, name, address, phoneNumber, tin, testTypes)
+
+
+CCC -> _ADM : clinical = createClinical(idLaboratory, name, address, phoneNumber, tin, testTypes)
+activate _ADM
+
+_ADM -> PLAT :  allClinicals = getClinicals()
+activate PLAT
+
+PLAT -> CLST : allClinicals = getClinicals()
+activate CLST
+deactivate CLST
+deactivate PLAT
+
+_ADM -> _ADM : validate(clinical)
+
+|||
+_ADM -> CL** : createClinical(idLaboratory, name, address, phoneNumber, tin, testTypes)
+_ADM --> CCC : result
+CCC --> UI : result
+UI --> ADM : shows clinical data and requests confirmation
+deactivate UI
+deactivate CCC
+deactivate _ADM
+
+|||
+ADM -> UI : confirms the clinical data
+activate UI
+UI -> CCC : saveClinical()
+activate CCC
+
+CCC -> _ADM : saveClinical(clinical)
+activate _ADM
+|||
+
+_ADM -> PLAT : addClinical(clinical)
+activate PLAT
+PLAT -> CLST : addClinical(clinical)
+activate CLST
+deactivate PLAT
+deactivate CLST
+
+_ADM --> CCC : result
+CCC --> UI : result
+UI --> ADM : informs operation success
+deactivate _ADM
+deactivate CCC
+deactivate UI
+
+|||
+
+
+deactivate _ADM
+deactivate CCC
+deactivate UI
+
+deactivate ADM
+
+@endum

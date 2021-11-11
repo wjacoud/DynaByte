@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.specialist.TestReportUI">
+   <children>
+      <Button fx:id="simpleBtn" layoutX="430.0" layoutY="353.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="simpleBtn" layoutX="526.0" layoutY="353.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="80.0" text="Confirm">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="titleLabel" layoutX="40.0" layoutY="40.0" text="Diagnosis">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="testChoice" layoutX="153.0" layoutY="87.0" prefWidth="150.0" />
+      <TextArea fx:id="diagnosisArea" layoutX="41.0" layoutY="185.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="label" layoutX="346.0" layoutY="110.0" prefHeight="175.0" prefWidth="188.0" text="Label" />
+      <Label fx:id="simpleLbl" layoutX="40.0" layoutY="95.0" text="Choose the test:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl1" layoutX="82.0" layoutY="163.0" text="Write the report">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

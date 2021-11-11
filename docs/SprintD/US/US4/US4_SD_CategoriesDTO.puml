@@ -1,0 +1,31 @@
+@startuml
+autonumber
+'hide footbox
+
+
+participant "CreateTestUI" as UI
+participant "CreateTestController" as CCC
+participant "Company" as COMP
+participant "cat : CategoryStore" as CAST
+participant "catMapper: CategoryMapper" as CATMAP
+
+
+
+
+activate UI
+UI -> CCC : catDto = getCategories()
+activate CCC
+CCC -> COMP : catStore = getCategoryStore()
+activate COMP
+deactivate COMP
+CCC -> CAST : cat = getCategories()
+activate CAST
+deactivate CAST
+CCC -> CATMAP : catDto = toDto(cat)
+activate CATMAP
+deactivate CATMAP
+deactivate CCC
+deactivate UI
+
+
+@enduml

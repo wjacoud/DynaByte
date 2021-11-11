@@ -1,0 +1,102 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as ADMIN
+participant ":NHSReportUI" as UI
+participant ":NHSReportController" as CTRL
+participant ":LinearRegressionController" as LRC
+participant ":SimpleLinearRegressionUI" as SLRUI
+participant ":MultiLinearRegressionUI" as MLRUI
+participant ":Data" as DATA
+participant ":Company" as COMP
+participant ":ClientStore" as CLIENTSTO
+participant ":TestStore" as TESTSTO
+
+
+activate ADMIN
+ADMIN -> UI : asks to send a report to NHS
+activate UI
+UI --> ADMIN : Asks the required data(type of linear regression, number of historical days, the interval of time, confidence level,significance Level Anova and type of message)
+deactivate UI
+ADMIN -> UI : types the requested data and confirms
+activate UI
+UI -> CTRL : validateData(type of linear regression, number of historical days, the interval of time, confidence level,significance Level Anova and type of message)
+activate CTRL
+CTRL -> DATA : ValidateData(type of linear regression, number of historical days, the interval of time, confidence level,significance Level Anova and type of message)
+activate DATA
+DATA -> DATA : SaveData()
+activate DATA
+deactivate DATA
+deactivate DATA
+alt Simple Linear Regression
+UI -> ADMIN : request which independent variable he/she wants to use to do the simple linear regression
+deactivate UI
+
+ADMIN -> UI: types the independent variable to be used in the model
+activate UI
+UI -> CTRL: generateTheNHSReport(data,independentVariable,regressionModel)
+
+CTRL -> COMP : getClientList()
+activate COMP
+COMP -> CLIENTSTO : GetClientList()
+activate CLIENTSTO
+deactivate CLIENTSTO
+CTRL -> COMP : getTestList()
+COMP -> TESTSTO : GetTestList()
+activate TESTSTO
+deactivate TESTSTO
+deactivate COMP
+
+
+
+alt covid tests
+
+CTRL -> LRC : SimpleLinearRegressionCovid(ClientList,TestList)
+
+activate LRC
+LRC -> DATA : getData()
+activate DATA
+LRC -> LRC : SimpleLinearRegressionCovid(ClientList,TestList)
+activate LRC
+deactivate LRC
+
+LRC -> SLRUI:
+deactivate DATA
+deactivate LRC
+
+else mean age
+
+CTRL -> LRC : SimpleLinearRegressionAge(ClientList,TestList)
+activate LRC
+LRC -> DATA : getData()
+activate DATA
+LRC -> LRC : SimpleLinearRegressionAge(ClientList,TestList)
+activate LRC
+deactivate LRC
+deactivate DATA
+deactivate LRC
+end
+else Multi Linear Regression
+
+CTRL -> LRC : MultiLinearRegression(ClientList,TestList)
+
+activate LRC
+LRC -> DATA : getData()
+activate DATA
+LRC -> LRC : MultiLinearRegression(ClientList,TestList)
+activate LRC
+deactivate LRC
+deactivate DATA
+deactivate LRC
+
+end
+
+CTRL -> CTRL : Create NHS Report
+activate CTRL
+deactivate CTRL
+
+CTRL -> UI : Sends LinearRegression data
+deactivate CTRL
+
+UI -> ADMIN : Shows data
+@enduml

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.coordinator.PerformanceReportUI">
+    <children>
+        <DatePicker fx:id="startDatePicker" layoutX="85.0" layoutY="82.0" prefHeight="30.0" prefWidth="186.0" />
+        <DatePicker fx:id="endDatePicker" layoutX="85.0" layoutY="119.0" prefHeight="25.0" prefWidth="186.0" />
+        <Label fx:id="simpleLbl" layoutX="69.0" layoutY="59.0" prefHeight="17.0" prefWidth="231.0" text="Interval of dates of the Analysis">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+        <Label fx:id="simpleLbl" alignment="CENTER" layoutX="-24.0" layoutY="88.0" prefHeight="17.0" prefWidth="174.0" text="Start">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+        <Label fx:id="simpleLbl" alignment="CENTER" layoutX="41.0" layoutY="124.0" prefHeight="17.0" prefWidth="45.0" text="End">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Label>
+      <Button fx:id="simpleBtn" layoutX="476.0" layoutY="118.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="simpleBtn" layoutX="392.0" layoutY="118.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="80.0" text="Confirm">
+         <font>
+            <Font name="Verdana Bold" size="9.0" />
+         </font>
+      </Button>
+      <Label fx:id="titleLbl" layoutX="41.0" layoutY="28.0" text="Performance Report">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="algorithmChoice" layoutX="308.0" layoutY="81.0" prefHeight="27.0" prefWidth="247.0" promptText="Select Analysis Algorithm" />
+      <TextArea fx:id="resultTextArea" layoutX="44.0" layoutY="171.0" prefHeight="200.0" prefWidth="512.0" />
+      <Button fx:id="simpleBtn1" layoutX="308.0" layoutY="118.0" mnemonicParsing="false" onAction="#previewBtn" prefHeight="30.0" prefWidth="80.0" text="Preview">
+         <font>
+            <Font name="Verdana Bold" size="9.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

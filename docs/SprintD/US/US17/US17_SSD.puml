@@ -1,0 +1,16 @@
+@startuml
+autonumber
+actor "Laboratory Coordinator" as LABCOOR
+
+activate LABCOOR
+LABCOOR -> ":System" : asks to import a csv file
+activate ":System"
+":System" --> LABCOOR : asks for csv file
+deactivate ":System"
+LABCOOR -> ":System" : imports a csv file
+activate ":System"
+":System" --> LABCOOR : validate all data and informs operation success
+
+deactivate ":System"
+deactivate LABCOOR
+@enduml

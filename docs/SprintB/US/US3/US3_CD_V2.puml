@@ -1,0 +1,102 @@
+@startuml
+
+class ClientCreatorUI{
+
+}
+
+class ClientCreatorController{
+    --
+    +createClient(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+    +saveClient()
+    +sendNotification(type, message)
+    +addUser(email)
+}
+
+class AuthFacade{
+    --
+    +existUser(email)
+    +addUser(name, email, password)
+}
+
+class ClientsStore{
+    --
+    +getClients()
+    +addClient(client)
+}
+
+class ClientDTO {
+    -String citizenNumber
+    -String healthcareNumber
+    -String birthDate
+    -String tin
+    -String name
+    -String phoneNumber
+    -String sex
+    --
+    +ClientDTO(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+}
+
+class ClientMapper {
+    +List<ClientDTO>toDTO(List<Client>list)
+    +ClientDTO toDTO(Client obj)
+}
+
+class ClientNotification{
+    --
+    +sendNotification(type, message)
+}
+
+class Employee{
+    -String idEmployee
+    -String name
+    -String function
+    -String phoneNumber
+    -String email
+    -String address
+    -String soc
+}
+
+class Receptionist {
+    --
+    +createClient(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+    +saveClient(client)
+    -validate(client)
+    -addClient(client)
+}
+
+class Client {
+    -String citizenNumber
+    -String healthcareNumber
+    -String birthDate
+    -String tin
+    -String name
+    -String phoneNumber
+    -String sex
+    --
+    +Client(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+}
+
+class Platform{
+    -String designation
+    --
+    +getClients()
+    +addClient(client)
+}
+
+ClientCreatorUI ..> ClientCreatorController
+ClientCreatorController ..> Receptionist
+ClientCreatorController ..> AuthFacade
+ClientCreatorController ..> ClientNotification
+Receptionist ..> Platform
+Platform ..> ClientsStore
+ClientCreatorUI ..> ClientDTO
+ClientCreatorController ..> ClientDTO
+ClientMapper ..> ClientDTO
+ClientCreatorController ..> ClientMapper
+
+Receptionist "1" --|> "1" Employee : is
+Employee "*" -- "1" Platform : uses >
+Receptionist "1" -- "*" Client : register >
+
+
+@enduml

@@ -1,0 +1,54 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Company{
+-chemicalLab
+}
+
+class Test{
+-tin
+-idTest
+-nhsCode
+-creationDate
+-state
+}
+
+class Client{
+-citizenCardNumber
+-healthCareService
+-tin
+-birthdate
+-name
+-phoneNumber
+-sex
+}
+
+class TestParameter{
+}
+
+class TestParameterResult{
+-createdAt
+-value
+-metric
+}
+
+class ReferenceValue{
+
+}
+
+class Parameter{
+-idParameter
+-description
+}
+
+Company "1" -- "*" Client : can access the information of >
+Company "1" -- "*" Test : performs >
+Client "1" -- "*" Test : asks for a >
+Test "1" -- "*" TestParameter : requests analysis of >
+TestParameter "1" -- "0..1" TestParameterResult : contains >
+Parameter "1" -- "1" TestParameter : is part of >
+TestParameterResult "1" -- "1" ReferenceValue : records >
+
+@enduml

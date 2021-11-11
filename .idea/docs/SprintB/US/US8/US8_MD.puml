@@ -1,0 +1,48 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+
+class Administrator {
+  -idEmployee
+}
+
+class ClinicalAnalysisLaboratory {
+  -idLaboratory
+  -name
+  -address
+  -phoneNumber
+  -tin
+}
+
+class TypeTest {
+  -type
+}
+
+class Category {
+  -id
+  -description
+}
+
+class Employee {
+  -name
+  -function
+  -phone
+  -email
+}
+
+class User {
+  -name
+  -email
+  -password
+}
+
+Administrator "1" -- "*" ClinicalAnalysisLaboratory : has registered >
+Administrator "1" -- "1" TypeTest : choose >
+TypeTest "1" -- "*" ClinicalAnalysisLaboratory : sends >
+
+
+
+
+@enduml

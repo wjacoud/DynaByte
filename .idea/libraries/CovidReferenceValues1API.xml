@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="CovidReferenceValues1API">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/CovidReferenceValues1API.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ExternalModule2API.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ExternalModule3API.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

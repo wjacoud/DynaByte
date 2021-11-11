@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.administrator.AdminUI">
+   <children>
+      <Label fx:id="titleLbl" layoutX="40.0" layoutY="40.0" text="Administrator Menu">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="80.0" layoutY="90.0" text="Create a new employee">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="80.0" layoutY="130.0" text="Create a new clinical">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="80.0" layoutY="170.0" text="Create a new parameter">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="80.0" layoutY="210.0" text="Create a new parameter category">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="80.0" layoutY="250.0" text="Create a new test type">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="80.0" layoutY="290.0" text="Create a NHS report">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="simpleBtn" layoutX="40.0" layoutY="340.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="83.0" mnemonicParsing="false" onAction="#employeeBtn" prefHeight="30.0" prefWidth="31.0" text="go">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="123.0" mnemonicParsing="false" onAction="#clinicalBtn" prefHeight="30.0" prefWidth="31.0" text="go">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="163.0" mnemonicParsing="false" onAction="#parameterBtn" prefHeight="30.0" prefWidth="31.0" text="go">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="203.0" mnemonicParsing="false" onAction="#parameterCategoryBtn" prefHeight="30.0" prefWidth="31.0" text="go">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="243.0" mnemonicParsing="false" onAction="#testTypeBtn" prefHeight="30.0" prefWidth="31.0" text="go">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="283.0" mnemonicParsing="false" onAction="#nhsBtn" prefHeight="30.0" prefWidth="31.0" text="go">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

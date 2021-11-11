@@ -1,0 +1,83 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":CreateParameterCategoryUI" as UI
+participant ":CreateParameterCategoryController" as CTRL
+participant "AuthFacade" as AF
+participant "User" as US
+participant "Platform" as _APP
+participant "ParameterCategoryStore" as PCS
+participant "pc: ParameterCategory" as PC
+
+
+activate ADM
+ADM -> UI : asks to create a new parameter catgory
+activate UI
+UI --> ADM : requests authentication
+ADM -> UI : introduces data
+UI -> CTRL : session = getUser()
+activate CTRL
+CTRL -> AF : doLogin(email, password)
+|||
+activate AF
+CTRL -> AF : session = getCurrentSession()
+|||
+deactivate AF
+CTRL -> US : session isLoggedInWithRole()
+activate US
+deactivate US
+deactivate CTRL
+UI --> ADM : requests data (code, name)
+deactivate UI
+
+ADM -> UI : types requested data
+activate UI
+
+UI -> CTRL : createParameterCategory (code, name)
+activate CTRL
+
+
+CTRL -> PCS : pc = createParameterCategory (code, name)
+activate PCS
+PCS -> PC : create(code,name)
+activate PC
+deactivate PC
+deactivate PCS
+|||
+CTRL -> _APP : validateParemeterCategory(pc)
+activate _APP
+deactivate _APP
+deactivate CTRL
+
+UI --> ADM : shows the data and requests a confirmation
+deactivate UI
+
+ADM -> UI : confirms the data
+activate UI
+
+UI -> CTRL : saveParameterCategory()
+activate CTRL
+
+CTRL -> _APP : saveParameterCategory(pc)
+activate _APP
+_APP -> PCS : saveParameterCategory(pc)
+activate PCS
+deactivate PCS
+_APP -> PCS : validateParemeterCategory(pc)
+activate PCS
+deactivate PCS
+_APP -> PCS : addParameterCategory(pc)
+activate PCS
+deactivate PCS
+deactivate _APP
+
+
+
+deactivate CTRL
+UI --> ADM : informs operation was a success
+deactivate UI
+deactivate ADM
+
+@enduml

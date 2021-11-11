@@ -1,0 +1,136 @@
+@startuml
+autonumber
+'hide footbox
+actor "Receptionist Employee" as RCE
+
+participant ":ClientCreatorUI" as UI
+participant ":ClientCreatorController" as CCC
+participant ":AuthFacade" as AUFA
+participant ":UserSession" as USSE
+participant ":ClientNotification" as NOTI
+participant ":Receptionist" as RC
+participant ":ClientMapper" as CLMA
+participant "dto:ClientDto" as CLDTO
+participant ":Platform" as PLAT
+participant ":ClientStore" as CLST
+participant "obj:Client" as CL
+
+
+activate RCE
+
+RCE -> UI : asks to create a new client
+activate UI
+|||
+deactivate CCC
+
+UI --> RCE : request client data(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+deactivate UI
+|||
+RCE -> UI : types the client data
+
+activate UI
+UI -> CCC : createClient(dto)
+activate CCC
+
+CCC -> RC : client = createClient(dto)
+activate RC
+
+RC -> CLMA : client = toModel(dto)
+activate CLMA
+
+CLMA -> PLAT :  allClients = getClients()
+activate PLAT
+
+PLAT -> CLST : allClients = getClients()
+activate CLST
+deactivate CLST
+deactivate PLAT
+
+CLMA -> CLDTO : citizenNumber = getCitizenNumber()
+activate CLDTO
+deactivate CLDTO
+CLMA -> CLDTO : healthcareNumber = getHealthcareNumber()
+activate CLDTO
+deactivate CLDTO
+CLMA -> CLDTO : birthDate = getBirthDate()
+activate CLDTO
+deactivate CLDTO
+CLMA -> CLDTO : tin = getTin()
+activate CLDTO
+deactivate CLDTO
+CLMA -> CLDTO : name = getName()
+activate CLDTO
+deactivate CLDTO
+CLMA -> CLDTO : phoneNumber = getPhoneNumber()
+activate CLDTO
+deactivate CLDTO
+CLMA -> CLDTO : sex = getSex()
+activate CLDTO
+deactivate CLDTO
+
+CLMA -> CLMA : validate(client)
+
+|||
+CLMA --> CL** : createClient(citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+CLMA --> RC : result
+deactivate CLMA
+RC --> CCC : result
+deactivate CCC
+CCC --> UI : result
+UI --> RCE : shows client data and requests confirmation
+deactivate UI
+deactivate RC
+
+|||
+RCE -> UI : confirms the client data
+activate UI
+UI -> CCC : saveClient()
+activate CCC
+
+CCC -> RC : saveClient(client)
+activate RC
+|||
+
+RC -> PLAT : addClient(client)
+activate PLAT
+PLAT -> CLST : addClient(client)
+activate CLST
+deactivate PLAT
+deactivate CLST
+
+RC --> CCC : result
+CCC --> UI : result
+UI --> RCE : request the user data (email)
+deactivate RC
+deactivate CCC
+deactivate UI
+
+|||
+RCE -> UI : types the user data
+activate UI
+UI -> CCC : addUser(name, email)
+activate CCC
+
+CCC -> AUFA : existsUser(email)
+|||
+activate AUFA
+CCC -> AUFA : addUser(name, email, password)
+|||
+
+deactivate AUFA
+
+CCC -> NOTI : sendNotification(type, message)
+activate NOTI
+deactivate NOTI
+
+CCC --> UI: result
+|||
+UI --> RCE : informs operation success
+
+deactivate RC
+deactivate CCC
+deactivate UI
+
+deactivate RCE
+
+@enduml

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="317px" preserveAspectRatio="none" style="width:667px;height:317px;" version="1.1" viewBox="0 0 667 317" width="667px" zoomAndPan="magnify"><defs><filter height="300%" id="fr5sc5btf4qx2" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="203.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="63.5" y="51.6094"/><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="225.5" y="73.9609"/><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="416.5" y="104.3125"/><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="507.5" y="164.6641"/><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="606" y="225.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="68" x2="68" y1="41.6094" y2="273.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="230" x2="230" y1="41.6094" y2="273.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="421.5" x2="421.5" y1="41.6094" y2="273.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="512.5" x2="512.5" y1="41.6094" y2="273.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="610.5" x2="610.5" y1="41.6094" y2="273.0156"/><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="123" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="12" y="26.5332">:RecordSampleUI</text><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="123" x="5" y="272.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="12" y="293.5488">:RecordSampleUI</text><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="173" x="142" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="149" y="26.5332">:RecordSampleController</text><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="173" x="142" y="272.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="149" y="293.5488">:RecordSampleController</text><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="74" x="382.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="389.5" y="26.5332">Company</text><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="74" x="382.5" y="272.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="389.5" y="293.5488">Company</text><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="80" x="470.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="477.5" y="26.5332">:TestStore</text><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="80" x="470.5" y="272.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="477.5" y="293.5488">:TestStore</text><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="89" x="564.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="571.5" y="26.5332">:testMapper</text><rect fill="#FEFECE" filter="url(#fr5sc5btf4qx2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="89" x="564.5" y="272.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="571.5" y="293.5488">:testMapper</text><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="203.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="63.5" y="51.6094"/><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="225.5" y="73.9609"/><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="416.5" y="104.3125"/><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="507.5" y="164.6641"/><rect fill="#FFFFFF" filter="url(#fr5sc5btf4qx2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="606" y="225.0156"/><polygon fill="#A80036" points="213.5,69.9609,223.5,73.9609,213.5,77.9609,217.5,73.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="73.5" x2="219.5" y1="73.9609" y2="73.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80.5" y="69.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="91.5" y="69.1045">testDto = getTests()</text><polygon fill="#A80036" points="404.5,100.3125,414.5,104.3125,404.5,108.3125,408.5,104.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="235.5" x2="410.5" y1="104.3125" y2="104.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="242.5" y="99.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="253.5" y="99.4561">testStore = getTestStore()</text><polygon fill="#A80036" points="495.5,160.6641,505.5,164.6641,495.5,168.6641,499.5,164.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="235.5" x2="501.5" y1="164.6641" y2="164.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="242.5" y="159.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="253.5" y="159.8076">test = getTests()</text><polygon fill="#A80036" points="594,221.0156,604,225.0156,594,229.0156,598,225.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="235.5" x2="600" y1="225.0156" y2="225.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="242.5" y="220.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="253.5" y="220.1592">testDto = toDto(test)</text><!--MD5=[b033a1d1881cef36eb9b8a4f2bbeda16]
+@startuml
+autonumber
+'hide footbox
+
+participant ":RecordSampleUI" as RSUI
+participant ":RecordSampleController" as RSC
+participant "Company" as COMP
+participant ":TestStore" as TESTSTORE
+participant ":testMapper" as TESTMAP
+
+
+
+
+activate RSUI
+
+RSUI -> RSC : testDto = getTests()
+
+activate RSC
+
+RSC -> COMP: testStore = getTestStore()
+activate COMP
+
+deactivate COMP
+
+RSC -> TESTSTORE : test = getTests()
+
+activate TESTSTORE
+
+deactivate TESTSTORE
+
+RSC -> TESTMAP : testDto = toDto(test)
+
+activate TESTMAP
+
+deactivate TESTMAP
+
+deactivate RSC
+
+deactivate RSUI
+
+
+
+
+
+
+
+
+
+
+@enduml
+
+@startuml
+autonumber
+
+participant ":RecordSampleUI" as RSUI
+participant ":RecordSampleController" as RSC
+participant "Company" as COMP
+participant ":TestStore" as TESTSTORE
+participant ":testMapper" as TESTMAP
+
+
+
+
+activate RSUI
+
+RSUI -> RSC : testDto = getTests()
+
+activate RSC
+
+RSC -> COMP: testStore = getTestStore()
+activate COMP
+
+deactivate COMP
+
+RSC -> TESTSTORE : test = getTests()
+
+activate TESTSTORE
+
+deactivate TESTSTORE
+
+RSC -> TESTMAP : testDto = toDto(test)
+
+activate TESTMAP
+
+deactivate TESTMAP
+
+deactivate RSC
+
+deactivate RSUI
+
+
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,105 @@
+@startuml
+top to bottom direction
+
+class Test {
+    -tin
+    -id
+    -nhsCode
+    -testType
+    -date
+    --
+    +Test(tin,id,nhsCode,testType,date)
+    +getTestParameterList()
+    +testParameterCreator(idTest, paramList)
+}
+
+class Company {
+    -chemicalLab
+    +getTestTypeStore()
+    +getParameterStore()
+    +getParameterCategoryStore()
+    +getClientStore()
+}
+
+class CreateTestUI {
+}
+
+class TestParameter {
+    -idTest
+    -paramList
+    --
+    +TestParameter(idTest, paramList)
+}
+
+class CreateTestController {
+    +findClient(tin)
+    +nhsCodeVerification(String nhsCode)
+    +getTestType()
+    +getParameterCategory()
+    +getDate()
+    +getParameter()
+    +createTest(tin,nhsCode,testType, paramList )
+    +saveTest()
+}
+
+class TestTypeMapper {
+    toDto(testTypes)
+}
+
+class ParameterMapper{
+    toDto(parameters)
+}
+
+class ParameterCategoryMapper {
+    toDto(categories)
+}
+
+class TestTypeStore{
+    -List<TestType> testTypeStore
+    --
+    +getTestTypeList()
+}
+
+class ParameterStore {
+    -List<Parameter> parameterStore
+    +getParameterList()
+}
+
+class ParameterCategoryStore {
+    -List<ParameterCategory> parameterCategoryStore
+    --
+    +getPcList()
+}
+
+class ClientStore {
+    +verifyExistingClient(tin)
+}
+
+class TestStore {
+    -List<Test> TestStore
+    --
+    +createTest(tin,id,nhsCode,testType,date)
+    +verifyExistingNhsCode(nhsCode)
+    +validateTest()
+    +createId()
+    +saveTest()
+}
+
+CreateTestUI ..> CreateTestController
+CreateTestController ..> Company
+Company"1" --> "1"ParameterCategoryStore : adopts
+Company"1" --> "1"TestTypeStore : adopts
+Company"1" --> "1"ParameterStore :adopts
+Company"1" --> "1"ClientStore : adopts
+Company"1" --> "1"TestStore : adopts
+TestStore"1" --> "*"Test : stores
+Test"1" --> "*"TestParameter : requests analysis of
+CreateTestController ..> ParameterStore
+CreateTestController ..> TestStore
+CreateTestController ..> ClientStore
+CreateTestController ..> TestTypeStore
+CreateTestController ..> ParameterCategoryStore
+CreateTestController ..> ParameterCategoryMapper
+CreateTestController ..> ParameterMapper
+CreateTestController ..> TestTypeMapper
+@enduml

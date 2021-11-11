@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.administrator.RegistEmployeeUI">
+   <children>
+      <Label fx:id="titleLbl" layoutX="40.0" layoutY="40.0" text="Employee information">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="40.0" layoutY="90.0" text="Role:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl1" layoutX="40.0" layoutY="130.0" text="Name:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl11" layoutX="40.0" layoutY="170.0" text="Address:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl111" layoutX="40.0" layoutY="290.0" text="Soc:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl12" layoutX="40.0" layoutY="250.0" text="Email:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl2" layoutX="40.0" layoutY="210.0" text="Phone number:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="simpleBtn" layoutX="406.0" layoutY="356.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="roleChoice" layoutX="182.0" layoutY="82.0" prefWidth="150.0" />
+      <Label fx:id="simpleLbl1111" layoutX="40.0" layoutY="330.0" text="Doctor index number:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="simpleBtn1" layoutX="506.0" layoutY="356.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="80.0" text="Confirm">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="docTxt" layoutX="182.0" layoutY="322.0" prefHeight="31.0" prefWidth="213.0" />
+      <TextField fx:id="socTxt" layoutX="182.0" layoutY="282.0" prefHeight="31.0" prefWidth="213.0" />
+      <TextField fx:id="emailTxt" layoutX="182.0" layoutY="242.0" prefHeight="31.0" prefWidth="213.0" />
+      <TextField fx:id="phoneTxt" layoutX="182.0" layoutY="202.0" prefHeight="31.0" prefWidth="213.0" />
+      <TextField fx:id="addressTxt" layoutX="182.0" layoutY="162.0" prefHeight="31.0" prefWidth="213.0" />
+      <TextField fx:id="nameTxt" layoutX="182.0" layoutY="122.0" prefHeight="31.0" prefWidth="213.0" />
+   </children>
+</AnchorPane>

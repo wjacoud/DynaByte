@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.administrator.ClinicalUI">
+   <children>
+      <Label fx:id="titleLbl" layoutX="40.0" layoutY="40.0" text="Register new Clinical">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="40.0" layoutY="120.0" text="Id laboratory:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="laboratoryTxt" layoutX="134.0" layoutY="115.0" prefHeight="25.0" prefWidth="247.0" />
+      <TextField fx:id="nameTxt" layoutX="134.0" layoutY="155.0" prefHeight="25.0" prefWidth="247.0" />
+      <Label fx:id="simpleLbl" layoutX="40.0" layoutY="160.0" text="Name:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addressTxt" layoutX="134.0" layoutY="195.0" prefHeight="25.0" prefWidth="247.0" />
+      <Label fx:id="simpleLbl" layoutX="40.0" layoutY="200.0" text="Address:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl" layoutX="40.0" layoutY="240.0" text="Tin:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tinTxt" layoutX="134.0" layoutY="235.0" prefHeight="25.0" prefWidth="247.0" />
+      <TextField fx:id="phoneTxt" layoutX="134.0" layoutY="275.0" prefHeight="25.0" prefWidth="247.0" />
+      <Label fx:id="simpleLbl" layoutX="40.0" layoutY="280.0" text="Phone number:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="simpleLbl1" layoutX="455.0" layoutY="94.0" text="Test types:">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="simpleBtn" layoutX="416.0" layoutY="356.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="simpleBtn" layoutX="512.0" layoutY="356.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="80.0" text="Confirm">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <ListView fx:id="typesList" layoutX="389.0" layoutY="115.0" prefHeight="179.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

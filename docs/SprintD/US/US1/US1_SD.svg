@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1062px" preserveAspectRatio="none" style="width:1142px;height:1062px;background:#FFFFFF;" version="1.1" viewBox="0 0 1142 1062" width="1142px" zoomAndPan="magnify"><defs><filter height="300%" id="f963rp2he77rh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="858.9766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="660.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="290" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="121.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="290" y="837.5313"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="599.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="461" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="466" y="311.3672"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="466" y="626.125"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="461" y="867.8828"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="635" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="635" y="376.7188"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="635" y="497.4219"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="731.5" y="243.0156"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="833" y="437.0703"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="927" y="557.7734"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1024" y="691.4766"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1104" y="898.2344"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="81" x2="81" y1="89.6094" y2="976.5859"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="295" x2="295" y1="89.6094" y2="976.5859"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="466" x2="466" y1="89.6094" y2="976.5859"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="640" x2="640" y1="89.6094" y2="976.5859"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="736" x2="736" y1="89.6094" y2="976.5859"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="838" x2="838" y1="89.6094" y2="976.5859"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="932" x2="932" y1="89.6094" y2="976.5859"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1029" x2="1029" y1="89.6094" y2="976.5859"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1109" x2="1109" y1="89.6094" y2="976.5859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="5" y="86.5332">Organization Employee</text><ellipse cx="81" cy="15" fill="#FEFECE" filter="url(#f963rp2he77rh)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M81,23 L81,50 M68,31 L94,31 M81,50 L68,65 M81,50 L94,65 " fill="none" filter="url(#f963rp2he77rh)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="5" y="990.1191">Organization Employee</text><ellipse cx="81" cy="1003.1953" fill="#FEFECE" filter="url(#f963rp2he77rh)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M81,1011.1953 L81,1038.1953 M68,1019.1953 L94,1019.1953 M81,1038.1953 L68,1053.1953 M81,1038.1953 L94,1053.1953 " fill="none" filter="url(#f963rp2he77rh)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="98" x="244" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="251" y="74.5332">:CheckTestUI</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="98" x="244" y="975.5859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="251" y="997.1191">:CheckTestUI</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="148" x="390" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="397" y="74.5332">:CheckTestController</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="148" x="390" y="975.5859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="397" y="997.1191">:CheckTestController</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="74" x="601" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="608" y="74.5332">Company</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="74" x="601" y="975.5859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="608" y="997.1191">Company</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="91" x="689" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="696" y="74.5332">AuthFacade</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="91" x="689" y="975.5859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="696" y="997.1191">AuthFacade</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="84" x="794" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="801" y="74.5332">ClientStore</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="84" x="794" y="975.5859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="801" y="997.1191">ClientStore</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="76" x="892" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="899" y="74.5332">TestStore</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="76" x="892" y="975.5859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="899" y="997.1191">TestStore</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="90" x="982" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="989" y="74.5332">TestMapper</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="90" x="982" y="975.5859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="989" y="997.1191">TestMapper</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="42" x="1086" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="1093" y="74.5332">Test</text><rect fill="#FEFECE" filter="url(#f963rp2he77rh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="42" x="1086" y="975.5859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="1093" y="997.1191">Test</text><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="858.9766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="660.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="290" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="121.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="290" y="837.5313"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="599.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="461" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="466" y="311.3672"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="466" y="626.125"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="461" y="867.8828"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="635" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="635" y="376.7188"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="635" y="497.4219"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="731.5" y="243.0156"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="833" y="437.0703"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="927" y="557.7734"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1024" y="691.4766"/><rect fill="#FFFFFF" filter="url(#f963rp2he77rh)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1104" y="898.2344"/><polygon fill="#A80036" points="278,117.9609,288,121.9609,278,125.9609,282,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="86" x2="284" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="93" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="104" y="117.1045">asks to see all the test data</text><polygon fill="#A80036" points="449,148.3125,459,152.3125,449,156.3125,453,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="300" x2="455" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="307" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="318" y="147.4561">getClientTests()</text><polygon fill="#A80036" points="623,178.6641,633,182.6641,623,186.6641,627,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="471" x2="629" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="478" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="489" y="177.8076">getAuthFacade()</text><polygon fill="#A80036" points="719.5,239.0156,729.5,243.0156,719.5,247.0156,723.5,243.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="471" x2="725.5" y1="243.0156" y2="243.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="478" y="238.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="489" y="238.1592">getUserSession()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="476" x2="518" y1="303.3672" y2="303.3672"/><line style="stroke:#A80036;stroke-width:1.0;" x1="518" x2="518" y1="303.3672" y2="316.3672"/><line style="stroke:#A80036;stroke-width:1.0;" x1="477" x2="518" y1="316.3672" y2="316.3672"/><polygon fill="#A80036" points="487,312.3672,477,316.3672,487,320.3672,483,316.3672" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="483" y="298.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="494" y="298.5107">email = getClientEmail()</text><polygon fill="#A80036" points="623,372.7188,633,376.7188,623,380.7188,627,376.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="471" x2="629" y1="376.7188" y2="376.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="478" y="371.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="489" y="371.8623">getClientStore()</text><polygon fill="#A80036" points="821,433.0703,831,437.0703,821,441.0703,825,437.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="471" x2="827" y1="437.0703" y2="437.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="478" y="432.2139">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="200" x="489" y="432.2139">client = getClientFromEmail(email)</text><polygon fill="#A80036" points="623,493.4219,633,497.4219,623,501.4219,627,497.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="471" x2="629" y1="497.4219" y2="497.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="478" y="492.5654">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="489" y="492.5654">getTestStore()</text><polygon fill="#A80036" points="915,553.7734,925,557.7734,915,561.7734,919,557.7734" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="471" x2="921" y1="557.7734" y2="557.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="478" y="552.917">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="131" x="489" y="552.917">testList = getTestList()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="476" x2="518" y1="618.125" y2="618.125"/><line style="stroke:#A80036;stroke-width:1.0;" x1="518" x2="518" y1="618.125" y2="631.125"/><line style="stroke:#A80036;stroke-width:1.0;" x1="477" x2="518" y1="631.125" y2="631.125"/><polygon fill="#A80036" points="487,627.125,477,631.125,487,635.125,483,631.125" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="483" y="613.2686">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="501" y="613.2686">organizeList()</text><polygon fill="#A80036" points="1012,687.4766,1022,691.4766,1012,695.4766,1016,691.4766" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="471" x2="1018" y1="691.4766" y2="691.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="478" y="686.6201">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="232" x="496" y="686.6201">clientTestsDTO = toDTO(testList, client)</text><polygon fill="#A80036" points="311,747.8281,301,751.8281,311,755.8281,307,751.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="305" x2="465" y1="751.8281" y2="751.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="317" y="746.9717">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="335" y="746.9717">clientTestsDTO</text><polygon fill="#A80036" points="97,778.1797,87,782.1797,97,786.1797,93,782.1797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="91" x2="294" y1="782.1797" y2="782.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="103" y="777.3232">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="121" y="777.3232">shows all tests of the client</text><polygon fill="#A80036" points="278,833.5313,288,837.5313,278,841.5313,282,837.5313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="86" x2="284" y1="837.5313" y2="837.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="93" y="832.6748">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="111" y="832.6748">selects one test</text><polygon fill="#A80036" points="449,863.8828,459,867.8828,449,871.8828,453,867.8828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="300" x2="455" y1="867.8828" y2="867.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="307" y="863.0264">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="325" y="863.0264">getTestReport(idTest)</text><polygon fill="#A80036" points="1092,894.2344,1102,898.2344,1092,902.2344,1096,898.2344" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="471" x2="1098" y1="898.2344" y2="898.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="478" y="893.3779">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="496" y="893.3779">getReport()</text><polygon fill="#A80036" points="92,954.5859,82,958.5859,92,962.5859,88,958.5859" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="86" x2="294" y1="958.5859" y2="958.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="98" y="953.7295">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="116" y="953.7295">shows the report of that test</text><!--MD5=[a6482ef8cd1bc7965025570a0d6372c3]
+@startuml
+autonumber
+'hide footbox
+actor "Organization Employee" as ADM
+
+participant ":CheckTestUI" as UI
+participant ":CheckTestController" as CTRL
+participant "Company" as COMP
+participant "AuthFacade" as AUFA
+participant "ClientStore" as CS
+participant "TestStore" as TS
+participant "TestMapper" as TM
+participant "Test" as TEST
+
+activate ADM
+ADM -> UI : asks to see all the test data
+activate UI
+UI -> CTRL : getClientTests()
+activate CTRL
+
+CTRL -> COMP : getAuthFacade()
+activate COMP
+deactivate COMP
+
+CTRL -> AUFA : getUserSession()
+activate AUFA
+deactivate AUFA
+
+CTRL -> CTRL : email = getClientEmail()
+activate CTRL
+deactivate CTRL
+
+CTRL -> COMP : getClientStore()
+activate COMP
+deactivate COMP
+
+CTRL -> CS : client = getClientFromEmail(email)
+activate CS
+deactivate CS
+
+CTRL -> COMP : getTestStore()
+activate COMP
+deactivate COMP
+
+CTRL -> TS : testList = getTestList()
+activate TS
+deactivate TS
+
+CTRL -> CTRL : organizeList()
+activate CTRL
+deactivate CTRL
+
+CTRL -> TM : clientTestsDTO = toDTO(testList, client)
+activate TM
+deactivate TM
+
+CTRL - -> UI : clientTestsDTO
+deactivate CTRL
+UI - -> ADM : shows all tests of the client
+deactivate UI
+
+|||
+ADM -> UI : selects one test
+activate UI
+UI -> CTRL : getTestReport(idTest)
+activate CTRL
+
+CTRL -> TEST : getReport()
+activate TEST
+deactivate TEST
+
+deactivate CTRL
+UI - -> ADM : shows the report of that test
+deactivate UI
+deactivate ADM
+
+@enduml
+
+@startuml
+autonumber
+actor "Organization Employee" as ADM
+
+participant ":CheckTestUI" as UI
+participant ":CheckTestController" as CTRL
+participant "Company" as COMP
+participant "AuthFacade" as AUFA
+participant "ClientStore" as CS
+participant "TestStore" as TS
+participant "TestMapper" as TM
+participant "Test" as TEST
+
+activate ADM
+ADM -> UI : asks to see all the test data
+activate UI
+UI -> CTRL : getClientTests()
+activate CTRL
+
+CTRL -> COMP : getAuthFacade()
+activate COMP
+deactivate COMP
+
+CTRL -> AUFA : getUserSession()
+activate AUFA
+deactivate AUFA
+
+CTRL -> CTRL : email = getClientEmail()
+activate CTRL
+deactivate CTRL
+
+CTRL -> COMP : getClientStore()
+activate COMP
+deactivate COMP
+
+CTRL -> CS : client = getClientFromEmail(email)
+activate CS
+deactivate CS
+
+CTRL -> COMP : getTestStore()
+activate COMP
+deactivate COMP
+
+CTRL -> TS : testList = getTestList()
+activate TS
+deactivate TS
+
+CTRL -> CTRL : organizeList()
+activate CTRL
+deactivate CTRL
+
+CTRL -> TM : clientTestsDTO = toDTO(testList, client)
+activate TM
+deactivate TM
+
+CTRL - -> UI : clientTestsDTO
+deactivate CTRL
+UI - -> ADM : shows all tests of the client
+deactivate UI
+
+|||
+ADM -> UI : selects one test
+activate UI
+UI -> CTRL : getTestReport(idTest)
+activate CTRL
+
+CTRL -> TEST : getReport()
+activate TEST
+deactivate TEST
+
+deactivate CTRL
+UI - -> ADM : shows the report of that test
+deactivate UI
+deactivate ADM
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 13:40:07 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

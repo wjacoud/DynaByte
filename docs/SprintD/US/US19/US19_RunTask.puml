@@ -1,0 +1,48 @@
+@startuml
+participant "task:\nSendReportTask" as SR
+participant "Company" as CPN
+participant "store:\nTestStore" as TS
+participant "store:\nClientStore" as CL
+participant "LinearRegression" as LIRE
+participant "MultiLinearRegression" as MLIRE
+
+[o-> SR : run()
+activate SR
+SR -> CPN : getTestStore()
+activate CPN
+deactivate CPN
+SR -> CPN : getClientStore()
+activate CPN
+deactivate CPN
+SR -> TS : getTestList()
+activate TS
+deactivate TS
+SR -> CL : getClientList()
+activate CL
+deactivate CL
+SR -> SR : meanAge()
+activate SR
+deactivate SR
+SR -> SR : covidTests()
+activate SR
+deactivate SR
+SR -> SR : positiveCovidTests()
+activate SR
+deactivate SR
+SR -> SR : getProps(location)
+activate SR
+deactivate SR
+alt Linear Regression
+|||
+alt covidTests
+SR -> LIRE** : create(validatedTests, positiveCovidTests)
+else
+SR -> LIRE** : create(meanAge, positiveCovidTests)
+end
+|||
+else Multilinear Regression
+SR -> MLIRE** : create(validatedTests, meanAge, positiveCovidTests)
+deactivate SR
+|||
+end
+@enduml

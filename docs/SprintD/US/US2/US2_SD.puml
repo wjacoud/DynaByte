@@ -1,0 +1,65 @@
+@startuml
+autonumber
+'hide footbox
+actor "Client" as CLP
+
+participant ":UpdateClientUI" as UI
+participant ":UpdateClientController" as UCC
+participant "Company" as COMP
+participant "store:\nClientStore" as CLS
+participant "AuthFacade" as AF
+participant "ClientMapper" as CLMAPPER
+
+
+activate CLP
+CLP -> UI : asks to update data
+activate UI
+UI -> UCC : getClientData()
+activate UCC
+UCC -> COMP : clientStore = getClientStore()
+activate COMP
+deactivate COMP
+UCC -> CLS : clientList = getClientList
+activate CLS
+deactivate CLS
+UCC -> COMP : getAuthFacade()
+activate COMP
+deactivate COMP
+UCC -> AF : getCurrentUserSession()
+activate AF
+deactivate AF
+UCC -> UCC : clientActive = findActualClient()
+activate UCC
+deactivate UCC
+UCC -> CLMAPPER : clientDTO = toDTO(clientActive)
+activate CLMAPPER
+deactivate CLMAPPER
+UCC --> UI : clientDTO
+deactivate UCC
+
+UI -> CLP : shows every updatable attribute with current value
+deactivate UI
+|||
+CLP -> UI : changes values that he/she wants to update
+activate UI
+|||
+UI --> CLP : asks for confirmation
+deactivate UI
+|||
+CLP -> UI : confirms values
+activate UI
+UI -> UCC : setData(name, address, phoneNumber, sex)
+|||
+ref over UCC : US2_SD_IndexALT
+activate UCC
+
+UCC --> UI : result
+deactivate UCC
+UI --> CLP : checks changed values with same creation criterion and saves it
+
+
+deactivate UCC
+deactivate UI
+deactivate CLP
+
+@enduml

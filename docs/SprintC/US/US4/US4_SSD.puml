@@ -1,0 +1,48 @@
+@startuml
+autonumber
+actor "Receptionist" as RC
+
+activate RC
+RC -> ":System" : asks to register a new test to a resgistered client
+activate ":System"
+|||
+":System" --> RC : requests client data (tin, nhsCode)
+deactivate ":System"
+|||
+RC -> ":System" : introduces the data requested
+
+activate ":System"
+|||
+
+":System" --> RC : shows the types of tests and asks to select the desired one
+deactivate ":System"
+|||
+RC -> ":System" : selects one test type
+activate ":System"
+|||
+loop for any intended category
+":System" --> RC : shows the categories of the chosen test type and asks to choose the desired ones
+deactivate ":System"
+|||
+RC -> ":System" : selects one category
+activate ":System"
+end
+|||
+loop for any intended parameter
+":System" --> RC : shows the parameters of the chosen categories and asks to choose the desired ones
+deactivate ":System"
+|||
+RC -> ":System" : select the desired parameters
+activate ":System"
+end
+":System" --> RC : shows all data and requests confirmation
+deactivate ":System"
+|||
+RC -> ":System" : confirms the data
+|||
+activate ":System"
+":System" --> RC : informs operation sucess
+
+deactivate RC
+deactivate ":System"
+@enduml

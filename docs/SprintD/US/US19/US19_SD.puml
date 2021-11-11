@@ -1,0 +1,42 @@
+@startuml
+autonumber
+'hide footbox
+participant App as APP
+participant Company as CPN
+participant "timer:\nTimer" as TIME
+participant "task:\nSendReportTask" as SR
+participant "api:\n nhsAPI" as NA
+
+activate APP
+APP -> CPN : scheduleReport(delay)
+activate CPN
+CPN -> SR** : create()
+|||
+CPN -> TIME** : create()
+CPN -> TIME : schedule(task, delay, interval)
+|||
+activate TIME
+note over TIME : after the time specified by "delay" has elapsed
+TIME -> SR : run()
+ref over SR : SD_RunTask
+activate SR
+deactivate SR
+|||
+note over TIME : after the time specified by "interval" has elapsed
+TIME -> SR : run()
+ref over SR : SD_RunTask
+activate SR
+deactivate SR
+|||
+TIME -> NA : sendReport(information)
+activate NA
+deactivate NA
+deactivate SR
+TIME --> CPN : writeLogEvent()
+deactivate TIME
+CPN --> APP : writeLogEvent()
+deactivate CPN
+deactivate APP
+
+
+@enduml

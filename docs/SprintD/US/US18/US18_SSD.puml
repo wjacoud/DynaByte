@@ -1,0 +1,36 @@
+@startuml
+autonumber
+actor "Administrator" as ADMIN
+
+activate ADMIN
+ADMIN -> ":System" : asks to send a report to NHS
+activate ":System"
+":System" --> ADMIN : Asks the required data(type of linear regression, number of historical days, the interval of time, confidence level,significance Level Anova and type of message)
+deactivate ":System"
+ADMIN -> ":System" : types request data
+activate ":System"
+":System" --> ADMIN : Asks to confirm data
+deactivate ":System"
+ADMIN -> ":System" : Confirms data
+alt Simple linear regression
+activate ":System"
+":System" --> ADMIN : request which independent variable he/she wants to use to do the simple linear regression
+deactivate ":System"
+ADMIN -> ":System" : types the independent variable to be used in the model
+activate ":System"
+alt covid
+":System" --> ADMIN : shows covid request data, sends it to the NHS and informs operation success
+deactivate ":System"
+else mean age
+":System" --> ADMIN : shows mean age request data, sends it to the NHS and informs operation success
+deactivate ":System"
+end
+
+else Multi linear regression
+":System" --> ADMIN : shows request data, sends it to the NHS and informs operation success
+activate ":System"
+deactivate ":System"
+
+end
+deactivate ADMIN
+@enduml

@@ -1,0 +1,67 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Test {
+  -idTest
+  -nhsCode
+  -clientTinNumber
+  -creationDate
+  -state
+}
+
+class Company{
+    -chemicalLab
+}
+
+class Client {
+    -citizenCardNumber
+    -name
+    -nhsNumber
+    -birthDate
+    -sex
+    -taxIdenticationNumber
+    -phoneNumber
+    -email
+    -address
+}
+
+class Clinical {
+    -idLaboratory
+    -name
+    -address
+    -tin
+    -phoneNumber
+    -testTypes
+}
+
+class TestType {
+  -code
+  -description
+  -collectingMethods
+}
+
+class TestParameters {
+}
+
+class Parameters {
+   -idParameter
+   -description
+}
+
+class Parameter_Category {
+   -idCategory
+   -name
+}
+
+
+Company "1" -- "*" Test : performs
+Company "1" -- "*" Client : has
+Company "1" -- "*" Clinical : has
+Test "*" -- "1" TestType : is of >
+Test "*" -- "1" TestParameters : request analysis for >
+TestParameters "1" -- "*" Parameters : request analysis for >
+Parameters "*" -- "1" Parameter_Category : presented under >
+
+@enduml

@@ -1,0 +1,69 @@
+@startuml
+hide methods
+skinparam classAttributeIconSize 0
+
+class Company{
+-chemicalLab
+}
+
+class Test{
+-state
+-date
+-analyzedDate
+-validationDate
+}
+
+class PerformanceReport{
+-performanceReportNumber
+-dateTimeStart
+-dateTimeEnd
+-dateLessEffectiveStart
+-dateLessEffectiveEnd
+-totalClients
+-totalTests
+-totalResults
+-totalDiagnostics
+-totalValidations
+-GrowthRate
+-Sequence
+-SubSeq MaxSum
+-List of PerformanceData
+}
+
+class PerformanceData{
+  -dateTime
+  -newTests
+  -newResults
+  -newDiagnostics
+  -newValidations
+}
+
+class TestReport{
+-date
+-information
+}
+
+class TestDiagnosis {
+-information
+}
+
+class Client{
+-date
+-information
+}
+
+class TestDiagnosis {
+-information
+}
+
+Company "1" -- "*" Test : performs >
+Company "1" -- "*" PerformanceReport : performs >
+PerformanceReport "1" -- "*" PerformanceData : contains >
+Test "1" -- "1" TestReport : contains >
+TestReport "1" -- "1" TestDiagnosis : contains >
+PerformanceData "1" -- "*" Test : get Info From >
+PerformanceData "1" -- "*" TestReport : get Info From >
+PerformanceData "1" -- "*" Client : get Info From >
+
+
+@enduml

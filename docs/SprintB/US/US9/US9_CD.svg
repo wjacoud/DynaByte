@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="791px" preserveAspectRatio="none" style="width:438px;height:791px;" version="1.1" viewBox="0 0 438 791" width="438px" zoomAndPan="magnify"><defs><filter height="300%" id="f1dldaia28aguo" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[da547346deef918ea16944ba046651ef]
+class Administrator--><rect codeLine="3" fill="#FEFECE" filter="url(#f1dldaia28aguo)" height="112.7754" id="Administrator" style="stroke:#A80036;stroke-width:1.5;" width="229" x="7" y="251"/><ellipse cx="78.25" cy="267" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M80.7231,273.1431 Q80.1421,273.4419 79.5029,273.5913 Q78.8638,273.7407 78.1582,273.7407 Q75.6514,273.7407 74.3315,272.0889 Q73.0117,270.437 73.0117,267.3159 Q73.0117,264.1865 74.3315,262.5347 Q75.6514,260.8828 78.1582,260.8828 Q78.8638,260.8828 79.5112,261.0322 Q80.1587,261.1816 80.7231,261.4805 L80.7231,264.2031 Q80.0923,263.6221 79.4988,263.3523 Q78.9053,263.0825 78.2744,263.0825 Q76.9297,263.0825 76.2449,264.1492 Q75.5601,265.2158 75.5601,267.3159 Q75.5601,269.4077 76.2449,270.4744 Q76.9297,271.541 78.2744,271.541 Q78.9053,271.541 79.4988,271.2712 Q80.0923,271.0015 80.7231,270.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="98.75" y="271.5352">Administrator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="235" y1="283" y2="283"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="13" y="297.6348">-int idEmployee</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="13" y="310.5898">-String soc</text><line style="stroke:#A80036;stroke-width:1.0;" x1="8" x2="235" y1="316.9102" y2="316.9102"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="217" x="13" y="331.5449">+newTestType(Type, collectingMethods)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="13" y="344.5">+validate(TestType)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="13" y="357.4551">+saveTestType()</text><!--MD5=[aeb3272166074d8737a70b61b1e71682]
+class TestType--><rect codeLine="36" fill="#FEFECE" filter="url(#f1dldaia28aguo)" height="159.6406" id="TestType" style="stroke:#A80036;stroke-width:1.5;" width="269" x="155" y="441"/><ellipse cx="258.25" cy="457" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M260.7231,463.1431 Q260.1421,463.4419 259.5029,463.5913 Q258.8638,463.7407 258.1582,463.7407 Q255.6514,463.7407 254.3315,462.0889 Q253.0117,460.437 253.0117,457.3159 Q253.0117,454.1865 254.3315,452.5347 Q255.6514,450.8828 258.1582,450.8828 Q258.8638,450.8828 259.5112,451.0322 Q260.1587,451.1816 260.7231,451.4805 L260.7231,454.2031 Q260.0923,453.6221 259.4988,453.3523 Q258.9053,453.0825 258.2744,453.0825 Q256.9297,453.0825 256.2449,454.1492 Q255.5601,455.2158 255.5601,457.3159 Q255.5601,459.4077 256.2449,460.4744 Q256.9297,461.541 258.2744,461.541 Q258.9053,461.541 259.4988,461.2712 Q260.0923,461.0015 260.7231,460.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="278.75" y="461.5352">TestType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="156" x2="423" y1="473" y2="473"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="161" y="487.6348">-String code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="161" y="500.5898">-String description</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="161" y="513.5449">-String collectingMethod</text><line style="stroke:#A80036;stroke-width:1.5;" x1="156" x2="423" y1="519.8652" y2="519.8652"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="257" x="161" y="534.5">+TestType(code, description, collectingMethod)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="161" y="547.4551">-String code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="161" y="560.4102">-String description</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="161" y="573.3652">-String collectingMethod</text><line style="stroke:#A80036;stroke-width:1.0;" x1="156" x2="423" y1="579.6855" y2="579.6855"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="161" y="594.3203">+getTestType()</text><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="22" fill="#FEFECE" filter="url(#f1dldaia28aguo)" height="99.8203" id="User" style="stroke:#A80036;stroke-width:1.5;" width="70" x="35.5" y="678"/><ellipse cx="55.9" cy="694" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M58.3731,700.1431 Q57.7921,700.4419 57.1529,700.5913 Q56.5138,700.7407 55.8082,700.7407 Q53.3014,700.7407 51.9815,699.0889 Q50.6617,697.437 50.6617,694.3159 Q50.6617,691.1865 51.9815,689.5347 Q53.3014,687.8828 55.8082,687.8828 Q56.5138,687.8828 57.1612,688.0322 Q57.8087,688.1816 58.3731,688.4805 L58.3731,691.2031 Q57.7423,690.6221 57.1488,690.3523 Q56.5553,690.0825 55.9244,690.0825 Q54.5797,690.0825 53.8949,691.1492 Q53.2101,692.2158 53.2101,694.3159 Q53.2101,696.4077 53.8949,697.4744 Q54.5797,698.541 55.9244,698.541 Q56.5553,698.541 57.1488,698.2712 Q57.7423,698.0015 58.3731,697.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="71.1" y="698.5352">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="36.5" x2="104.5" y1="710" y2="710"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="41.5" y="724.6348">-name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="41.5" y="737.5898">-email</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="41.5" y="750.5449">-password</text><line style="stroke:#A80036;stroke-width:1.5;" x1="36.5" x2="104.5" y1="756.8652" y2="756.8652"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="41.5" y="771.5">+login()</text><!--MD5=[7421f545a0d8420c5bec41e74b387d9c]
+class Employee--><rect codeLine="28" fill="#FEFECE" filter="url(#f1dldaia28aguo)" height="112.7754" id="Employee" style="stroke:#A80036;stroke-width:1.5;" width="98" x="21.5" y="464.5"/><ellipse cx="41" cy="480.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M43.4731,486.6431 Q42.8921,486.9419 42.2529,487.0913 Q41.6138,487.2407 40.9082,487.2407 Q38.4014,487.2407 37.0815,485.5889 Q35.7617,483.937 35.7617,480.8159 Q35.7617,477.6865 37.0815,476.0347 Q38.4014,474.3828 40.9082,474.3828 Q41.6138,474.3828 42.2612,474.5322 Q42.9087,474.6816 43.4731,474.9805 L43.4731,477.7031 Q42.8423,477.1221 42.2488,476.8523 Q41.6553,476.5825 41.0244,476.5825 Q39.6797,476.5825 38.9949,477.6492 Q38.3101,478.7158 38.3101,480.8159 Q38.3101,482.9077 38.9949,483.9744 Q39.6797,485.041 41.0244,485.041 Q41.6553,485.041 42.2488,484.7712 Q42.8423,484.5015 43.4731,483.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="56" y="485.0352">Employee</text><line style="stroke:#A80036;stroke-width:1.5;" x1="22.5" x2="118.5" y1="496.5" y2="496.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="27.5" y="511.1348">-String name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="27.5" y="524.0898">-String function</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="27.5" y="537.0449">-String phone</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="27.5" y="550">-String adress</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="27.5" y="562.9551">-String email</text><line style="stroke:#A80036;stroke-width:1.5;" x1="22.5" x2="118.5" y1="569.2754" y2="569.2754"/><!--MD5=[bebdcc43ebcb1534ee764d1f430c03ae]
+class CreateTestTypeUI--><rect codeLine="44" fill="#FEFECE" filter="url(#f1dldaia28aguo)" height="48" id="CreateTestTypeUI" style="stroke:#A80036;stroke-width:1.5;" width="135" x="138" y="7"/><ellipse cx="153" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M155.4731,29.1431 Q154.8921,29.4419 154.2529,29.5913 Q153.6138,29.7407 152.9082,29.7407 Q150.4014,29.7407 149.0815,28.0889 Q147.7617,26.437 147.7617,23.3159 Q147.7617,20.1865 149.0815,18.5347 Q150.4014,16.8828 152.9082,16.8828 Q153.6138,16.8828 154.2612,17.0322 Q154.9087,17.1816 155.4731,17.4805 L155.4731,20.2031 Q154.8423,19.6221 154.2488,19.3523 Q153.6553,19.0825 153.0244,19.0825 Q151.6797,19.0825 150.9949,20.1492 Q150.3101,21.2158 150.3101,23.3159 Q150.3101,25.4077 150.9949,26.4744 Q151.6797,27.541 153.0244,27.541 Q153.6553,27.541 154.2488,27.2712 Q154.8423,27.0015 155.4731,26.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="103" x="167" y="27.5352">CreateTestTypeUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="139" x2="272" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="139" x2="272" y1="47" y2="47"/><!--MD5=[2c845ebea24388d268f5a9acbeca4fd9]
+class CreateTestTypeController--><rect codeLine="47" fill="#FEFECE" filter="url(#f1dldaia28aguo)" height="73.9102" id="CreateTestTypeController" style="stroke:#A80036;stroke-width:1.5;" width="290" x="60.5" y="116"/><ellipse cx="127.25" cy="132" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M129.7231,138.1431 Q129.1421,138.4419 128.5029,138.5913 Q127.8638,138.7407 127.1582,138.7407 Q124.6514,138.7407 123.3315,137.0889 Q122.0117,135.437 122.0117,132.3159 Q122.0117,129.1865 123.3315,127.5347 Q124.6514,125.8828 127.1582,125.8828 Q127.8638,125.8828 128.5112,126.0322 Q129.1587,126.1816 129.7231,126.4805 L129.7231,129.2031 Q129.0923,128.6221 128.4988,128.3523 Q127.9053,128.0825 127.2744,128.0825 Q125.9297,128.0825 125.2449,129.1492 Q124.5601,130.2158 124.5601,132.3159 Q124.5601,134.4077 125.2449,135.4744 Q125.9297,136.541 127.2744,136.541 Q127.9053,136.541 128.4988,136.2712 Q129.0923,136.0015 129.7231,135.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="148" x="147.75" y="136.5352">CreateTestTypeController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="61.5" x2="349.5" y1="148" y2="148"/><line style="stroke:#A80036;stroke-width:1.0;" x1="61.5" x2="349.5" y1="156" y2="156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="278" x="66.5" y="170.6348">+newTestType(code, description, collectingMethod)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="66.5" y="183.5898">+registerTestType()</text><!--MD5=[69134a8957932d955e1f822b15ec4b1c]
+link CreateTestTypeUI to CreateTestTypeController--><path codeLine="54" d="M205.5,55.14 C205.5,70.83 205.5,92 205.5,110.55 " fill="none" id="CreateTestTypeUI-to-CreateTestTypeController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="205.5,115.71,209.5,106.71,205.5,110.71,201.5,106.71,205.5,115.71" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f69b4b1b6386d57e5bbaf921bac8331d]
+link CreateTestTypeController to Administrator--><path codeLine="55" d="M185.59,190.14 C176.38,206.87 165.18,227.19 154.74,246.15 " fill="none" id="CreateTestTypeController-to-Administrator" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="152.11,250.94,159.9626,244.9955,154.5273,246.5632,152.9596,241.1279,152.11,250.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[71159b3869b6d7a411768e18bcaa697a]
+link Administrator to TestType--><path codeLine="56" d="M159.55,364.02 C170.53,379.46 182.73,396.08 194.5,411 C201.18,419.47 208.29,428.17 215.51,436.77 " fill="none" id="Administrator-to-TestType" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="219.06,440.99,216.3366,431.5252,215.845,437.1606,210.2096,436.6691,219.06,440.99" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="195.5" y="407.5684">create new</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="155.6998" y="384.4234">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="206.0603" y="430.2495">*</text><!--MD5=[5a82a387146907254b130c6b1980ca8f]
+link CreateTestTypeController to TestType--><path codeLine="57" d="M226.91,190.14 C236.5,207.91 247.08,229.97 253.5,251 C271.89,311.25 280.89,381.93 285.29,435.72 " fill="none" id="CreateTestTypeController-to-TestType" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="285.71,440.87,289.0039,431.5883,285.3243,435.8849,281.0277,432.2053,285.71,440.87" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8f7dd94d56b58fc07b233ccd3dd98f8c]
+link Administrator to Employee--><path codeLine="58" d="M108.1,364.07 C101.04,393.34 92.37,429.29 85.14,459.29 " fill="none" id="Administrator-to-Employee" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="83.9,464.44,89.8986,456.6287,85.0723,459.5794,82.1216,454.753,83.9,464.44" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="11" x="102.5" y="407.5684">is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="97.9794" y="384.4795">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="79.2325" y="453.835">*</text><!--MD5=[22fb9506fac029fc1d2ae00f0eb8d606]
+link Employee to User--><path codeLine="59" d="M70.5,577.75 C70.5,607.34 70.5,643.54 70.5,672.88 " fill="none" id="Employee-to-User" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="70.5,677.9,74.5,668.9,70.5,672.9,66.5,668.9,70.5,677.9" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="71.5" y="644.5684">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="49.3438" y="597.7782">0.1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="61.9375" y="667.4028">1</text><!--MD5=[a646576cd191eef79773577ec179c458]
+@startuml
+skinparam classAttributeIconSize 0
+
+class Administrator
+{
+  -int idEmployee
+  -String soc
+  - -
+  +newTestType(Type, collectingMethods)
+  +validate(TestType)
+  +saveTestType()
+}
+
+class TestType
+{
+  -String code
+  -String description
+  -String collectingMethod
+  __
+  +TestType(code, description, collectingMethod)
+}
+
+class User {
+  -name
+  -email
+  -password
+  +login()
+}
+class Employee{
+  -String name
+  -String function
+  -String phone
+  -String adress
+  -String email
+}
+
+class TestType {
+  -String code
+  -String description
+  -String collectingMethod
+  - -
+  +getTestType()
+}
+
+class CreateTestTypeUI {
+}
+
+class CreateTestTypeController {
+  - -
+  +newTestType(code, description, collectingMethod)
+  +registerTestType()
+}
+
+
+CreateTestTypeUI ..> CreateTestTypeController
+CreateTestTypeController ..> Administrator
+Administrator "1" - -> "*" TestType : create new
+CreateTestTypeController ..> TestType
+Administrator "1" - -> "*" Employee : is
+Employee "0.1" - -> "1" User : has
+
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 07:25:05 BRT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: PT
+--></g></svg>

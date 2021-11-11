@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.employee.coordinator.GraphPerformanceReportUI">
+    <children>
+      <Button fx:id="simpleBtn" layoutX="492.0" layoutY="25.0" mnemonicParsing="false" onAction="#returnBtn" prefHeight="30.0" prefWidth="72.0" text="Return">
+         <font>
+            <Font name="Verdana Bold" size="9.0" />
+         </font>
+      </Button>
+      <Label fx:id="titleLbl" layoutX="41.0" layoutY="28.0" text="Performance Report Graphs and Statistics">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Label>
+      <LineChart fx:id="lineChart" layoutX="37.0" layoutY="51.0" prefHeight="244.0" prefWidth="527.0" title="Time Line">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="2" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <TextArea fx:id="resultText" layoutX="67.0" layoutY="307.0" prefHeight="60.0" prefWidth="491.0" />
+    </children>
+</AnchorPane>

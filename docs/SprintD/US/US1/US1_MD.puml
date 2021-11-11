@@ -1,0 +1,33 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+
+class Company{
+-chemicalLab
+}
+
+class Client{
+-citizenCardNumber
+-healthCareService
+-tin
+-birthdate
+-name
+-phoneNumber
+-sex
+}
+
+class Test{
+-tin
+-idTest
+-nhsCode
+-creationDate
+-state
+}
+
+Company "1" -- "*" Client : can access the information of >
+Company "1" -- "*" Test : performs >
+Client "1" -- "*" Test : asks for >
+
+@enduml

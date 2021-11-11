@@ -1,0 +1,99 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class RegisterEmployeeUI{
+}
+
+class RegisterEmployeeController{
+    +authenticate(email, password)
+}
+
+class AuthFacade{
+  +getCurrentUserSession()
+  +existUser(email)
+}
+
+class UserSession
+{
+  +isLoggedInWithRole(id)
+}
+
+class Administrator{
++createReceptionist(name, address, phone number, email, soc, role)
++createLaboratoryCoordinator(name, address, phone number, email, soc, role)
++createSpecialistDoctor(name, address, phone number, email, soc, role,doctorIndexNumber)
++createChemistryTechnologist(name, address, phone number, email, soc, role)
++createAdministrator(name, address, phone number, email, soc, role)
++saveReceptionist(emp)
++saveLaboratoryCoordinator(emp)
++saveChemistryTechnologist(emp)
++saveReceptionist(emp)
++saveAdministrator(emp)
+}
+
+class Employee{
+  -String name
+  -String function
+  -Int phoneNumber
+  -String email
+  -String address
+}
+
+class employeeStore{
+  +getEmployee()
+  +addEmployee(emp)
+}
+
+class Platform {
+  -String designation
+  +getEmployees()
+  +addEmployee()
+}
+
+class Receptionist{
+
+}
+
+class LaboratoryCoordinator{
+
+}
+
+class SpecialistDoctor{
+
+}
+
+class ChemistryTechnologist{
+}
+
+class MedicalLabTechnicians{
+}
+
+
+RegisterEmployeeUI ..> RegisterEmployeeController
+RegisterEmployeeController ..> AuthFacade
+RegisterEmployeeController ..> UserSession
+RegisterEmployeeController ..> Administrator
+Administrator ..> Platform
+Administrator --> Employee
+Employee --> Platform
+Platform ..> employeeStore
+Administrator ..> Receptionist
+Receptionist ..> Platform
+Receptionist --> Employee
+
+Administrator ..> LaboratoryCoordinator
+LaboratoryCoordinator ..> Platform
+LaboratoryCoordinator --> Employee
+
+Administrator ..> ChemistryTechnologist
+ChemistryTechnologist ..> Platform
+ChemistryTechnologist --> Employee
+
+Administrator ..> SpecialistDoctor
+SpecialistDoctor ..> Platform
+SpecialistDoctor --> Employee
+
+Administrator ..> MedicalLabTechnicians
+MedicalLabTechnicians ..> Platform
+MedicalLabTechnicians --> Employee
+@enduml

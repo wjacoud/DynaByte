@@ -1,0 +1,120 @@
+@startuml
+autonumber
+'hide footbox
+actor "laboratory coordinator" as ADM
+
+participant ":PerformanceReportUI" as UI
+participant ":GraphPerformanceReportUI" as GUI
+participant ":PerformanceReportController" as CTRL
+participant ":Company" as _APP
+participant ":TestStore" as TS
+participant ":Test" as T
+participant ":TestReport" as TR
+participant ":ClientsStore" as CS
+participant ":Client" as C
+participant ":PerformanceReportStore" as PRS
+participant "obj : PerformanceReport" as PR
+participant "obj : PerformanceData" as PD
+participant ":PerformanceAlgorithms" as PA
+participant ":External Module" as EM
+
+
+activate ADM
+ADM -> UI : asks to create a Performance Report
+activate UI
+UI -> CTRL : createReport(startDate, endDate, algorithm)
+activate CTRL
+
+CTRL -> _APP : getTestStore()
+activate _APP
+deactivate _APP
+CTRL -> _APP : getClientStore()
+activate _APP
+deactivate _APP
+CTRL -> TS : getTestList()
+LOOP for each test
+activate TS
+TS -> T : getTest()
+deactivate TS
+activate T
+
+T -> TR : getTestReport()
+activate TR
+
+
+CTRL -> T : getDate()
+CTRL -> T : getResultDate()
+CTRL -> TR : getDiagnosticDate()
+deactivate TR
+CTRL -> T : getValidationDate()
+CTRL -> CS : getClientList()
+LOOP for each client
+activate CS
+deactivate CS
+CTRL -> T : getTin()
+CTRL -> C : getTin()
+activate C
+deactivate C
+|||
+END LOOP
+deactivate C
+deactivate T
+END LOOP
+
+CTRL ->CTRL : createBasicPeriodicDataList(start, data, periods)
+create PD
+CTRL ->PD : PerformanceData(date, newTests, newResults, newDiagnostics, newValidations)
+alt algorithm (Brute Force)
+CTRL ->PA : bruteForceAlgorithm(sequence)
+activate PA
+PA -->CTRL : subSeqMax
+deactivate PA
+|||
+else algorithm (Benchmark ISEP algorithm)
+CTRL ->EM : Sum.Max(sequence)
+activate EM
+EM -->CTRL : subSeqMax
+deactivate EM
+|||
+end
+CTRL ->_APP : getPerformanceReportStore()
+activate _APP
+deactivate _APP
+CTRL ->PRS : createPerformanceReport(performanceReportNumber, Start, End, LessEffStart, LessEffEnd, PeriodicList, Growth, totalClients,  Seq, subSeqMax)
+activate PRS
+create PR
+PRS ->PR : createPerformanceReport()
+deactivate PRS
+
+CTRL --> UI : (Check)
+deactivate CTRL
+UI -> CTRL : getDataPerformanceReportSummary()
+activate CTRL
+CTRL -> PR : getDataPerformanceReportSummary()
+deactivate CTRL
+UI --> ADM : Shows Summary and asks to confirm
+deactivate UI
+ADM -> UI : confirm
+activate UI
+UI -> CTRL : savePerformanceReport()
+activate CTRL
+CTRL -> PRS : savePerformanceReport()
+deactivate CTRL
+UI -> GUI : Switch to
+deactivate UI
+activate GUI
+GUI -> CTRL : getDataPerformanceReport()
+activate CTRL
+CTRL -> PRS : getDataPerformanceReport()
+activate PRS
+PRS -> PR : getDataPerformanceReport()
+deactivate PRS
+deactivate CTRL
+GUI --> ADM : shows all graphs and informations
+deactivate GUI
+|||
+deactivate ADM
+
+
+
+@enduml

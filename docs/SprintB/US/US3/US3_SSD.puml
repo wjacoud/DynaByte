@@ -1,0 +1,37 @@
+@startuml
+autonumber
+actor "Receptionist" as RC
+participant ":System" as SYSTEM
+
+activate RC
+RC -> SYSTEM : asks to create a new client
+activate SYSTEM
+
+|||
+SYSTEM --> RC : requests client data (citizenNumber, healthcareNumber, birthDate, tin, name, phoneNumber, sex)
+deactivate SYSTEM
+
+|||
+RC -> SYSTEM : types the client data
+activate SYSTEM
+|||
+SYSTEM --> RC : shows all client data and requests confirmation
+deactivate SYSTEM
+
+|||
+RC -> SYSTEM : confirms the client data
+activate SYSTEM
+|||
+SYSTEM --> RC : requests the user data (email)
+deactivate SYSTEM
+
+|||
+RC -> SYSTEM : types the user data
+activate SYSTEM
+|||
+SYSTEM --> RC : informs operation success
+deactivate SYSTEM
+
+deactivate RC
+
+@enduml

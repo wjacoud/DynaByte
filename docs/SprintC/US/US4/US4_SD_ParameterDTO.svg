@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="396.25px" preserveAspectRatio="none" style="width:1116px;height:396px;" version="1.1" viewBox="0 0 1116 396" width="1116.25px" zoomAndPan="magnify"><defs><filter height="300%" id="f1r0h7llqplne7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="254.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="63.125" y="64.5117"/><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="226.3184" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="296.875" y="92.4512"/><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="574.375" y="130.3906"/><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="730" y="205.8301"/><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="967.5" y="281.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="68.75" x2="68.75" y1="52.0117" y2="341.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="302.5" x2="302.5" y1="52.0117" y2="341.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="580.625" x2="580.625" y1="52.0117" y2="341.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="735.625" x2="735.625" y1="52.0117" y2="341.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="973.125" x2="973.125" y1="52.0117" y2="341.2695"/><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="121.25" x="6.25" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="15" y="33.1665">CreateTestUI</text><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="121.25" x="6.25" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="15" y="366.936">CreateTestUI</text><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="183.75" x="208.75" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="166.25" x="217.5" y="33.1665">CreateTestController</text><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="183.75" x="208.75" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="166.25" x="217.5" y="366.936">CreateTestController</text><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="92.5" x="531.875" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="75" x="540.625" y="33.1665">Company</text><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="92.5" x="531.875" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="75" x="540.625" y="366.936">Company</text><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="183.75" x="641.875" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="166.25" x="650.625" y="33.1665">par : ParameterStore</text><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="183.75" x="641.875" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="166.25" x="650.625" y="366.936">par : ParameterStore</text><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="256.25" x="843.125" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="238.75" x="851.875" y="33.1665">parMapper: ParameterMapper</text><rect fill="#FEFECE" filter="url(#f1r0h7llqplne7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="256.25" x="843.125" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="238.75" x="851.875" y="366.936">parMapper: ParameterMapper</text><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="254.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="63.125" y="64.5117"/><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="226.3184" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="296.875" y="92.4512"/><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="574.375" y="130.3906"/><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="730" y="205.8301"/><rect fill="#FFFFFF" filter="url(#f1r0h7llqplne7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="967.5" y="281.2695"/><polygon fill="#A80036" points="281.875,87.4512,294.375,92.4512,281.875,97.4512,286.875,92.4512" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="75.625" x2="289.375" y1="92.4512" y2="92.4512"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="84.375" y="86.3806">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="183.75" x="98.125" y="86.3806">parDto = getParameters()</text><polygon fill="#A80036" points="559.375,125.3906,571.875,130.3906,559.375,135.3906,564.375,130.3906" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="309.375" x2="566.875" y1="130.3906" y2="130.3906"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="318.125" y="124.3201">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="227.5" x="331.875" y="124.3201">parStore = getParameterStore()</text><polygon fill="#A80036" points="715,200.8301,727.5,205.8301,715,210.8301,720,205.8301" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="309.375" x2="722.5" y1="205.8301" y2="205.8301"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="318.125" y="199.7595">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="158.75" x="331.875" y="199.7595">par = getParameters()</text><polygon fill="#A80036" points="952.5,276.2695,965,281.2695,952.5,286.2695,957.5,281.2695" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="309.375" x2="960" y1="281.2695" y2="281.2695"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="318.125" y="275.199">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="138.75" x="331.875" y="275.199">parDto = toDto(par)</text><!--MD5=[3ca224726b6729eace38b4d542d7958d]
+@startuml
+autonumber
+'hide footbox
+
+
+participant "CreateTestUI" as UI
+participant "CreateTestController" as CCC
+participant "Company" as COMP
+participant "par : ParameterStore" as PAST
+participant "parMapper: ParameterMapper" as PARMAP
+
+
+
+
+activate UI
+UI -> CCC : parDto = getParameters()
+activate CCC
+CCC -> COMP : parStore = getParameterStore()
+activate COMP
+deactivate COMP
+CCC -> PAST : par = getParameters()
+activate PAST
+deactivate PAST
+CCC -> PARMAP : parDto = toDto(par)
+activate PARMAP
+deactivate PARMAP
+deactivate CCC
+deactivate UI
+
+
+@enduml
+
+@startuml
+autonumber
+
+
+participant "CreateTestUI" as UI
+participant "CreateTestController" as CCC
+participant "Company" as COMP
+participant "par : ParameterStore" as PAST
+participant "parMapper: ParameterMapper" as PARMAP
+
+
+
+
+activate UI
+UI -> CCC : parDto = getParameters()
+activate CCC
+CCC -> COMP : parStore = getParameterStore()
+activate COMP
+deactivate COMP
+CCC -> PAST : par = getParameters()
+activate PAST
+deactivate PAST
+CCC -> PARMAP : parDto = toDto(par)
+activate PARMAP
+deactivate PARMAP
+deactivate CCC
+deactivate UI
+
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

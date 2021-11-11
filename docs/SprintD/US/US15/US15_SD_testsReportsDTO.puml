@@ -1,0 +1,36 @@
+@startuml
+autonumber
+'hide footbox
+
+
+participant ":LabCoordinatorUI" as UI
+participant ":ValidateTestReportController" as CTRL
+participant ":Company" as _APP
+participant ":TestReportStore" as PCS
+participant ":TestReportMapper" as PM
+
+
+activate UI
+UI -> CTRL : trDto = testReportsToValidate()
+activate CTRL
+CTRL -> _APP : trStore = getTestStore()
+activate _APP
+deactivate _APP
+CTRL -> PCS : checkState("DIAGNOSED")
+|||
+activate PCS
+CTRL -> PCS : tr = testReportsToValidate()
+|||
+deactivate PCS
+CTRL -> PM : trDto = toDto(tr)
+activate PM
+deactivate PM
+
+deactivate CTRL
+deactivate UI
+
+
+
+
+
+@enduml

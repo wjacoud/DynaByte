@@ -1,0 +1,77 @@
+@startuml
+autonumber
+'hide footbox
+actor "Organization Employee" as ADM
+
+participant ":CheckTestUI" as UI
+participant ":CheckTestController" as CTRL
+participant "Company" as COMP
+participant "AuthFacade" as AUFA
+participant "ClientStore" as CS
+participant "TestStore" as TS
+participant "TestMapper" as TM
+participant "Test" as TEST
+
+activate ADM
+ADM -> UI : asks to see all the test data
+activate UI
+UI -> CTRL : getClientTests()
+activate CTRL
+
+CTRL -> COMP : getAuthFacade()
+activate COMP
+deactivate COMP
+
+CTRL -> AUFA : getUserSession()
+activate AUFA
+deactivate AUFA
+
+CTRL -> CTRL : email = getClientEmail()
+activate CTRL
+deactivate CTRL
+
+CTRL -> COMP : getClientStore()
+activate COMP
+deactivate COMP
+
+CTRL -> CS : client = getClientFromEmail(email)
+activate CS
+deactivate CS
+
+CTRL -> COMP : getTestStore()
+activate COMP
+deactivate COMP
+
+CTRL -> TS : testList = getTestList()
+activate TS
+deactivate TS
+
+CTRL -> CTRL : organizeList()
+activate CTRL
+deactivate CTRL
+
+CTRL -> TM : clientTestsDTO = toDTO(testList, client)
+activate TM
+deactivate TM
+
+CTRL --> UI : clientTestsDTO
+deactivate CTRL
+UI --> ADM : shows all tests of the client
+deactivate UI
+
+|||
+ADM -> UI : selects one test
+activate UI
+UI -> CTRL : getTestReport(idTest)
+activate CTRL
+
+CTRL -> TEST : getReport()
+activate TEST
+deactivate TEST
+
+deactivate CTRL
+UI --> ADM : shows the report of that test
+deactivate UI
+deactivate ADM
+
+@enduml

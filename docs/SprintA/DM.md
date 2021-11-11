@@ -1,0 +1,187 @@
+# OO Analysis #
+
+The construction process of the domain model is based on the client specifications, especially the nouns (for _concepts_) and verbs (for _relations_) used.
+
+## Rationale to identify domain conceptual classes ##
+
+### _Conceptual Class Category List_ ###
+
+**Business Transactions**
+
+* Analysis and Tests
+
+---
+
+**Transaction Line Items**
+
+* Samples
+
+---
+
+**Product/Service related to a Transaction or Transaction Line Item**
+
+* Blood Analysis
+* Covid-19 Tests
+
+---
+
+**Transaction Records**
+
+* Test Register to ChemistryTechnologist
+* Tests Results to Specialist Doctor
+* Diagnosis and Tests Results to Laboratory Coordinator
+* Diagnosis and Tests Results to client
+* Covid-19 Reports to NHS
+* Diary Reports to NHS
+
+---  
+
+**Roles of People or Organizations**
+
+* Client
+* Administrator
+* Receptionist
+* Medical Lab Technician
+* Clinical Chemistry Technologist
+* Specialist Doctor
+* Laboratory Coordinator
+
+---
+
+**Places**
+
+* Company's Headquarters
+* Chemical Laboratory
+* Clinical Analysis Laboratory
+
+---
+
+**Noteworthy Events**
+
+* Sample Identification
+* Sample Analysis
+* Test Validation
+
+---
+
+**Physical Objects**
+
+* Blood Sample
+* Swab Sample
+
+---
+
+**Descriptions of Things**
+
+* Type of Test
+* Parameters of Test
+* Category of Test
+
+---
+
+**Catalogs**
+
+*
+
+---
+
+**Containers**
+
+*
+
+---
+
+**Elements of Containers**
+
+*
+
+---
+
+**Organizations**
+
+* Many Labs
+* NHS
+
+---
+
+**Other External/Collaborating Systems**
+
+* NHS API
+* Module Automatic Validation
+* Barcode External API
+
+---
+
+**Records of finance, work, contracts, legal matters**
+
+* TestResults
+* Diagnosis
+* CovidReport
+* NHSReport
+
+---
+
+**Financial Instruments**
+
+*
+
+---
+
+**Documents mentioned/used to perform some work/**
+
+* Lab Order
+* Test Register
+
+---
+
+
+
+###**Rationale to identify associations between conceptual classes**###
+
+
+| Concept (A)         |  Association       |  Concept (B) |
+|----------           |:-------------:     |------:       |
+|AutomaticValidation | is used to | TestValidation |
+|BarcodeAPI | is used to | SampleIdentification |
+|Category | created by | Administrator |
+|ChemicalLab | gives sample | ChemistryTechnologist |
+|ChemicalLab | gives results and diagnosis | LaboratoryCoordinator |
+|ChemicalLab | sends sample to | SampleIdentification |
+|ChemicalLab | gives results | SpecialistDoctor |
+|ChemistryTechnologist | analysis sample | SampleAnalysis |
+|Client | is called by | MedicalLabTechnicians |
+|Client | registered by | Receptionist |
+|Client | asks for | Test |
+|ClinicalAnalysisLaboratory | employs | MedicalLabTechnicians |
+|Company | owns | ChemicalLab |
+|Company |owns | ClinicalAnalysisLaboratory |
+|Company |reports covid cases |CovidReport |
+|Company | reports | ReportNHS |
+|LaboratoryCoordinator | does | TestValidation |
+|MedicalLabTechnicians | collect | Sample |
+|NHSAPI | is used to |ReportNHS |
+|Notification | is received by | Client |
+|Parameters | presented under | Parameters_Category |
+|Parameters_Category | presented under | Category |
+|Sample | identifies sample | SampleIdentification|
+|SampleAnalysis | sends analysis | TestResults |
+|SpecialistDoctor | create Diagnosis | Diagnosis |
+|Test | registered by | Receptionist |
+|Test | request analysis for | Test_Parameters |
+|Test | is of | TypeTest |
+|Test_Parameters | request analysis for | Parameters |
+|TestValidation | create |Notification |
+
+
+
+
+
+
+
+
+## Domain Model
+
+![DM.svg](US6_MD.svg)
+
+
+

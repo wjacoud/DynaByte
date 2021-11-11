@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="730px" preserveAspectRatio="none" style="width:1206px;height:730px;" version="1.1" viewBox="0 0 1206 730" width="1206px" zoomAndPan="magnify"><defs><filter height="300%" id="f87buebvllxw2" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="558.6016" style="stroke:#A80036;stroke-width:1.0;" width="10" x="317" y="91.5703"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="322" y="190.2734"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="606" y="121.9219"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="94.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="606" y="525.25"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="715" y="255.625"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="128.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="825.5" y="340.9766"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="322" x2="322" y1="59.2188" y2="668.1719"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="611" x2="611" y1="59.2188" y2="668.1719"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="720" x2="720" y1="59.2188" y2="668.1719"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="830" x2="830" y1="59.2188" y2="668.1719"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="974.5" x2="974.5" y1="425.4375" y2="668.1719"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1120.5" x2="1120.5" y1="575.3594" y2="668.1719"/><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="46" x="297" y="22.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="304" y="44.1426">:Test</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="46" x="297" y="667.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="304" y="688.7051">:Test</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="112" x="553" y="22.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="560" y="44.1426">:TestParameter</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="112" x="553" y="667.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="560" y="688.7051">:TestParameter</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="679" y="22.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="686" y="44.1426">:TestType</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="679" y="667.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="686" y="688.7051">:TestType</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="115" x="771" y="22.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="778" y="44.1426">:ExternalModule</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="115" x="771" y="667.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="778" y="688.7051">:ExternalModule</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="116" x="914.5" y="667.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="944" y="688.7051">refValue:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="921.5" y="706.3145">ReferenceValue</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="148" x="1044.5" y="667.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="1085" y="688.7051">testResult:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="1051.5" y="706.3145">TestParameterResult</text><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="558.6016" style="stroke:#A80036;stroke-width:1.0;" width="10" x="317" y="91.5703"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="322" y="190.2734"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="606" y="121.9219"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="94.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="606" y="525.25"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="715" y="255.625"/><rect fill="#FFFFFF" filter="url(#f87buebvllxw2)" height="128.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="825.5" y="340.9766"/><ellipse cx="7.5" cy="90.8203" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="305,87.5703,315,91.5703,305,95.5703,309,91.5703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="12" x2="311" y1="91.5703" y2="91.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="15" y="86.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="279" x="26" y="86.7139">addTestParameterResult(parameterCode, result)</text><polygon fill="#A80036" points="594,117.9219,604,121.9219,594,125.9219,598,121.9219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="327" x2="600" y1="121.9219" y2="121.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="334" y="117.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="345" y="117.0654">getParameterList()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="332" x2="374" y1="182.2734" y2="182.2734"/><line style="stroke:#A80036;stroke-width:1.0;" x1="374" x2="374" y1="182.2734" y2="195.2734"/><line style="stroke:#A80036;stroke-width:1.0;" x1="333" x2="374" y1="195.2734" y2="195.2734"/><polygon fill="#A80036" points="343,191.2734,333,195.2734,343,199.2734,339,195.2734" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="339" y="177.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="248" x="350" y="177.417">parameter = getParameter(parameterCode)</text><polygon fill="#A80036" points="703,251.625,713,255.625,703,259.625,707,255.625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="327" x2="709" y1="255.625" y2="255.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="334" y="250.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="345" y="250.7686">getExternalModule()</text><polygon fill="#A80036" points="813.5,336.9766,823.5,340.9766,813.5,344.9766,817.5,340.9766" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="327" x2="819.5" y1="340.9766" y2="340.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="334" y="336.1201">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="175" x="345" y="336.1201">getReferenceValue(parameter)</text><rect fill="#FBFB77" filter="url(#f87buebvllxw2)" height="24" style="stroke:#A80036;stroke-width:1.0;" width="219" x="721" y="353.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="211" x="725" y="371.4717">somehow it creates the below object</text><polygon fill="#A80036" points="902.5,401.6797,912.5,405.6797,902.5,409.6797,906.5,405.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="835.5" x2="908.5" y1="405.6797" y2="405.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="842.5" y="400.8232">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="853.5" y="400.8232">create()</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="116" x="914.5" y="383.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="944" y="404.8613">refValue:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="921.5" y="422.4707">ReferenceValue</text><polygon fill="#A80036" points="338,465.8984,328,469.8984,338,473.8984,334,469.8984" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="332" x2="829.5" y1="469.8984" y2="469.8984"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="344" y="465.042">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="47" x="355" y="465.042">refValue</text><polygon fill="#A80036" points="594,521.25,604,525.25,594,529.25,598,525.25" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="327" x2="600" y1="525.25" y2="525.25"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="334" y="520.3936">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="345" y="520.3936">addResult(parameterCode, result, refValue)</text><polygon fill="#A80036" points="1032.5,551.6016,1042.5,555.6016,1032.5,559.6016,1036.5,555.6016" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="616" x2="1038.5" y1="555.6016" y2="555.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="623" y="550.7451">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="223" x="634" y="550.7451">create(parameterCode, result,refValue)</text><rect fill="#FEFECE" filter="url(#f87buebvllxw2)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="148" x="1044.5" y="533.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="1085" y="554.7832">testResult:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="1051.5" y="572.3926">TestParameterResult</text><polygon fill="#A80036" points="338,615.8203,328,619.8203,338,623.8203,334,619.8203" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="332" x2="610" y1="619.8203" y2="619.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="344" y="614.9639">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="14" x="362" y="614.9639">ok</text><polygon fill="#A80036" points="16.5,646.1719,6.5,650.1719,16.5,654.1719,12.5,650.1719" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="14.5" x2="321" y1="650.1719" y2="650.1719"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="17" y="645.3154">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="14" x="35" y="645.3154">ok</text><!--MD5=[842a9442d919ebacd81c1670739ab65e]
+@startuml
+'httTP://plantuml.com/sequence-diagram
+
+autonumber
+participant ":Test" as Test
+participant ":TestParameter" as TP
+participant ":TestType" as TestTy
+participant ":ExternalModule" as ExMod
+participant "refValue:\nReferenceValue" as RefVal
+participant "testResult:\nTestParameterResult" as TestParamRes
+
+[o-> Test: addTestParameterResult(parameterCode, result)
+activate Test
+Test -> TP: getParameterList()
+activate TP
+deactivate TP
+
+Test -> Test : parameter = getParameter(parameterCode)
+activate Test
+deactivate Test
+
+Test -> TestTy: getExternalModule()
+activate TestTy
+deactivate
+
+|||
+Test -> ExMod: getReferenceValue(parameter)
+activate ExMod
+rnote over ExMod : somehow it creates the below object
+ExMod -> RefVal**: create()
+ExMod - -> Test: refValue
+deactivate
+
+|||
+Test -> TP : addResult(parameterCode, result, refValue)
+activate TP
+TP -> TestParamRes**:  create(parameterCode, result,refValue)
+return ok
+return ok
+
+
+@enduml
+
+@startuml
+
+autonumber
+participant ":Test" as Test
+participant ":TestParameter" as TP
+participant ":TestType" as TestTy
+participant ":ExternalModule" as ExMod
+participant "refValue:\nReferenceValue" as RefVal
+participant "testResult:\nTestParameterResult" as TestParamRes
+
+[o-> Test: addTestParameterResult(parameterCode, result)
+activate Test
+Test -> TP: getParameterList()
+activate TP
+deactivate TP
+
+Test -> Test : parameter = getParameter(parameterCode)
+activate Test
+deactivate Test
+
+Test -> TestTy: getExternalModule()
+activate TestTy
+deactivate
+
+|||
+Test -> ExMod: getReferenceValue(parameter)
+activate ExMod
+rnote over ExMod : somehow it creates the below object
+ExMod -> RefVal**: create()
+ExMod - -> Test: refValue
+deactivate
+
+|||
+Test -> TP : addResult(parameterCode, result, refValue)
+activate TP
+TP -> TestParamRes**:  create(parameterCode, result,refValue)
+return ok
+return ok
+
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

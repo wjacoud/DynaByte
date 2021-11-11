@@ -1,0 +1,29 @@
+@startuml
+autonumber
+'hide footbox
+
+participant ":UpdateClientController" as UCC
+participant ":Client" as CL
+
+activate UCC
+
+UCC -> CL : setAddress(address)
+activate CL
+
+
+
+UCC -> CL : setName(data)
+
+
+
+UCC -> CL : setPhoneNumber(data)
+
+
+
+
+
+
+
+UCC -> CL : setSex(data)
+
+@enduml

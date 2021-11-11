@@ -1,0 +1,196 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as AD
+
+participant ":RegisterEmployeeUI" as REUI
+participant ":RegisterEmployeeController" as REC
+participant "Administrator" as ADMIN
+participant "LRoles :List<OrgRole>" as LROLE
+participant "Employee :Receptionist" as RECP
+participant "Employee :LaboratoryCoordinator" as LC
+participant "Employee :MedicalLabTechnicians" as MLT
+participant "Employee :ChemistryTechnologist" as CT
+participant "Employee :Administrator" as EMPAD
+participant "Employee :SpecialistDoctor" as SD
+
+participant "ReceptionistStore" as RECPSTORE
+participant "LaboratoryCoordinatorStore" as LCSTORE
+participant "MedicalLabTechniciansStore" as MLTSTORE
+participant "ChemistryTechnologistStore" as CTSTORE
+participant "AdministratorStore" as EMPADSTORE
+participant "SpecialistDoctorStore" as SDSTORE
+
+
+
+activate AD
+
+AD -> REUI : asks to create a new Employee
+activate REUI
+
+
+'REUI -> REC : authenticate(email, password)
+'activate REC
+'activate AF
+'REC -> AF : doLogin(email, password)
+'REC -> AF : session = getCurrentSession()
+'deactivate AF
+
+'REC -> US : session.isLoggedInWithRole(id)
+'activate US
+'
+'US --> REC : result
+'
+'deactivate US
+'REC --> REUI: result
+'deactivate REC
+
+deactivate REC
+
+REUI -> AD : asks to select the employee role
+
+deactivate REUI
+
+AD -> REUI : select the intended role
+activate REUI
+
+
+REUI -> AD : Requests data (name, address, phone number, email, soc, role, ...)
+
+deactivate REUI
+
+
+AD -> REUI : types requests data
+activate REUI
+
+REUI -> REC : addEmployee(name, address, phone number, email, soc, role, ...)
+
+activate REC
+
+REC -> ADMIN : emp = addEmployee(name, address, phone number, email, soc, role, ...)
+
+activate ADMIN
+
+
+
+alt role = Receptionist
+
+ADMIN -> RECP** : createReceptionist(name, address, phone number, email, soc, role)
+
+
+else role = LaboratoryCoordinator
+
+ADMIN -> LC** : LaboratoryCoordinator(name, address, phone number, email, soc, role)
+
+else role = MedicalLabTechnicians
+
+ADMIN -> MLT** : createMedicalLabTechnicians(name, address, phone number, email, soc, role)
+
+else role = ChemistryTechnologist
+
+ADMIN -> CT** : createMedicalLabTechnicians(name, address, phone number, email, soc, role)
+
+else role = Administrator
+
+ADMIN -> EMPAD** : createAdministrator(name, address, phone number, email, soc, role)
+
+else role = SpecialistDoctor
+
+ADMIN -> SD** : createSpecialistDoctor(name, address, phone number, email, soc, role,doctorIndexNumber)
+end
+
+ADMIN --> REC : result
+
+
+REC --> REUI : result
+
+
+deactivate ADMIN
+
+deactivate REC
+
+
+
+REUI -> AD : Asks to confirm data
+deactivate REUI
+
+AD -> REUI : Confirms data
+activate REUI
+
+REUI -> REC : saveEmployee(emp)
+activate REC
+
+REC -> ADMIN : saveEmployee(emp)
+activate ADMIN
+
+
+
+
+alt role = Receptionist
+
+ADMIN -> ADMIN : validateReceptionist(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> RECPSTORE** : addReceptionist(emp)
+
+else role = LaboratoryCoordinator
+
+ADMIN -> ADMIN : validateLaboratoryCoordinator(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> LCSTORE** : addLaboratoryCoordinator(emp)
+
+else role = MedicalLabTechnicians
+
+ADMIN -> ADMIN : validateMedicalLabTechnicians(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> MLTSTORE** : addMedicalLabTechnicians(emp)
+
+else role = ChemistryTechnologist
+
+ADMIN -> ADMIN : validateChemistryTechnologist(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> CTSTORE** : addChemistryTechnologist(emp)
+
+else role = Administrator
+
+ADMIN -> ADMIN : validateAdministrator(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN ->  EMPADSTORE** : addAdministrator(emp)
+
+else role = SpecialistDoctor
+
+ADMIN -> ADMIN : validateSpecialistDoctor(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> SDSTORE** : addSpecialistDoctor(emp)
+end
+
+
+
+
+
+
+
+activate ADMIN
+deactivate ADMIN
+
+ADMIN --> REC : result
+
+REC --> REUI : result
+
+deactivate REC
+deactivate ADMIN
+
+REUI -> AD : Informs operation success
+deactivate REUI
+
+
+
+
+
+
+@enduml

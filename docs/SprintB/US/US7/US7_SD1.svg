@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2186.31px" preserveAspectRatio="none" style="width:4181px;height:2186px;" version="1.1" viewBox="0 0 4181 2186" width="4181.22px" zoomAndPan="magnify"><defs><filter height="300%" id="f43zlrsyuwi2l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.74"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.48" dy="3.48" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="2017.8902" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="38.715" y="86.6602"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="557.3709" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="422.385" y="106.106"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="26.4059" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="422.385" y="689.8828"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="472.3624" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="422.385" y="742.6945"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="855.2576" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="422.385" y="1241.4628"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="504.5592" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="793.875" y="132.5119"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="419.5507" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="793.875" y="769.1004"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="802.4459" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="793.875" y="1267.8687"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="116.2062" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1201.035" y="158.9177"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="393.1448" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1201.035" y="795.5063"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="730.1883" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1201.035" y="1294.2745"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1349.6963"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1467.8395"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1585.9828"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1704.1261"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1822.2694"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1940.4127"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="342.5013" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1421.145" y="294.5698"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="26.1" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1605.585" y="383.5816"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="26.1" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1883.115" y="552.0694"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="56.516" style="stroke:#000000;stroke-width:1.74;" width="533.745" x="1152.75" y="212.5179"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="236.9595" style="stroke:#000000;stroke-width:1.74;" width="612.48" x="1370.685" y="348.1699"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="328.1531" style="stroke:#000000;stroke-width:1.74;" width="1950.105" x="1152.75" y="808.5563"/><rect fill="#FFFFFF" height="54.3274" style="stroke:none;stroke-width:0.87;" width="1950.105" x="1152.75" y="865.0723"/><rect fill="#FFFFFF" height="54.3274" style="stroke:none;stroke-width:0.87;" width="1950.105" x="1152.75" y="919.3997"/><rect fill="#FFFFFF" height="54.3274" style="stroke:none;stroke-width:0.87;" width="1950.105" x="1152.75" y="973.7271"/><rect fill="#FFFFFF" height="54.3274" style="stroke:none;stroke-width:0.87;" width="1950.105" x="1152.75" y="1028.0545"/><rect fill="#FFFFFF" height="54.3274" style="stroke:none;stroke-width:0.87;" width="1950.105" x="1152.75" y="1082.382"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="711.0483" style="stroke:#000000;stroke-width:1.74;" width="2881.875" x="1152.75" y="1307.3245"/><rect fill="#FFFFFF" height="118.1433" style="stroke:none;stroke-width:0.87;" width="2881.875" x="1152.75" y="1427.6564"/><rect fill="#FFFFFF" height="118.1433" style="stroke:none;stroke-width:0.87;" width="2881.875" x="1152.75" y="1545.7997"/><rect fill="#FFFFFF" height="118.1433" style="stroke:none;stroke-width:0.87;" width="2881.875" x="1152.75" y="1663.943"/><rect fill="#FFFFFF" height="118.1433" style="stroke:none;stroke-width:0.87;" width="2881.875" x="1152.75" y="1782.0863"/><rect fill="#FFFFFF" height="118.1433" style="stroke:none;stroke-width:0.87;" width="2881.875" x="1152.75" y="1900.2295"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="42.63" x2="42.63" y1="77.9602" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="426.3" x2="426.3" y1="77.9602" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="797.79" x2="797.79" y1="77.9602" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="1204.95" x2="1204.95" y1="77.9602" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="1425.495" x2="1425.495" y1="77.9602" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="1609.935" x2="1609.935" y1="257.4588" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="1738.695" x2="1738.695" y1="521.0484" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="1887.465" x2="1887.465" y1="330.5048" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="2055.375" x2="2055.375" y1="853.4972" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="2237.205" x2="2237.205" y1="907.8246" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="2449.485" x2="2449.485" y1="962.152" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="2661.765" x2="2661.765" y1="1016.4795" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="2845.335" x2="2845.335" y1="1070.8069" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="3011.505" x2="3011.505" y1="1125.1343" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="3159.405" x2="3159.405" y1="1416.0813" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="3309.915" x2="3309.915" y1="1534.2246" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="3490.875" x2="3490.875" y1="1652.3679" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="3671.835" x2="3671.835" y1="1770.5112" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="3824.085" x2="3824.085" y1="1888.6545" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="3958.935" x2="3958.935" y1="2006.7977" y2="2112.3804"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:5.0,5.0;" x1="4103.355" x2="4103.355" y1="77.9602" y2="2112.3804"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="72.21" x="4.35" y="75.2839">Administrator</text><ellipse cx="43.065" cy="13.05" fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" rx="6.96" ry="6.96" style="stroke:#A80036;stroke-width:1.74;"/><path d="M43.065,20.01 L43.065,43.5 M31.755,26.97 L54.375,26.97 M43.065,43.5 L31.755,56.55 M43.065,43.5 L54.375,56.55 " fill="none" filter="url(#f43zlrsyuwi2l)" style="stroke:#A80036;stroke-width:1.74;"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="72.21" x="4.35" y="2124.1543">Administrator</text><ellipse cx="43.065" cy="2135.5305" fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" rx="6.96" ry="6.96" style="stroke:#A80036;stroke-width:1.74;"/><path d="M43.065,2142.4905 L43.065,2165.9805 M31.755,2149.4505 L54.375,2149.4505 M43.065,2165.9805 L31.755,2179.0305 M43.065,2165.9805 L54.375,2179.0305 " fill="none" filter="url(#f43zlrsyuwi2l)" style="stroke:#A80036;stroke-width:1.74;"/><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="126.15" x="361.92" y="46.11"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="113.97" x="368.01" y="64.8439">:RegisterEmployeeUI</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="126.15" x="361.92" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="113.97" x="368.01" y="2130.2443">:RegisterEmployeeUI</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="169.65" x="711.66" y="46.11"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="157.47" x="717.75" y="64.8439">:RegisterEmployeeController</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="169.65" x="711.66" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="157.47" x="717.75" y="2130.2443">:RegisterEmployeeController</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="84.39" x="1161.45" y="46.11"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="72.21" x="1167.54" y="64.8439">Administrator</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="84.39" x="1161.45" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="72.21" x="1167.54" y="2130.2443">Administrator</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="88.74" x="1379.385" y="46.11"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="76.56" x="1385.475" y="64.8439">:RolesMapper</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="88.74" x="1379.385" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="76.56" x="1385.475" y="2130.2443">:RolesMapper</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="132.24" x="1542.075" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="120.06" x="1548.165" y="2130.2443">IRoles :List&lt;OrgRole&gt;</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="101.79" x="1686.495" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="89.61" x="1692.585" y="2130.2443">dto :OrgRoleDto</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="170.52" x="1800.465" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="158.34" x="1806.555" y="2130.2443">IRolesDto :List&lt;OrgRoleDto&gt;</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="140.94" x="1983.165" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="128.76" x="1989.255" y="2130.2443">Employee :Receptionist</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="198.36" x="2136.285" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="186.18" x="2142.375" y="2130.2443">Employee :LaboratoryCoordinator</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="201.84" x="2346.825" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="189.66" x="2352.915" y="2130.2443">Employee :MedicalLabTechnicians</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="198.36" x="2560.845" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="186.18" x="2566.935" y="2130.2443">Employee :ChemistryTechnologist</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="145.29" x="2771.385" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="133.11" x="2777.475" y="2130.2443">Employee :Administrator</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="161.82" x="2928.855" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="149.64" x="2934.945" y="2130.2443">Employee :SpecialistDoctor</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="109.62" x="3102.855" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="97.44" x="3108.945" y="2130.2443">ReceptionistStore</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="167.04" x="3224.655" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="154.86" x="3230.745" y="2130.2443">LaboratoryCoordinatorStore</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="170.52" x="3403.875" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="158.34" x="3409.965" y="2130.2443">MedicalLabTechniciansStore</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="167.04" x="3586.575" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="154.86" x="3592.665" y="2130.2443">ChemistryTechnologistStore</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="113.97" x="3765.795" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="101.79" x="3771.885" y="2130.2443">AdministratorStore</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="130.5" x="3891.945" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="118.32" x="3898.035" y="2130.2443">SpecialistDoctorStore</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="134.85" x="4034.625" y="46.11"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="122.67" x="4040.715" y="64.8439">empDto :EmployeeDto</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="134.85" x="4034.625" y="2111.5104"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="122.67" x="4040.715" y="2130.2443">empDto :EmployeeDto</text><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="2017.8902" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="38.715" y="86.6602"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="557.3709" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="422.385" y="106.106"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="26.4059" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="422.385" y="689.8828"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="472.3624" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="422.385" y="742.6945"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="855.2576" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="422.385" y="1241.4628"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="504.5592" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="793.875" y="132.5119"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="419.5507" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="793.875" y="769.1004"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="802.4459" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="793.875" y="1267.8687"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="116.2062" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1201.035" y="158.9177"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="393.1448" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1201.035" y="795.5063"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="730.1883" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1201.035" y="1294.2745"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1349.6963"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1467.8395"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1585.9828"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1704.1261"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1822.2694"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="24.36" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1205.385" y="1940.4127"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="342.5013" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1421.145" y="294.5698"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="26.1" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1605.585" y="383.5816"/><rect fill="#FFFFFF" filter="url(#f43zlrsyuwi2l)" height="26.1" style="stroke:#A80036;stroke-width:0.87;" width="8.7" x="1883.115" y="552.0694"/><polygon fill="#A80036" points="411.945,102.626,420.645,106.106,411.945,109.586,415.425,106.106" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="47.415" x2="417.165" y1="106.106" y2="106.106"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="6.09" x="53.505" y="101.8809">1</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="159.21" x="63.075" y="101.8809">asks to create a new Employee</text><polygon fill="#A80036" points="783.435,129.0319,792.135,132.5119,783.435,135.9919,786.915,132.5119" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="431.085" x2="788.655" y1="132.5119" y2="132.5119"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="6.09" x="437.175" y="128.2868">2</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="113.97" x="446.745" y="128.2868">IRolesDto = getRoles()</text><polygon fill="#A80036" points="1190.595,155.4377,1199.295,158.9177,1190.595,162.3977,1194.075,158.9177" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="802.575" x2="1195.815" y1="158.9177" y2="158.9177"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="6.09" x="808.665" y="154.6926">3</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="96.57" x="818.235" y="154.6926">IRoles = getRoles()</text><polygon fill="#A80036" points="1531.635,181.8436,1540.335,185.3236,1531.635,188.8036,1535.115,185.3236" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="1536.855" y1="185.3236" y2="185.3236"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="6.09" x="1215.825" y="181.0985">4</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="38.28" x="1225.395" y="181.0985">create()</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="132.24" x="1542.075" y="165.8777"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="120.06" x="1548.165" y="184.6116">IRoles :List&lt;OrgRole&gt;</text><path d="M1152.75,212.5179 L1216.26,212.5179 L1216.26,219.4779 L1207.56,228.1779 L1152.75,228.1779 L1152.75,212.5179 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.87;"/><rect fill="none" height="56.516" style="stroke:#000000;stroke-width:1.74;" width="533.745" x="1152.75" y="212.5179"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="24.36" x="1165.8" y="225.1286">loop</text><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="133.98" x="1229.31" y="224.1924">[until all roles are in the list]</text><polygon fill="#A80036" points="1531.635,244.4496,1540.335,247.9296,1531.635,251.4096,1535.115,247.9296" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="1536.855" y1="247.9296" y2="247.9296"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="6.09" x="1215.825" y="243.7045">5</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="67.86" x="1225.395" y="243.7045">AddRole(role)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="132.24" x="1542.075" y="228.4838"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="120.06" x="1548.165" y="247.2176">IRoles :List&lt;OrgRole&gt;</text><polygon fill="#A80036" points="1410.705,291.0898,1419.405,294.5698,1410.705,298.0498,1414.185,294.5698" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="802.575" x2="1415.925" y1="294.5698" y2="294.5698"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="6.09" x="808.665" y="290.3447">6</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="70.47" x="818.235" y="290.3447">toDTO(IRoles)</text><polygon fill="#A80036" points="1790.025,317.4956,1798.725,320.9756,1790.025,324.4556,1793.505,320.9756" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1429.845" x2="1795.245" y1="320.9756" y2="320.9756"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="6.09" x="1435.935" y="316.7505">7</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="38.28" x="1445.505" y="316.7505">create()</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="170.52" x="1800.465" y="301.5298"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="158.34" x="1806.555" y="320.2637">IRolesDto :List&lt;OrgRoleDto&gt;</text><path d="M1370.685,348.1699 L1434.195,348.1699 L1434.195,355.1299 L1425.495,363.8299 L1370.685,363.8299 L1370.685,348.1699 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.87;"/><rect fill="none" height="236.9595" style="stroke:#000000;stroke-width:1.74;" width="612.48" x="1370.685" y="348.1699"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="24.36" x="1383.735" y="360.7807">loop</text><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="121.8" x="1447.245" y="359.8444">[for each object in IRoles]</text><polygon fill="#A80036" points="1595.145,380.1016,1603.845,383.5816,1595.145,387.0616,1598.625,383.5816" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1429.845" x2="1600.365" y1="383.5816" y2="383.5816"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="6.09" x="1435.935" y="379.3565">8</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="57.42" x="1445.505" y="379.3565">role = get(i)</text><line style="stroke:#A80036;stroke-width:0.87;" x1="1429.845" x2="1466.385" y1="436.0875" y2="436.0875"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1466.385" x2="1466.385" y1="436.0875" y2="447.3975"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1430.715" x2="1466.385" y1="447.3975" y2="447.3975"/><polygon fill="#A80036" points="1439.415,443.9175,1430.715,447.3975,1439.415,450.8775,1435.935,447.3975" style="stroke:#A80036;stroke-width:0.87;"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="6.09" x="1435.935" y="431.8624">9</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="53.94" x="1445.505" y="431.8624">id = getId()</text><line style="stroke:#A80036;stroke-width:0.87;" x1="1429.845" x2="1466.385" y1="473.8034" y2="473.8034"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1466.385" x2="1466.385" y1="473.8034" y2="485.1134"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1430.715" x2="1466.385" y1="485.1134" y2="485.1134"/><polygon fill="#A80036" points="1439.415,481.6334,1430.715,485.1134,1439.415,488.5934,1435.935,485.1134" style="stroke:#A80036;stroke-width:0.87;"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1435.935" y="469.5783">10</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="147.9" x="1451.595" y="469.5783">description = getDescription()</text><polygon fill="#A80036" points="1676.055,508.0392,1684.755,511.5192,1676.055,514.9992,1679.535,511.5192" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1429.845" x2="1681.275" y1="511.5192" y2="511.5192"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1435.935" y="507.2941">11</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="105.27" x="1451.595" y="507.2941">create(id,description)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="101.79" x="1686.495" y="492.0734"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="89.61" x="1692.585" y="510.8072">dto :OrgRoleDto</text><polygon fill="#A80036" points="1872.675,548.5894,1881.375,552.0694,1872.675,555.5494,1876.155,552.0694" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1429.845" x2="1877.895" y1="552.0694" y2="552.0694"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1435.935" y="547.8443">12</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="40.89" x="1451.595" y="547.8443">add(dto)</text><polygon fill="#A80036" points="812.145,607.1852,803.445,610.6652,812.145,614.1452,808.665,610.6652" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="806.925" x2="1420.275" y1="610.6652" y2="610.6652"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="817.365" y="606.4401">13</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="48.72" x="833.025" y="606.4401">IRolesDto</text><polygon fill="#A80036" points="440.655,633.5911,431.955,637.0711,440.655,640.5511,437.175,637.0711" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="435.435" x2="797.355" y1="637.0711" y2="637.0711"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="445.875" y="632.846">14</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="48.72" x="461.535" y="632.846">IRolesDto</text><polygon fill="#A80036" points="56.985,659.997,48.285,663.477,56.985,666.957,53.505,663.477" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="51.765" x2="425.865" y1="663.477" y2="663.477"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="62.205" y="659.2518">15</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="164.43" x="77.865" y="659.2518">asks to select the employee role</text><polygon fill="#A80036" points="411.945,686.4028,420.645,689.8828,411.945,693.3628,415.425,689.8828" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="47.415" x2="417.165" y1="689.8828" y2="689.8828"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="53.505" y="685.6577">16</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="117.45" x="69.165" y="685.6577">select the intended role</text><polygon fill="#A80036" points="56.985,712.8087,48.285,716.2887,56.985,719.7687,53.505,716.2887" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="51.765" x2="425.865" y1="716.2887" y2="716.2887"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="62.205" y="712.0636">17</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="338.43" x="77.865" y="712.0636">Requests data (name, address, phone number, email, soc, role, ...)</text><polygon fill="#A80036" points="411.945,739.2145,420.645,742.6945,411.945,746.1745,415.425,742.6945" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="47.415" x2="417.165" y1="742.6945" y2="742.6945"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="53.505" y="738.4694">18</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="100.05" x="69.165" y="738.4694">types requests data</text><polygon fill="#A80036" points="783.435,765.6204,792.135,769.1004,783.435,772.5804,786.915,769.1004" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="431.085" x2="788.655" y1="769.1004" y2="769.1004"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="437.175" y="764.8753">19</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="330.6" x="452.835" y="764.8753">addEmployee(name, address, phone number, email, soc, role, ...)</text><polygon fill="#A80036" points="1190.595,792.0263,1199.295,795.5063,1190.595,798.9863,1194.075,795.5063" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="802.575" x2="1195.815" y1="795.5063" y2="795.5063"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="808.665" y="791.2811">20</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="366.27" x="824.325" y="791.2811">emp = addEmployee(name, address, phone number, email, soc, role, ...)</text><path d="M1152.75,808.5563 L1205.82,808.5563 L1205.82,815.5163 L1197.12,824.2163 L1152.75,824.2163 L1152.75,808.5563 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.87;"/><rect fill="none" height="328.1531" style="stroke:#000000;stroke-width:1.74;" width="1950.105" x="1152.75" y="808.5563"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="13.92" x="1165.8" y="821.167">alt</text><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="96.57" x="1218.87" y="820.2307">[role = Receptionist]</text><polygon fill="#A80036" points="1972.725,840.488,1981.425,843.968,1972.725,847.448,1976.205,843.968" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="1977.945" y1="843.968" y2="843.968"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="839.7429">21</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="338.43" x="1231.485" y="839.7429">createReceptionist(name, address, phone number, email, soc, role)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="140.94" x="1983.165" y="824.5221"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="128.76" x="1989.255" y="843.256">Employee :Receptionist</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="3102.855" y1="865.9423" y2="865.9423"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="146.16" x="1157.1" y="875.8767">[role = LaboratoryCoordinator]</text><polygon fill="#A80036" points="2125.845,894.8154,2134.545,898.2954,2125.845,901.7754,2129.325,898.2954" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="2131.065" y1="898.2954" y2="898.2954"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="894.0703">22</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="354.96" x="1231.485" y="894.0703">LaboratoryCoordinator(name, address, phone number, email, soc, role)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="198.36" x="2136.285" y="878.8495"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="186.18" x="2142.375" y="897.5834">Employee :LaboratoryCoordinator</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="3102.855" y1="920.2697" y2="920.2697"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="147.9" x="1157.1" y="930.2042">[role = MedicalLabTechnicians]</text><polygon fill="#A80036" points="2336.385,949.1428,2345.085,952.6228,2336.385,956.1028,2339.865,952.6228" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="2341.605" y1="952.6228" y2="952.6228"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="948.3977">23</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="393.24" x="1231.485" y="948.3977">createMedicalLabTechnicians(name, address, phone number, email, soc, role)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="201.84" x="2346.825" y="933.177"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="189.66" x="2352.915" y="951.9108">Employee :MedicalLabTechnicians</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="3102.855" y1="974.5971" y2="974.5971"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="149.64" x="1157.1" y="984.5316">[role = ChemistryTechnologist]</text><polygon fill="#A80036" points="2550.405,1003.4702,2559.105,1006.9502,2550.405,1010.4302,2553.885,1006.9502" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="2555.625" y1="1006.9502" y2="1006.9502"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="1002.7251">24</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="393.24" x="1231.485" y="1002.7251">createMedicalLabTechnicians(name, address, phone number, email, soc, role)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="198.36" x="2560.845" y="987.5044"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="186.18" x="2566.935" y="1006.2383">Employee :ChemistryTechnologist</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="3102.855" y1="1028.9245" y2="1028.9245"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="103.53" x="1157.1" y="1038.859">[role = Administrator]</text><polygon fill="#A80036" points="2760.945,1057.7977,2769.645,1061.2777,2760.945,1064.7577,2764.425,1061.2777" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="2766.165" y1="1061.2777" y2="1061.2777"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="1057.0525">25</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="342.78" x="1231.485" y="1057.0525">createAdministrator(name, address, phone number, email, soc, role)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="145.29" x="2771.385" y="1041.8318"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="133.11" x="2777.475" y="1060.5657">Employee :Administrator</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="3102.855" y1="1083.252" y2="1083.252"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="113.97" x="1157.1" y="1093.1864">[role = SpecialistDoctor]</text><polygon fill="#A80036" points="2918.415,1112.1251,2927.115,1115.6051,2918.415,1119.0851,2921.895,1115.6051" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="2923.635" y1="1115.6051" y2="1115.6051"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="1111.38">26</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="459.36" x="1231.485" y="1111.38">createSpecialistDoctor(name, address, phone number, email, soc, role,doctorIndexNumber)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="161.82" x="2928.855" y="1096.1592"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="149.64" x="2934.945" y="1114.8931">Employee :SpecialistDoctor</text><polygon fill="#A80036" points="812.145,1158.7652,803.445,1162.2452,812.145,1165.7252,808.665,1162.2452" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="806.925" x2="1200.165" y1="1162.2452" y2="1162.2452"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="817.365" y="1158.0201">27</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="27.84" x="833.025" y="1158.0201">result</text><polygon fill="#A80036" points="440.655,1185.1711,431.955,1188.6511,440.655,1192.1311,437.175,1188.6511" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="435.435" x2="797.355" y1="1188.6511" y2="1188.6511"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="445.875" y="1184.426">28</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="27.84" x="461.535" y="1184.426">result</text><polygon fill="#A80036" points="56.985,1211.577,48.285,1215.057,56.985,1218.537,53.505,1215.057" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="51.765" x2="425.865" y1="1215.057" y2="1215.057"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="62.205" y="1210.8318">29</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="104.4" x="77.865" y="1210.8318">Asks to confirm data</text><polygon fill="#A80036" points="411.945,1237.9828,420.645,1241.4628,411.945,1244.9428,415.425,1241.4628" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="47.415" x2="417.165" y1="1241.4628" y2="1241.4628"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="53.505" y="1237.2377">30</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="69.6" x="69.165" y="1237.2377">Confirms data</text><polygon fill="#A80036" points="783.435,1264.3887,792.135,1267.8687,783.435,1271.3487,786.915,1267.8687" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="431.085" x2="788.655" y1="1267.8687" y2="1267.8687"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="437.175" y="1263.6436">31</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="101.79" x="452.835" y="1263.6436">saveEmployee(emp)</text><polygon fill="#A80036" points="1190.595,1290.7945,1199.295,1294.2745,1190.595,1297.7545,1194.075,1294.2745" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="802.575" x2="1195.815" y1="1294.2745" y2="1294.2745"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="808.665" y="1290.0494">32</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="101.79" x="824.325" y="1290.0494">saveEmployee(emp)</text><path d="M1152.75,1307.3245 L1205.82,1307.3245 L1205.82,1314.2845 L1197.12,1322.9845 L1152.75,1322.9845 L1152.75,1307.3245 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.87;"/><rect fill="none" height="711.0483" style="stroke:#000000;stroke-width:1.74;" width="2881.875" x="1152.75" y="1307.3245"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="13.92" x="1165.8" y="1319.9353">alt</text><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="96.57" x="1218.87" y="1318.999">[role = Receptionist]</text><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.085" x2="1250.625" y1="1342.7363" y2="1342.7363"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1250.625" x2="1250.625" y1="1342.7363" y2="1354.0463"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.955" x2="1250.625" y1="1354.0463" y2="1354.0463"/><polygon fill="#A80036" points="1223.655,1350.5663,1214.955,1354.0463,1223.655,1357.5263,1220.175,1354.0463" style="stroke:#A80036;stroke-width:0.87;"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1220.175" y="1338.5111">33</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="128.76" x="1235.835" y="1338.5111">validateReceptionist(emp)</text><polygon fill="#A80036" points="3092.415,1403.0721,3101.115,1406.5521,3092.415,1410.0321,3095.895,1406.5521" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="3097.635" y1="1406.5521" y2="1406.5521"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="1402.327">34</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="109.62" x="1231.485" y="1402.327">addReceptionist(emp)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="109.62" x="3102.855" y="1387.1063"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="97.44" x="3108.945" y="1405.8401">ReceptionistStore</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="4034.625" y1="1428.5264" y2="1428.5264"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="146.16" x="1157.1" y="1438.4609">[role = LaboratoryCoordinator]</text><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.085" x2="1250.625" y1="1460.8795" y2="1460.8795"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1250.625" x2="1250.625" y1="1460.8795" y2="1472.1895"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.955" x2="1250.625" y1="1472.1895" y2="1472.1895"/><polygon fill="#A80036" points="1223.655,1468.7095,1214.955,1472.1895,1223.655,1475.6695,1220.175,1472.1895" style="stroke:#A80036;stroke-width:0.87;"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1220.175" y="1456.6544">35</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="176.61" x="1235.835" y="1456.6544">validateLaboratoryCoordinator(emp)</text><polygon fill="#A80036" points="3214.215,1521.2154,3222.915,1524.6954,3214.215,1528.1754,3217.695,1524.6954" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="3219.435" y1="1524.6954" y2="1524.6954"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="1520.4703">36</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="157.47" x="1231.485" y="1520.4703">addLaboratoryCoordinator(emp)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="167.04" x="3224.655" y="1505.2495"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="154.86" x="3230.745" y="1523.9834">LaboratoryCoordinatorStore</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="4034.625" y1="1546.6697" y2="1546.6697"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="147.9" x="1157.1" y="1556.6042">[role = MedicalLabTechnicians]</text><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.085" x2="1250.625" y1="1579.0228" y2="1579.0228"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1250.625" x2="1250.625" y1="1579.0228" y2="1590.3328"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.955" x2="1250.625" y1="1590.3328" y2="1590.3328"/><polygon fill="#A80036" points="1223.655,1586.8528,1214.955,1590.3328,1223.655,1593.8128,1220.175,1590.3328" style="stroke:#A80036;stroke-width:0.87;"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1220.175" y="1574.7977">37</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="183.57" x="1235.835" y="1574.7977">validateMedicalLabTechnicians(emp)</text><polygon fill="#A80036" points="3393.435,1639.3587,3402.135,1642.8387,3393.435,1646.3187,3396.915,1642.8387" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="3398.655" y1="1642.8387" y2="1642.8387"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="1638.6136">38</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="164.43" x="1231.485" y="1638.6136">addMedicalLabTechnicians(emp)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="170.52" x="3403.875" y="1623.3928"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="158.34" x="3409.965" y="1642.1267">MedicalLabTechniciansStore</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="4034.625" y1="1664.813" y2="1664.813"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="149.64" x="1157.1" y="1674.7475">[role = ChemistryTechnologist]</text><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.085" x2="1250.625" y1="1697.1661" y2="1697.1661"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1250.625" x2="1250.625" y1="1697.1661" y2="1708.4761"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.955" x2="1250.625" y1="1708.4761" y2="1708.4761"/><polygon fill="#A80036" points="1223.655,1704.9961,1214.955,1708.4761,1223.655,1711.9561,1220.175,1708.4761" style="stroke:#A80036;stroke-width:0.87;"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1220.175" y="1692.941">39</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="180.96" x="1235.835" y="1692.941">validateChemistryTechnologist(emp)</text><polygon fill="#A80036" points="3576.135,1757.502,3584.835,1760.982,3576.135,1764.462,3579.615,1760.982" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="3581.355" y1="1760.982" y2="1760.982"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="1756.7568">40</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="161.82" x="1231.485" y="1756.7568">addChemistryTechnologist(emp)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="167.04" x="3586.575" y="1741.5361"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="154.86" x="3592.665" y="1760.27">ChemistryTechnologistStore</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="4034.625" y1="1782.9563" y2="1782.9563"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="103.53" x="1157.1" y="1792.8907">[role = Administrator]</text><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.085" x2="1250.625" y1="1815.3094" y2="1815.3094"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1250.625" x2="1250.625" y1="1815.3094" y2="1826.6194"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.955" x2="1250.625" y1="1826.6194" y2="1826.6194"/><polygon fill="#A80036" points="1223.655,1823.1394,1214.955,1826.6194,1223.655,1830.0994,1220.175,1826.6194" style="stroke:#A80036;stroke-width:0.87;"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1220.175" y="1811.0843">41</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="133.11" x="1235.835" y="1811.0843">validateAdministrator(emp)</text><polygon fill="#A80036" points="3755.355,1875.6452,3764.055,1879.1252,3755.355,1882.6052,3758.835,1879.1252" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="3760.575" y1="1879.1252" y2="1879.1252"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="1874.9001">42</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="113.97" x="1231.485" y="1874.9001">addAdministrator(emp)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="113.97" x="3765.795" y="1859.6794"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="101.79" x="3771.885" y="1878.4133">AdministratorStore</text><line style="stroke:#000000;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="1152.75" x2="4034.625" y1="1901.0995" y2="1901.0995"/><text fill="#000000" font-family="sans-serif" font-size="9.57" font-weight="bold" lengthAdjust="spacing" textLength="113.97" x="1157.1" y="1911.034">[role = SpecialistDoctor]</text><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.085" x2="1250.625" y1="1933.4527" y2="1933.4527"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1250.625" x2="1250.625" y1="1933.4527" y2="1944.7627"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1214.955" x2="1250.625" y1="1944.7627" y2="1944.7627"/><polygon fill="#A80036" points="1223.655,1941.2827,1214.955,1944.7627,1223.655,1948.2427,1220.175,1944.7627" style="stroke:#A80036;stroke-width:0.87;"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1220.175" y="1929.2275">43</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="148.77" x="1235.835" y="1929.2275">validateSpecialistDoctor(emp)</text><polygon fill="#A80036" points="3881.505,1993.7885,3890.205,1997.2685,3881.505,2000.7485,3884.985,1997.2685" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="1209.735" x2="3886.725" y1="1997.2685" y2="1997.2685"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="1215.825" y="1993.0434">44</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="129.63" x="1231.485" y="1993.0434">addSpecialistDoctor(emp)</text><rect fill="#FEFECE" filter="url(#f43zlrsyuwi2l)" height="27.5002" style="stroke:#A80036;stroke-width:1.305;" width="130.5" x="3891.945" y="1977.8227"/><text fill="#000000" font-family="sans-serif" font-size="12.18" lengthAdjust="spacing" textLength="118.32" x="3898.035" y="1996.5565">SpecialistDoctorStore</text><polygon fill="#A80036" points="812.145,2040.4287,803.445,2043.9087,812.145,2047.3887,808.665,2043.9087" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="806.925" x2="1204.515" y1="2043.9087" y2="2043.9087"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="817.365" y="2039.6836">45</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="27.84" x="833.025" y="2039.6836">result</text><polygon fill="#A80036" points="440.655,2066.8345,431.955,2070.3145,440.655,2073.7945,437.175,2070.3145" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;stroke-dasharray:2.0,2.0;" x1="435.435" x2="797.355" y1="2070.3145" y2="2070.3145"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="445.875" y="2066.0894">46</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="27.84" x="461.535" y="2066.0894">result</text><polygon fill="#A80036" points="56.985,2093.2404,48.285,2096.7204,56.985,2100.2004,53.505,2096.7204" style="stroke:#A80036;stroke-width:0.87;"/><line style="stroke:#A80036;stroke-width:0.87;" x1="51.765" x2="425.865" y1="2096.7204" y2="2096.7204"/><text fill="#000000" font-family="sans-serif" font-size="11.31" font-weight="bold" lengthAdjust="spacing" textLength="12.18" x="62.205" y="2092.4953">47</text><text fill="#000000" font-family="sans-serif" font-size="11.31" lengthAdjust="spacing" textLength="132.24" x="77.865" y="2092.4953">Informs operation success</text><!--MD5=[80a9e0a4615e5ffd7de9e803dab08b66]
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as AD
+
+participant ":RegisterEmployeeUI" as REUI
+participant ":RegisterEmployeeController" as REC
+participant "Administrator" as ADMIN
+participant ":RolesMapper" as RM
+participant "IRoles :List<OrgRole>" as LROLE
+participant "dto :OrgRoleDto" as ORD
+participant "IRolesDto :List<OrgRoleDto>" as LTT
+participant "Employee :Receptionist" as RECP
+participant "Employee :LaboratoryCoordinator" as LC
+participant "Employee :MedicalLabTechnicians" as MLT
+participant "Employee :ChemistryTechnologist" as CT
+participant "Employee :Administrator" as EMPAD
+participant "Employee :SpecialistDoctor" as SD
+
+participant "ReceptionistStore" as RECPSTORE
+participant "LaboratoryCoordinatorStore" as LCSTORE
+participant "MedicalLabTechniciansStore" as MLTSTORE
+participant "ChemistryTechnologistStore" as CTSTORE
+participant "AdministratorStore" as EMPADSTORE
+participant "SpecialistDoctorStore" as SDSTORE
+
+participant "empDto :EmployeeDto" as EDTO
+
+
+activate AD
+
+AD -> REUI : asks to create a new Employee
+activate REUI
+
+
+'REUI -> REC : authenticate(email, password)
+'activate REC
+'activate AF
+'REC -> AF : doLogin(email, password)
+'REC -> AF : session = getCurrentSession()
+'deactivate AF
+
+'REC -> US : session.isLoggedInWithRole(id)
+'activate US
+'
+'US - -> REC : result
+'
+'deactivate US
+'REC - -> REUI: result
+'deactivate REC
+
+
+
+REUI -> REC : IRolesDto = getRoles()
+activate REC
+
+
+
+REC -> ADMIN : IRoles = getRoles()
+activate ADMIN
+
+ADMIN -> LROLE** : create()
+
+
+
+loop until all roles are in the list
+
+ADMIN -> LROLE** : AddRole(role)
+end
+deactivate ADMIN
+REC -> RM : toDTO(IRoles)
+activate RM
+
+RM -> LTT** : create()
+
+loop for each object in IRoles
+    RM -> LROLE : role = get(i)
+
+   activate LROLE
+   deactivate LROLE
+
+    RM -> RM : id = getId()
+
+    RM -> RM : description = getDescription()
+
+    RM -> ORD** : create(id,description)
+
+    RM -> LTT : add(dto)
+
+    activate LTT
+    deactivate LTT
+end
+
+RM - -> REC : IRolesDto
+
+REC - -> REUI: IRolesDto
+
+
+deactivate RM
+deactivate REC
+
+REUI -> AD : asks to select the employee role
+
+deactivate REUI
+
+AD -> REUI : select the intended role
+activate REUI
+
+
+REUI -> AD : Requests data (name, address, phone number, email, soc, role, ...)
+
+deactivate REUI
+
+
+AD -> REUI : types requests data
+activate REUI
+
+REUI -> REC : addEmployee(name, address, phone number, email, soc, role, ...)
+
+activate REC
+
+REC -> ADMIN : emp = addEmployee(name, address, phone number, email, soc, role, ...)
+
+activate ADMIN
+
+
+
+alt role = Receptionist
+
+ADMIN -> RECP** : createReceptionist(name, address, phone number, email, soc, role)
+
+
+else role = LaboratoryCoordinator
+
+ADMIN -> LC** : LaboratoryCoordinator(name, address, phone number, email, soc, role)
+
+else role = MedicalLabTechnicians
+
+ADMIN -> MLT** : createMedicalLabTechnicians(name, address, phone number, email, soc, role)
+
+else role = ChemistryTechnologist
+
+ADMIN -> CT** : createMedicalLabTechnicians(name, address, phone number, email, soc, role)
+
+else role = Administrator
+
+ADMIN -> EMPAD** : createAdministrator(name, address, phone number, email, soc, role)
+
+else role = SpecialistDoctor
+
+ADMIN -> SD** : createSpecialistDoctor(name, address, phone number, email, soc, role,doctorIndexNumber)
+end
+
+ADMIN - -> REC : result
+
+
+REC - -> REUI : result
+
+
+deactivate ADMIN
+
+deactivate REC
+
+
+
+REUI -> AD : Asks to confirm data
+deactivate REUI
+
+AD -> REUI : Confirms data
+activate REUI
+
+REUI -> REC : saveEmployee(emp)
+activate REC
+
+REC -> ADMIN : saveEmployee(emp)
+activate ADMIN
+
+
+
+
+alt role = Receptionist
+
+ADMIN -> ADMIN : validateReceptionist(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> RECPSTORE** : addReceptionist(emp)
+
+else role = LaboratoryCoordinator
+
+ADMIN -> ADMIN : validateLaboratoryCoordinator(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> LCSTORE** : addLaboratoryCoordinator(emp)
+
+else role = MedicalLabTechnicians
+
+ADMIN -> ADMIN : validateMedicalLabTechnicians(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> MLTSTORE** : addMedicalLabTechnicians(emp)
+
+else role = ChemistryTechnologist
+
+ADMIN -> ADMIN : validateChemistryTechnologist(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> CTSTORE** : addChemistryTechnologist(emp)
+
+else role = Administrator
+
+ADMIN -> ADMIN : validateAdministrator(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN ->  EMPADSTORE** : addAdministrator(emp)
+
+else role = SpecialistDoctor
+
+ADMIN -> ADMIN : validateSpecialistDoctor(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> SDSTORE** : addSpecialistDoctor(emp)
+end
+
+
+
+
+
+
+
+activate ADMIN
+deactivate ADMIN
+
+ADMIN - -> REC : result
+
+REC - -> REUI : result
+
+deactivate REC
+deactivate ADMIN
+
+REUI -> AD : Informs operation success
+deactivate REUI
+
+
+
+
+
+
+@enduml
+
+@startuml
+autonumber
+actor "Administrator" as AD
+
+participant ":RegisterEmployeeUI" as REUI
+participant ":RegisterEmployeeController" as REC
+participant "Administrator" as ADMIN
+participant ":RolesMapper" as RM
+participant "IRoles :List<OrgRole>" as LROLE
+participant "dto :OrgRoleDto" as ORD
+participant "IRolesDto :List<OrgRoleDto>" as LTT
+participant "Employee :Receptionist" as RECP
+participant "Employee :LaboratoryCoordinator" as LC
+participant "Employee :MedicalLabTechnicians" as MLT
+participant "Employee :ChemistryTechnologist" as CT
+participant "Employee :Administrator" as EMPAD
+participant "Employee :SpecialistDoctor" as SD
+
+participant "ReceptionistStore" as RECPSTORE
+participant "LaboratoryCoordinatorStore" as LCSTORE
+participant "MedicalLabTechniciansStore" as MLTSTORE
+participant "ChemistryTechnologistStore" as CTSTORE
+participant "AdministratorStore" as EMPADSTORE
+participant "SpecialistDoctorStore" as SDSTORE
+
+participant "empDto :EmployeeDto" as EDTO
+
+
+activate AD
+
+AD -> REUI : asks to create a new Employee
+activate REUI
+
+
+
+
+
+
+REUI -> REC : IRolesDto = getRoles()
+activate REC
+
+
+
+REC -> ADMIN : IRoles = getRoles()
+activate ADMIN
+
+ADMIN -> LROLE** : create()
+
+
+
+loop until all roles are in the list
+
+ADMIN -> LROLE** : AddRole(role)
+end
+deactivate ADMIN
+REC -> RM : toDTO(IRoles)
+activate RM
+
+RM -> LTT** : create()
+
+loop for each object in IRoles
+    RM -> LROLE : role = get(i)
+
+   activate LROLE
+   deactivate LROLE
+
+    RM -> RM : id = getId()
+
+    RM -> RM : description = getDescription()
+
+    RM -> ORD** : create(id,description)
+
+    RM -> LTT : add(dto)
+
+    activate LTT
+    deactivate LTT
+end
+
+RM - -> REC : IRolesDto
+
+REC - -> REUI: IRolesDto
+
+
+deactivate RM
+deactivate REC
+
+REUI -> AD : asks to select the employee role
+
+deactivate REUI
+
+AD -> REUI : select the intended role
+activate REUI
+
+
+REUI -> AD : Requests data (name, address, phone number, email, soc, role, ...)
+
+deactivate REUI
+
+
+AD -> REUI : types requests data
+activate REUI
+
+REUI -> REC : addEmployee(name, address, phone number, email, soc, role, ...)
+
+activate REC
+
+REC -> ADMIN : emp = addEmployee(name, address, phone number, email, soc, role, ...)
+
+activate ADMIN
+
+
+
+alt role = Receptionist
+
+ADMIN -> RECP** : createReceptionist(name, address, phone number, email, soc, role)
+
+
+else role = LaboratoryCoordinator
+
+ADMIN -> LC** : LaboratoryCoordinator(name, address, phone number, email, soc, role)
+
+else role = MedicalLabTechnicians
+
+ADMIN -> MLT** : createMedicalLabTechnicians(name, address, phone number, email, soc, role)
+
+else role = ChemistryTechnologist
+
+ADMIN -> CT** : createMedicalLabTechnicians(name, address, phone number, email, soc, role)
+
+else role = Administrator
+
+ADMIN -> EMPAD** : createAdministrator(name, address, phone number, email, soc, role)
+
+else role = SpecialistDoctor
+
+ADMIN -> SD** : createSpecialistDoctor(name, address, phone number, email, soc, role,doctorIndexNumber)
+end
+
+ADMIN - -> REC : result
+
+
+REC - -> REUI : result
+
+
+deactivate ADMIN
+
+deactivate REC
+
+
+
+REUI -> AD : Asks to confirm data
+deactivate REUI
+
+AD -> REUI : Confirms data
+activate REUI
+
+REUI -> REC : saveEmployee(emp)
+activate REC
+
+REC -> ADMIN : saveEmployee(emp)
+activate ADMIN
+
+
+
+
+alt role = Receptionist
+
+ADMIN -> ADMIN : validateReceptionist(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> RECPSTORE** : addReceptionist(emp)
+
+else role = LaboratoryCoordinator
+
+ADMIN -> ADMIN : validateLaboratoryCoordinator(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> LCSTORE** : addLaboratoryCoordinator(emp)
+
+else role = MedicalLabTechnicians
+
+ADMIN -> ADMIN : validateMedicalLabTechnicians(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> MLTSTORE** : addMedicalLabTechnicians(emp)
+
+else role = ChemistryTechnologist
+
+ADMIN -> ADMIN : validateChemistryTechnologist(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> CTSTORE** : addChemistryTechnologist(emp)
+
+else role = Administrator
+
+ADMIN -> ADMIN : validateAdministrator(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN ->  EMPADSTORE** : addAdministrator(emp)
+
+else role = SpecialistDoctor
+
+ADMIN -> ADMIN : validateSpecialistDoctor(emp)
+activate ADMIN
+deactivate ADMIN
+ADMIN -> SDSTORE** : addSpecialistDoctor(emp)
+end
+
+
+
+
+
+
+
+activate ADMIN
+deactivate ADMIN
+
+ADMIN - -> REC : result
+
+REC - -> REUI : result
+
+deactivate REC
+deactivate ADMIN
+
+REUI -> AD : Informs operation success
+deactivate REUI
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

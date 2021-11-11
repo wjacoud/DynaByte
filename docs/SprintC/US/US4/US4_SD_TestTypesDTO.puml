@@ -1,0 +1,31 @@
+@startuml
+autonumber
+'hide footbox
+
+
+participant "CreateTestUI" as UI
+participant "CreateTestController" as CCC
+participant "Company" as COMP
+participant "tt : TestTypeStore" as TTS
+participant "ttMapper: TestTypeMapper" as TTMAP
+
+
+
+
+activate UI
+UI -> CCC : ttDto = getTestTypes()
+activate CCC
+CCC -> COMP : ttStore = getTestTypeStore()
+activate COMP
+deactivate COMP
+CCC -> TTS : tt = getTestTypes()
+activate TTS
+deactivate TTS
+CCC -> TTMAP : ttDto = toDto(tt)
+activate TTMAP
+deactivate TTMAP
+deactivate CCC
+deactivate UI
+
+
+@enduml

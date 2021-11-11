@@ -1,0 +1,39 @@
+@startuml
+hide methods
+left to right direction
+
+class Employee{
+    -idEmployee
+    -name
+    -function
+    -phoneNumber
+    -email
+    -address
+    -soc
+}
+
+class Receptionist {
+
+}
+
+class Client {
+    -citizenNumber
+    -healthcareNumber
+    -birthDate
+    -tin
+    -name
+    -phoneNumber
+    -sex
+}
+
+class Platform{
+
+}
+
+
+Client "*" -- "1" Platform : uses >
+Receptionist "1" -- "1" Employee : is >
+Employee "*" -- "1" Platform : uses >
+Receptionist "1" -- "*" Client : register >
+
+@enduml

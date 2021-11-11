@@ -1,0 +1,72 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class CreateTaskController {
+  -TestReportStore testReportStore
+  -TestStore testStore
+  -TestDiagnosis testDiagnosis
+  -TestReport testReport
+  --
+  +createDiagnosis(String idTest)
+  +createReport(String idTest, TestDiagnosis diagnosis, String report)
+  +saveReport(TestReport testReport)
+  +getDiagnosis()
+  +setState(String idTest)
+}
+
+class CreateTaskUI {
+
+}
+
+class Company{
+    -String designation
+    -TestReportStore testReportStore
+    -TestStore testStore
+    --
+    +getTestReportStore()
+    +getTestStore()
+}
+
+class TestReport{
+    -String idTest
+    -TestDiagnosis diagnosis
+    -String report
+}
+
+class TestDiagnosis{
+    -String diagnosis
+    --
+    +createDiagnosis(List<TestParameter> testParameterList)
+}
+
+class TestReportStore{
+    -List<TestReport> testReportStore
+    --
+    +createReport(String idTest, TestDiagnosis diagnosis, String report)
+    +validateReport(TestReport testReport)
+    +saveReport(TestReport testReport)
+}
+
+class TestStore{
+    -List<Test> testStore
+    --
+    +checkState(String state)
+    +getTestList()
+}
+
+class TestMapper{
+    +toDto(List<Test> testList)
+}
+
+CreateTaskUI ..> CreateTaskController
+CreateTaskController ..> Company
+CreateTaskController ..> TestReportStore
+CreateTaskController ..> TestDiagnosis
+CreateTaskController ..> TestMapper
+CreateTaskController ..> TestStore
+Company --> TestReportStore : uses
+TestReportStore --> TestReport : can access
+TestDiagnosis --> TestReport : is part of
+
+
+@enduml

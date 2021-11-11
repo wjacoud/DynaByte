@@ -1,0 +1,50 @@
+@startuml
+autonumber
+'hide footbox
+
+participant ":RecordSampleUI" as RSUI
+participant ":RecordSampleController" as RSC
+participant "Company" as COMP
+participant ":TestStore" as TESTSTORE
+participant ":testMapper" as TESTMAP
+
+
+
+
+activate RSUI
+
+RSUI -> RSC : testDto = getTests()
+
+activate RSC
+
+RSC -> COMP: testStore = getTestStore()
+activate COMP
+
+deactivate COMP
+
+RSC -> TESTSTORE : test = getTests()
+
+activate TESTSTORE
+
+deactivate TESTSTORE
+
+RSC -> TESTMAP : testDto = toDto(test)
+
+activate TESTMAP
+
+deactivate TESTMAP
+
+deactivate RSC
+
+deactivate RSUI
+
+
+
+
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,16 @@
+Jun 19, 2021 6:29:43 PM app.domain.model.ReportTask writeLog
+INFO: Report sent to NHS
+Jun 19, 2021 6:29:43 PM app.domain.model.ReportTask writeLog
+INFO: Report sent to NHS
+Jun 23, 2021 2:06:11 PM app.controller.ReportTaskController writeLog
+INFO: Report sent to NHS
+Jun 23, 2021 2:06:36 PM app.controller.ReportTaskController writeLog
+INFO: Report sent to NHS
+Jul 23, 2021 4:56:40 PM app.controller.ReportTaskController writeLog
+INFO: Report sent to NHS
+Jul 23, 2021 4:57:11 PM app.controller.ReportTaskController writeLog
+INFO: Report sent to NHS
+Jul 23, 2021 4:57:34 PM app.controller.ReportTaskController writeLog
+INFO: Report sent to NHS
+Jul 23, 2021 4:58:01 PM app.controller.ReportTaskController writeLog
+INFO: Report sent to NHS

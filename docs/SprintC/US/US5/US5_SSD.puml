@@ -1,0 +1,26 @@
+@startuml
+autonumber
+actor "Medical lab technician" as MLT
+
+activate MLT
+MLT -> ":System" : Asks to record the samples collected in the scope of a given test
+activate ":System"
+
+":System" --> MLT : Asks to select the test
+deactivate ":System"
+
+MLT -> ":System" : Choose a test and how many samples you have to record
+activate ":System"
+":System" --> MLT : Asks to confirm data
+deactivate ":System"
+
+MLT -> ":System" : Confirms data
+activate ":System"
+":System" --> MLT : Shows the generated barcode and informs operation success
+deactivate ":System"
+
+deactivate ":System"
+
+deactivate MLT
+
+@enduml

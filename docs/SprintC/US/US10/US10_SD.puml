@@ -1,0 +1,93 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":CreateParameterUI" as UI
+participant ":CreateParameterController" as CTRL
+participant "AuthFacade" as AF
+participant "UserSession" as US
+participant "Company" as _APP
+participant "pc : ParameterCategoryStore" as PCS
+participant "pc : ParameterStore" as PRS
+participant "pc : Parameter" as PR
+participant ":ParameterMapper" as PM
+
+
+activate ADM
+ADM -> UI : asks to create a new parameter
+activate UI
+
+UI --> ADM : requests data (code, name, description)
+deactivate UI
+
+ADM -> UI : types requested data
+activate UI
+
+UI -> CTRL : pcDto = getLisfOfCategories()
+activate CTRL
+CTRL -> _APP : pcStore = getParameterCategoryStore()
+activate _APP
+deactivate _APP
+CTRL -> PCS : pc = getListOfParameterCategories
+activate PCS
+deactivate PCS
+CTRL -> PM : pcDto = toDto(pc)
+activate PM
+deactivate PM
+
+deactivate CTRL
+
+|||
+
+UI --> ADM : shows parameter categories list and ask to select one
+deactivate UI
+
+ADM -> UI : selects a parameter category
+activate UI
+UI -> CTRL : createParameterCategory (code, name,description,category)
+
+activate CTRL
+
+CTRL -> _APP : store = getParameterStore()
+activate _APP
+deactivate _APP
+CTRL -> PRS : pc = createParameter (code, name, description, category)
+activate PRS
+PRS -> PR : create(code, name, description, category)
+activate PR
+deactivate PR
+deactivate PRS
+|||
+CTRL -> PRS : validateParameter(pr)
+activate PRS
+deactivate PRS
+deactivate CTRL
+
+UI --> ADM : shows the data and requests a confirmation
+deactivate UI
+
+ADM -> UI : confirms the data
+activate UI
+
+UI -> CTRL : saveParameter()
+activate CTRL
+
+CTRL -> PRS : saveParameter(pr)
+activate PRS
+PRS -> PRS : validateParameter(pr)
+activate PRS
+deactivate PRS
+PRS -> PRS : addParameter(pr)
+activate PRS
+deactivate PRS
+deactivate PRS
+
+
+
+deactivate CTRL
+UI --> ADM : informs operation was a success
+deactivate UI
+deactivate ADM
+
+@enduml

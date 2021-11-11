@@ -1,0 +1,41 @@
+@startuml
+autonumber
+actor "Clinical Chemistry Technologist" as CCT
+participant ":System" as SYSTEM
+
+activate CCT
+CCT -> SYSTEM : asks to record the results of a given test
+activate SYSTEM
+
+|||
+SYSTEM --> CCT : requests the sample barcode
+deactivate SYSTEM
+
+|||
+CCT -> SYSTEM : types the sample barcode
+activate SYSTEM
+
+|||
+loop for each parameter
+SYSTEM --> CCT : shows one parameter at a cycle and \n request the respective result value
+deactivate SYSTEM
+
+|||
+CCT -> SYSTEM : types the result value
+activate SYSTEM
+end
+
+|||
+SYSTEM --> CCT : shows all data and request confirmation
+deactivate SYSTEM
+
+|||
+CCT -> SYSTEM : confirm the data
+activate SYSTEM
+
+|||
+SYSTEM --> CCT : operation success
+deactivate SYSTEM
+deactivate CCT
+
+@enduml

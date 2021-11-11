@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="502px" preserveAspectRatio="none" style="width:486px;height:502px;background:#FFFFFF;" version="1.1" viewBox="0 0 486 502" width="486px" zoomAndPan="magnify"><defs><filter height="300%" id="f1oc8tr1qwvnoc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1oc8tr1qwvnoc)" height="299.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1oc8tr1qwvnoc)" height="55.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="437" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1oc8tr1qwvnoc)" height="55.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="437" y="232.6641"/><rect fill="#FFFFFF" filter="url(#f1oc8tr1qwvnoc)" height="55.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="437" y="343.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="89.6094" y2="416.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="442" x2="442" y1="89.6094" y2="416.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="86.5332">Client</text><ellipse cx="26" cy="15" fill="#FEFECE" filter="url(#f1oc8tr1qwvnoc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,23 L26,50 M13,31 L39,31 M26,50 L13,65 M26,50 L39,65 " fill="none" filter="url(#f1oc8tr1qwvnoc)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="430.252">Client</text><ellipse cx="26" cy="443.3281" fill="#FEFECE" filter="url(#f1oc8tr1qwvnoc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,451.3281 L26,478.3281 M13,459.3281 L39,459.3281 M26,478.3281 L13,493.3281 M26,478.3281 L39,493.3281 " fill="none" filter="url(#f1oc8tr1qwvnoc)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1oc8tr1qwvnoc)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="408" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="415" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#f1oc8tr1qwvnoc)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="408" y="415.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="415" y="437.252">:System</text><rect fill="#FFFFFF" filter="url(#f1oc8tr1qwvnoc)" height="299.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1oc8tr1qwvnoc)" height="55.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="437" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1oc8tr1qwvnoc)" height="55.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="437" y="232.6641"/><rect fill="#FFFFFF" filter="url(#f1oc8tr1qwvnoc)" height="55.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="437" y="343.3672"/><polygon fill="#A80036" points="425,117.9609,435,121.9609,425,125.9609,429,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="431" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="38" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="49" y="117.1045">asks to update data</text><polygon fill="#A80036" points="42,173.3125,32,177.3125,42,181.3125,38,177.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="441" y1="177.3125" y2="177.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="48" y="172.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="286" x="59" y="172.4561">shows every updatable attribute with current value</text><polygon fill="#A80036" points="425,228.6641,435,232.6641,425,236.6641,429,232.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="431" y1="232.6641" y2="232.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="38" y="227.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="49" y="227.8076">changes values that he/she wants to update</text><polygon fill="#A80036" points="42,284.0156,32,288.0156,42,292.0156,38,288.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="441" y1="288.0156" y2="288.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="48" y="283.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="59" y="283.1592">asks for confirmation</text><polygon fill="#A80036" points="425,339.3672,435,343.3672,425,347.3672,429,343.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="431" y1="343.3672" y2="343.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="38" y="338.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="49" y="338.5107">confirms values</text><polygon fill="#A80036" points="37,394.7188,27,398.7188,37,402.7188,33,398.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="31" x2="441" y1="398.7188" y2="398.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="43" y="393.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="371" x="54" y="393.8623">checks changed values with same creation criterion and saves it</text><!--MD5=[43e44642855ea943649eb637c0c5d0bc]
+@startuml
+autonumber
+actor "Client" as OE
+
+activate OE
+OE -> ":System" : asks to update data
+activate ":System"
+|||
+":System" - -> OE : shows every updatable attribute with current value
+deactivate ":System"
+
+|||
+OE -> ":System" : changes values that he/she wants to update
+activate ":System"
+|||
+":System" - -> OE : asks for confirmation
+deactivate ":System"
+
+|||
+OE -> ":System" : confirms values
+activate ":System"
+
+|||
+":System" - -> OE : checks changed values with same creation criterion and saves it
+
+deactivate ":System"
+deactivate OE
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 13:40:07 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

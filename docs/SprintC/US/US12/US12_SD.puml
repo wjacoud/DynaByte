@@ -1,0 +1,102 @@
+@startuml
+autonumber
+'hide footbox
+actor "Clinical Chemistry Technologist" as CCT
+
+participant ":RecordTestResultsUI" as UI
+participant ":RecordTestResultsController" as RTRC
+participant ":Company" as CPN
+participant "store:\nTestStore" as TS
+participant "store:\nSampleStore" as SS
+participant "mapper:\nTestParameterMapper" as TPM
+participant ":Test" as TEST
+
+
+activate CCT
+CCT -> UI : asks to record the results of a given test
+activate UI
+|||
+UI --> CCT : requests the sample barcode number
+deactivate UI
+
+|||
+CCT -> UI : types the sample barcode number
+activate UI
+UI -> RTRC : getParameters(sampleBarcodeNumber)
+activate RTRC
+
+RTRC -> CPN : testStore = getTestStore()
+activate CPN
+deactivate CPN
+
+RTRC -> TS : getTestList()
+activate TS
+deactivate TS
+
+RTRC -> CPN : sampleStore = getSampleStore()
+activate CPN
+deactivate CPN
+
+RTRC -> SS : getSampleList()
+activate SS
+deactivate SS
+
+RTRC -> RTRC : test = findTest(sampleBarcodeNumber)
+activate RTRC
+deactivate RTRC
+
+RTRC -> TPM : toDTO(parameterList)
+activate TPM
+|||
+TPM --> RTRC : parameterDTO
+deactivate TPM
+RTRC --> UI : parameterDTO
+deactivate RTRC
+
+loop for each parameter
+    UI --> CCT : shows one parameter at a cycle and \n request the respective result value
+    deactivate UI
+    |||
+
+    CCT -> UI : types the result value
+    activate UI
+    UI -> RTRC : addTestParameterResult(parameterCode, result)
+    activate RTRC
+
+    RTRC -> TEST : addTestParameterResult(parameterCode, result)
+    activate TEST
+    |||
+    ref over TEST : SD_AddTestParameterResult(parameterCode, result, metric)
+
+    TEST --> RTRC : result
+    deactivate TEST
+
+    RTRC --> UI : result
+    deactivate RTRC
+    UI --> CCT : success
+end
+|||
+UI --> CCT : shows all data and request confirmation
+deactivate UI
+|||
+CCT -> UI : confirms the data
+activate UI
+UI -> RTRC : setState
+activate RTRC
+
+|||
+RTRC -> TEST : setState(State)
+note over RTRC : depending on the confirmation of the user, the status that is set will be different
+activate TEST
+TEST -> TEST : setState(State)
+activate TEST
+deactivate TEST
+TEST --> RTRC : result
+deactivate TEST
+RTRC --> UI : result
+deactivate RTRC
+UI --> CCT : operation success
+deactivate UI
+deactivate CCT
+
+@enduml

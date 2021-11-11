@@ -1,0 +1,118 @@
+@startuml
+autonumber
+'hide footbox
+actor "AdministratorEmployee" as ADM
+
+participant ":CreateClinicalAnalysisLaboratoryUI" as UI
+participant ":CreateClinicalController" as CTRL
+participant "TestType" as TT
+participant "tt : TestTypeStore" as TTS
+participant "Administrator" as _ADM
+participant "Platform" as PLAT
+participant "ClinicalStore" as CS
+participant "tt : type" as TY
+participant ":TestTypeMapper" as MAP
+participant "ClinicalAnalysisLaboratory" as _APP
+participant "listTestTypes : List<TestTypes>" as LTT
+participant "listTestTypesDTO : List<TestTypesDTO>" as TTDTO
+participant "objDTO : TestTypesDTO" as OBJDTO
+
+activate ADM
+ADM -> UI : asks to create a new clinical analysis laboratory
+activate UI
+
+
+UI --> ADM : requests data (idLaboratory, name, address, phoneNumber, tin)
+deactivate UI
+
+ADM -> UI : types requested data
+activate UI
+
+UI -> CTRL : getTestType()
+activate CTRL
+
+CTRL -> TT : types=getTestType()
+activate TT
+TT -> TTS : types = getTestType()
+activate TTS
+TTS -> LTT** : create()
+|||
+loop until all test types are in the list
+    CTRL -> TT : listTestTypes.add(tt)
+    TT -> TTS : listTestTypes.add(tt)
+end
+deactivate TT
+TTS --> CTRL : listTestTypes
+deactivate TTS
+|||
+CTRL -> MAP : toDTO(listTestTypes)
+activate MAP
+MAP -> TTDTO** : create()
+loop for each object in the listTestTypes
+    MAP -> LTT : obj = get(i)
+    activate LTT
+    deactivate LTT
+    MAP -> MAP : objDTO = toDTO(obj)
+    |||
+    MAP -> OBJDTO** : create()
+    MAP -> TTDTO : add(objDTO)
+    activate TTDTO
+    deactivate TTDTO
+end
+MAP --> CTRL : listTestTypesDTO
+deactivate MAP
+CTRL --> UI : listTestTypesDTO
+deactivate CTRL
+
+UI --> ADM : shows tests types and asks to select the desired ones
+deactivate UI
+
+ADM -> UI : selects the desired tests types
+activate UI
+
+UI -> CTRL : createClinical(idLaboratory, name, address, phoneNumber, tin, testType)
+activate CTRL
+
+CTRL -> PLAT : getClinicals()
+activate PLAT
+PLAT -> CS : allClinicals = getClinicals()
+|||
+activate CS
+deactivate PLAT
+deactivate CS
+
+CTRL -> _ADM: clinicalAnalysisLaboratory = createClinical(idLaboratory, name, address, phoneNumber, tin, testType)
+activate _ADM
+_ADM -> _ADM : validateClinical(clinicalAnalysisLaboratory)
+|||
+_ADM --> _APP** : createClinical(idLaboratory, name, address, phoneNumber, tin, testType)
+
+CTRL --> UI : result
+deactivate _ADM
+
+UI --> ADM: shows all data and requests confirmation
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : confirms the data
+activate UI
+UI -> CTRL : saveClinical()
+activate CTRL
+
+CTRL -> _ADM : saveClinical(clinicalAnalysisLaboratory)
+
+activate _ADM
+
+_ADM -> PLAT: addClinical(clinicalAnalysisLaboratory)
+activate PLAT
+PLAT -> CS : addClinical(clinicalAnalysisLaboratory)
+deactivate PLAT
+CTRL --> UI :result
+
+UI --> ADM : informs operation success
+deactivate _ADM
+deactivate CTRL
+deactivate UI
+deactivate ADM
+
+@enduml

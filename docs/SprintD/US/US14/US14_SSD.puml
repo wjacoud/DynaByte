@@ -1,0 +1,29 @@
+@startuml
+autonumber
+actor "Administrator" as AD
+
+activate AD
+AD -> ":System" : asks to get a diagnosis and do the report
+activate ":System"
+":System" --> AD : requests to choose a given test
+deactivate ":System"
+
+AD -> ":System" : chooses the test
+activate ":System"
+":System" --> AD : shows diagnosis done automatically and requests data for the report
+deactivate ":System"
+
+
+AD -> ":System" : types requested data
+activate ":System"
+":System" --> AD : shows the typed data and asks for confirmation
+deactivate ":System"
+
+AD -> ":System" : confirms the data
+activate ":System"
+":System" --> AD : informs operation success
+deactivate ":System"
+
+deactivate AD
+
+@enduml

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="396.25px" preserveAspectRatio="none" style="width:1075px;height:396px;" version="1.1" viewBox="0 0 1075 396" width="1075px" zoomAndPan="magnify"><defs><filter height="300%" id="fooz90unh3l81" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="254.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="63.125" y="64.5117"/><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="226.3184" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="290.625" y="92.4512"/><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="558.125" y="130.3906"/><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="707.5" y="205.8301"/><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="932.5" y="281.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="68.75" x2="68.75" y1="52.0117" y2="341.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="296.25" x2="296.25" y1="52.0117" y2="341.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="564.375" x2="564.375" y1="52.0117" y2="341.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="713.125" x2="713.125" y1="52.0117" y2="341.2695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="938.125" x2="938.125" y1="52.0117" y2="341.2695"/><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="121.25" x="6.25" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="15" y="33.1665">CreateTestUI</text><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="121.25" x="6.25" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="15" y="366.936">CreateTestUI</text><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="183.75" x="202.5" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="166.25" x="211.25" y="33.1665">CreateTestController</text><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="183.75" x="202.5" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="166.25" x="211.25" y="366.936">CreateTestController</text><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="92.5" x="515.625" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="75" x="524.375" y="33.1665">Company</text><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="92.5" x="515.625" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="75" x="524.375" y="366.936">Company</text><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="171.25" x="625.625" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="153.75" x="634.375" y="33.1665">cat : CategoryStore</text><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="171.25" x="625.625" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="153.75" x="634.375" y="366.936">cat : CategoryStore</text><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="243.75" x="814.375" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="226.25" x="823.125" y="33.1665">catMapper: CategoryMapper</text><rect fill="#FEFECE" filter="url(#fooz90unh3l81)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="243.75" x="814.375" y="340.0195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="226.25" x="823.125" y="366.936">catMapper: CategoryMapper</text><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="254.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="63.125" y="64.5117"/><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="226.3184" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="290.625" y="92.4512"/><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="558.125" y="130.3906"/><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="707.5" y="205.8301"/><rect fill="#FFFFFF" filter="url(#fooz90unh3l81)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="932.5" y="281.2695"/><polygon fill="#A80036" points="275.625,87.4512,288.125,92.4512,275.625,97.4512,280.625,92.4512" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="75.625" x2="283.125" y1="92.4512" y2="92.4512"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="84.375" y="86.3806">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="177.5" x="98.125" y="86.3806">catDto = getCategories()</text><polygon fill="#A80036" points="543.125,125.3906,555.625,130.3906,543.125,135.3906,548.125,130.3906" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="303.125" x2="550.625" y1="130.3906" y2="130.3906"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="311.875" y="124.3201">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="217.5" x="325.625" y="124.3201">catStore = getCategoryStore()</text><polygon fill="#A80036" points="692.5,200.8301,705,205.8301,692.5,210.8301,697.5,205.8301" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="303.125" x2="700" y1="205.8301" y2="205.8301"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="311.875" y="199.7595">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="152.5" x="325.625" y="199.7595">cat = getCategories()</text><polygon fill="#A80036" points="917.5,276.2695,930,281.2695,917.5,286.2695,922.5,281.2695" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="303.125" x2="925" y1="281.2695" y2="281.2695"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="311.875" y="275.199">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="138.75" x="325.625" y="275.199">catDto = toDto(cat)</text><!--MD5=[d6227676cf85c2e1333715c0606ae873]
+@startuml
+autonumber
+'hide footbox
+
+
+participant "CreateTestUI" as UI
+participant "CreateTestController" as CCC
+participant "Company" as COMP
+participant "cat : CategoryStore" as CAST
+participant "catMapper: CategoryMapper" as CATMAP
+
+
+
+
+activate UI
+UI -> CCC : catDto = getCategories()
+activate CCC
+CCC -> COMP : catStore = getCategoryStore()
+activate COMP
+deactivate COMP
+CCC -> CAST : cat = getCategories()
+activate CAST
+deactivate CAST
+CCC -> CATMAP : catDto = toDto(cat)
+activate CATMAP
+deactivate CATMAP
+deactivate CCC
+deactivate UI
+
+
+@enduml
+
+@startuml
+autonumber
+
+
+participant "CreateTestUI" as UI
+participant "CreateTestController" as CCC
+participant "Company" as COMP
+participant "cat : CategoryStore" as CAST
+participant "catMapper: CategoryMapper" as CATMAP
+
+
+
+
+activate UI
+UI -> CCC : catDto = getCategories()
+activate CCC
+CCC -> COMP : catStore = getCategoryStore()
+activate COMP
+deactivate COMP
+CCC -> CAST : cat = getCategories()
+activate CAST
+deactivate CAST
+CCC -> CATMAP : catDto = toDto(cat)
+activate CATMAP
+deactivate CATMAP
+deactivate CCC
+deactivate UI
+
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>
